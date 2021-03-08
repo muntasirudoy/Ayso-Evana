@@ -1,0 +1,3643 @@
+/*==================================================
+                common css start
+  ==================================================*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+
+    max-width: 1420px !important;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+
+
+.sticky .ayso_dropdown_menu-last {
+    margin-right: 140px;
+}
+
+.ayso_dropdown_menu .active_color {
+    color: #00D5F1 !important;
+}
+
+/*==================================================
+                common css end
+  ==================================================*/
+
+
+/*==================================================
+                Register css start
+  ==================================================*/
+#exampleModal {
+    z-index: 99999;
+    text-align: center;
+}
+
+#exampleModal .title__heading {
+
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 79px;
+    font-weight: 400;
+    line-height: 79px;
+    color: #000066;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+
+
+
+}
+
+#exampleModal .modal-dialog {
+    max-width: 1420px !important;
+
+}
+
+.fade {
+    background: rgba(0, 0, 102, .8) !important;
+}
+
+#exampleModal .modal-dialog .modal-content {
+    background: #ffffff;
+    border-radius: 0;
+
+
+}
+
+#exampleModal .close {
+    outline: 0;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    opacity: 1;
+    text-shadow: 0 1px 0 #6226A8;
+}
+
+#exampleModal .modal-dialog .modal-header {
+    border: 0 !important;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+#exampleModal .modal-dialog .modal-body {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 60px;
+}
+
+#exampleModal .modal-dialog .modal-body label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #C7EAFB;
+
+}
+
+#exampleModal .modal-input-fields {
+    margin-bottom: 60px;
+}
+
+#exampleModal .modal-input-fields input {
+    width: 875px;
+    margin: auto;
+    background: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #000066;
+    border-radius: 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    padding-left: 0;
+}
+
+#exampleModal .form-control::placeholder {
+    color: #DADADA;
+}
+
+#exampleModal .form-control:focus {
+    box-shadow: none;
+}
+
+#exampleModal .modal_p {
+    font-family: 'Alef', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #2056A5;
+    ;
+}
+
+#exampleModal .modal_p a {
+    display: inline-block;
+    color: #6226A8;
+    text-decoration: underline;
+}
+
+#exampleModal .modal_btn_bottom {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    background: #000066;
+    border-radius: 45px;
+    padding: 20px 150px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+#exampleModal .modal_bottom_li_one {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #2056A5;
+}
+
+#exampleModal .modal_bottom_li_one a {
+    display: inline-block;
+    color: #6226A8;
+    text-decoration: underline;
+}
+
+#exampleModal .modal_bottom_li_two a {
+    display: inline-block;
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #6F6F6F;
+    text-decoration: underline;
+    margin-top: 30px;
+
+}
+
+#exampleModal .modal-dialog .modal-body .button-formgroup {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#exampleModal .modal-dialog .modal-body .startbtn {
+    display: flex;
+    justify-content: left;
+}
+
+#exampleModal  .modal-scrollbar-measure {
+    overflow: hidden !Important;
+
+}
+
+
+/*==================================================
+                Register css end
+  ==================================================*/
+
+/*==================================================
+                navbar css start
+  ==================================================*/
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+
+    .navbar .nav-item:hover .nav-link {
+        color: #00D5F1;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    background: #fff;
+
+
+}
+
+.navbar .logo {
+    position: relative;
+    height: auto;
+}
+
+.navbar .logo img {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 277px;
+    z-index: 5;
+
+}
+
+.dropdown-toggle::after {
+    display: none;
+
+}
+
+.ayso_dropdown_color {
+    display: inline-block;
+    color: #000066 !important;
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    outline: 0;
+    padding-top: 20px;
+
+}
+
+.ayso_dropdown_color:hover {
+    color: #00D5F1 !important;
+}
+
+.dropdown-menu {
+    padding: 0;
+    border: 0 !important;
+}
+.ayso_dropdown_menu{
+    margin-left: 30px;
+}
+.ayso_dropdown_menu .dropdown-item {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+    background: #7C4CB4;
+    outline: 0 !important;
+    border-radius: 0;
+    padding: 20px 20px;
+
+}
+
+.ayso_dropdown_menu .dropdown-item:hover {
+    color: #00D5F1;
+}
+
+.ayso_dropdown_menu-first {
+    margin-left: 0 !important;
+}
+
+.ayso_dropdown_menu-last {
+    margin-right: 100px;
+}
+
+nav .Nav_btn {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #fff;
+    background: #00D5F1;
+    padding: 10px 55px;
+}
+
+nav .Nav_btn-right {
+    background: #2056A5;
+    margin-right: -65px;
+}
+
+.sticky {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100%;
+    background: #ffffff;
+    z-index: 9999;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    transform: .4s;
+}
+
+.sticky .logo img {
+    width: 120px !important;
+}
+/*==================================================
+                navbar css end
+  ==================================================*/
+
+/*==================================================
+                footer css start
+  ==================================================*/
+
+#footer {
+
+    margin-top: 80px;
+    padding-bottom: 10px;
+}
+
+#footer .footer_brand .photo {
+    text-align: center;
+    height: 130px;
+}
+
+#footer .footer_brand .photo img {
+    width: 100%;
+}
+
+#footer .footer_brand .photo-first {
+    text-align: left;
+    padding-top: 10px;
+    width: 350px;
+}
+
+#footer .footer_brand .photo-second {
+    padding-top: 25px;
+    width: 255px;
+    margin: auto;
+}
+
+#footer .footer_brand .photo-third {
+    width: 120px;
+    margin: auto;
+}
+
+#footer .footer_brand .photo-fourth {
+    text-align: right;
+    width: 140px;
+    margin-left: auto;
+}
+
+#footer .footer_copyright {
+    display: inline-block;
+    font-family: 'Alef', sans-serif;
+    font-size: 13px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #989898;
+    padding-top: 15px;
+}
+
+#footer .footer_terms {
+    display: inline-block;
+    font-family: 'Alef', sans-serif;
+    font-size: 13px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #989898;
+    text-decoration: underline;
+    padding-top: 15px;
+}
+
+#footer .footer_follow {
+    display: inline-block;
+    font-family: 'Alef', sans-serif;
+    font-size: 13px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #989898;
+    padding-top: 15px;
+}
+
+#footer .footer_bottom {
+    margin-top: 80px;
+
+}
+
+#footer .footer_bottom_right {
+    text-align: right;
+}
+
+#footer .footer_socialicons ul li {
+
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#footer .footer_socialicons ul {
+    padding-top: 20px;
+}
+
+#footer .footer_socialicons ul .no_margin {
+    margin-left: 0;
+}
+
+#footer .footer_socialicons ul li a {
+    display: inline-block;
+    font-size: 20px;
+    background: #DADADA;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+
+
+}
+
+/*==================================================
+                footer css end
+  ==================================================*/
+/*------------------home page start----------------- */
+/*==================================================
+                home_header css start
+  ==================================================*/
+
+
+
+#home_header {
+    background: url(../images/Home/home_header.png) no-repeat center;
+    background-size: cover;
+    height: 900px;
+    margin-top: -1px;
+}
+
+#home_header .home_header_heading {
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 72px;
+    color: #ffffff;
+    padding-left: 300px;
+    text-transform: lowercase;
+    padding-top: 80px;
+
+}
+
+#home_header .home_header_heading span {
+    text-transform: uppercase;
+}
+
+#home_header .home_header_ragion {
+    background: #6226A8;
+    height: 300px;
+    margin-top: 80px;
+    width: 1455px;
+}
+
+#home_header .home_header_ragion_left {
+    height: 300px;
+}
+
+#home_header .home_header_ragion_left img {
+    width: 100%;
+    height: 100%;
+}
+
+#home_header .home_header_ragion_center {
+
+    height: 300px;
+}
+
+#home_header .home_header_ragion_center p {
+    font-family: 'Alef', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #ffffff;
+    width: 790px;
+    padding-top: 80px;
+    padding-left: 45px;
+}
+
+#home_header .home_header_ragion_center_link {
+    text-align: right;
+    display: block;
+
+}
+
+#home_header .home_header_ragion_center a {
+    display: inline-block;
+    text-align: right;
+    padding-top: 60px;
+    padding-right: 30px;
+
+}
+
+#home_header .home_header_ragion_right {
+
+    height: 300px;
+}
+
+#home_header .home_header_ragion_right img {
+    width: 100%;
+    height: 100%;
+}
+
+#home_header .home_header_bottom {
+    margin-top: 80px;
+}
+
+#home_header .home_header_bottom_left p {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    line-height: 49px;
+    font-weight: 400;
+    color: #ffffff;
+    width: 845px;
+}
+
+#home_header .home_header_bottom_right a {
+    display: inline-block;
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000066;
+    text-transform: capitalize;
+    background: #ffffff;
+    padding: 30px 110px;
+    border-radius: 50px;
+}
+
+/*==================================================
+                home_header css end
+  ==================================================*/
+
+
+/*==================================================
+                home_community_care css start
+  ==================================================*/
+
+
+#home_community_care .col-lg-7 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#home_community_care .col-lg-5 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#home_community_care .home_community_care_left {
+    height: 550px;
+    background: #00D5F1;
+    padding-left: 55px;
+
+}
+
+#home_community_care .home_community_care_left-second {
+    background: #6226A8;
+    padding-left: 130px;
+}
+
+#home_community_care .home_community_care_left-third {
+    background: #2056A5;
+}
+
+#home_community_care .home_community_care_left h2 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: 400;
+    color: #ffffff;
+    width: 650px;
+    margin-bottom: 50px;
+    padding-top: 60px;
+}
+
+#home_community_care .home_community_care_left-second h2 {
+    width: 500px;
+}
+
+#home_community_care .home_community_care_left-third h2 {
+    text-transform: uppercase;
+}
+
+#home_community_care .home_community_care_left p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000066;
+    width: 670px;
+}
+
+#home_community_care .home_community_care_left-second p {
+    color: #ffffff;
+
+}
+
+#home_community_care .home_community_care_left-third p {
+    color: #00D5F1;
+
+}
+
+#home_community_care .home_community_care_left a {
+    display: inline-block;
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #404092;
+    text-decoration: underline;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+
+#home_community_care .home_community_care_left-second a {
+    color: #00D5F1;
+}
+
+#home_community_care .home_community_care_left-third a {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+#home_community_care .home_community_care_right {
+    height: 550px;
+    background: black;
+
+}
+
+#home_community_care .home_community_care_right img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*==================================================
+                home_community_care css end
+  ==================================================*/
+/*==================================================
+                home_social css start
+  ==================================================*/
+#home_social {
+
+    margin-top: 80px;
+
+}
+
+#home_social .col-lg-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#home_social .title {
+    text-align: center;
+}
+
+#home_social .title h3 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 48px;
+    font-weight: 65px;
+    font-weight: 400;
+    color: #000066;
+    margin-bottom: 60px;
+}
+
+#home_social .home_social_left {
+    background: red;
+    height: 350px;
+
+}
+
+#home_social .home_social_left img {
+    width: 100%;
+    height: 100%;
+}
+
+#home_social .home_social_center {
+    background: #00D5F1;
+    height: 350px;
+    text-align: center;
+}
+
+#home_social .home_social_center a {
+    font-family: 'Alef', sans-serif;
+    font-size: 36px;
+    line-height: 10;
+    font-weight: 400;
+    color: #2056A5;
+}
+
+#home_social .home_social_right {
+    background: #F2FEFF;
+    height: 350px;
+    text-align: center;
+}
+
+#home_social .home_social_right a {
+    font-family: 'Alef', sans-serif;
+    font-size: 36px;
+    line-height: 10;
+    font-weight: 400;
+    color: #2056A5;
+    line-height: 10;
+
+}
+
+/*==================================================
+                home_social css end
+  ==================================================*/
+
+/* -------programs page start----- */
+
+
+/*==================================================
+                programs_header css start
+  ==================================================*/
+
+#programs_header {
+    background: url(../images/programs/programs_header.png) no-repeat center;
+    background-size: cover;
+    height: 750px;
+    padding-top: 190px;
+}
+
+#programs_header .programs_header_texts {
+    width: 100%;
+    background: rgba(32, 86, 165, .6);
+
+    padding-top: 80px;
+    padding-left: 230px;
+    padding-bottom: 100px;
+
+}
+
+#programs_header .programs_header_texts h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 79px;
+    line-height: 79px;
+    font-weight: 400;
+    color: #ffffff;
+    width: 610px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+#programs_header .programs_header_texts p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+    width: 885px;
+}
+
+/*==================================================
+                programs_header css end
+  ==================================================*/
+
+/*==================================================
+                programs_ayso_programs css end
+  ==================================================*/
+
+
+
+  #programs_ayso_programs {
+    margin-top: 120px;
+}
+
+#programs_ayso_programs .col-lg-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+#programs_ayso_programs .programs_ayso_programs_card{
+    height: 440px;
+}
+#programs_ayso_programs .title {
+    text-align: center;
+}
+
+#programs_ayso_programs .title h3 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: 400;
+    color: #6226A8;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+
+#programs_ayso_programs .programs_ayso_programs_card {
+    position: relative;
+}
+
+#programs_ayso_programs .programs_ayso_programs_card img {
+    width: 100%;
+    height: 100%;
+}
+
+#programs_ayso_programs .programs_ayso_programs_card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(32, 86, 165, 0.39);
+    transition: .4s;
+}
+
+#programs_ayso_programs .programs_ayso_programs_card .overlay h4 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#programs_ayso_programs .programs_ayso_programs_card .overlay_2 {
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(32, 86, 165, 0.91);
+    padding: 25px 68px;
+    display: none;
+    transition: .4s !important;
+}
+
+#programs_ayso_programs .programs_ayso_programs_card .overlay_2 h4 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+#programs_ayso_programs .programs_ayso_programs_card .overlay_2 p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #ffffff;
+    width: 310px;
+    margin: auto;
+}
+
+#programs_ayso_programs .programs_ayso_programs_card .overlay_2 a {
+    display: inline-block;
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #00D5F1;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+#programs_ayso_programs .programs_ayso_programs_card .overlay_2 a img {
+    width: 30px;
+}
+
+#programs_ayso_programs .programs_ayso_programs_card:hover .overlay {
+    display: none;
+
+
+}
+
+#programs_ayso_programs .programs_ayso_programs_card:hover .overlay_2 {
+    display: block;
+   
+    height: 100%;
+
+}
+
+
+/*==================================================
+           programs_ayso_programs css end
+==================================================*/
+
+
+/*==================================================
+           programs_summer_camp css start
+==================================================*/
+
+#programs_summer_camp {
+    margin-top: 180px;
+}
+
+#programs_summer_camp .col-lg-7 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#programs_summer_camp .col-lg-5 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#programs_summer_camp .programs_summer_camp_left {
+    height: 550px;
+    background: #6226A8;
+    padding-left: 55px;
+
+}
+
+#programs_summer_camp .programs_summer_camp_left-second {
+    background: #000066;
+    padding-left: 130px;
+}
+
+#programs_summer_camp .programs_summer_camp_left-third {
+    background: #00002D;
+}
+
+#programs_summer_camp .programs_summer_camp_left h2 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: 400;
+    color: #ffffff;
+    width: 650px;
+    margin-bottom: 50px;
+    padding-top: 60px;
+    text-transform: uppercase;
+}
+
+#programs_summer_camp .programs_summer_camp_left-second h2 {
+    width: 500px;
+}
+
+#programs_summer_camp .programs_summer_camp_left-third h2 {
+    text-transform: uppercase;
+}
+
+#programs_summer_camp .programs_summer_camp_left p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000066;
+    width: 670px;
+}
+
+#programs_summer_camp .programs_summer_camp_left-second p {
+    color: #ffffff;
+
+}
+
+#programs_summer_camp .programs_summer_camp_left-third p {
+    color: #00D5F1;
+
+}
+
+#programs_summer_camp .programs_summer_camp_left a {
+    display: inline-block;
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: underline;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+
+#programs_summer_camp .programs_summer_camp_left-second a {
+    color: #fff;
+}
+
+#programs_summer_camp .programs_summer_camp_left-third a {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+#programs_summer_camp .programs_summer_camp_right {
+    height: 550px;
+    background: black;
+
+}
+
+#programs_summer_camp .programs_summer_camp_right img {
+    width: 100%;
+    height: 100%;
+}
+
+/*==================================================
+           programs_summer_camp css end
+==================================================*/
+
+
+/* -----------------summer camp page start--------------------- */
+
+
+/*==================================================
+          summer_camp_header css start
+==================================================*/
+
+#summer_camp_header {
+    background: url(../images/summer_camp/summer_camp_header.png) no-repeat center;
+    background-size: cover;
+    height: 590px;
+    padding-top: 200px;
+}
+
+#summer_camp_header .summer_camp_header_text {
+    width: 100%;
+    height: 390px;
+    background: rgba(32, 86, 165, .7);
+    padding-top: 80px;
+    padding-left: 235px;
+
+
+}
+
+#summer_camp_header .summer_camp_header_text h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 79px;
+    font-weight: 400;
+    line-height: 79px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#summer_camp_header .summer_camp_header_text h2 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+#summer_camp_header .summer_camp_header_text p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    width: 990px;
+}
+
+/*==================================================
+          summer_camp_header css end
+==================================================*/
+/*==================================================
+          summer_camp_looking css start
+==================================================*/
+
+
+
+
+#summer_camp_looking {
+    text-align: center;
+    padding: 80px 0;
+}
+
+#summer_camp_looking h3 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    line-height: 39px;
+    font-weight: 400;
+    color: #2056A5;
+    text-transform: uppercase;
+    margin-bottom: 42px;
+}
+
+#summer_camp_looking ul li {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000066;
+
+}
+
+#summer_camp_looking ul .summer_camp_li_one {
+    width: 500px;
+    margin: auto;
+}
+
+#summer_camp_looking h4 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    line-height: 39px;
+    font-weight: 400;
+    color: #6226A8;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+
+#summer_camp_looking a {
+    display: inline-block;
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    background: #6226A8;
+    border-radius: 45px;
+    padding: 30px 70px;
+    margin-top: 80px;
+
+}
+
+/*==================================================
+          summer_camp_looking css end
+==================================================*/
+
+/* --------------------------winter page start-------------------- */
+
+/*==================================================
+          winter_header css start
+==================================================*/
+
+
+
+
+#winter_header {
+    background: url(../images/winter/winter_header.png)no-repeat center;
+    background-size: cover;
+    height: 590px;
+    padding-top: 200px;
+}
+
+#winter_header .winter_header_text {
+    height: 390px;
+    background: rgba(32, 86, 165, .7);
+    padding-top: 80px;
+    padding-left: 235px;
+
+}
+
+#winter_header .winter_header_text h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 79px;
+    font-weight: 400;
+    line-height: 79px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+
+}
+
+#winter_header .winter_header_text p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    width: 990px;
+}
+
+
+/*==================================================
+          winter_header css end
+==================================================*/
+
+
+
+/*==================================================
+          winter_facility css start
+==================================================*/
+
+#winter_facility {
+    margin-top: 60px;
+}
+
+#winter_facility .col-lg-6 {
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+#winter_facility .winter_facility_left {
+    border: 1px solid #6226A8;
+    box-sizing: border-box;
+    padding: 70px 150px;
+}
+
+#winter_facility .winter_facility_right {
+    border: 1px solid #6226A8;
+    box-sizing: border-box;
+    padding: 70px 150px;
+}
+
+#winter_facility ul li {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #000066;
+    width: 365px;
+    margin-bottom: 15px;
+}
+
+/*==================================================
+          winter_facility css end
+==================================================*/
+
+/*==================================================
+          winter_process css start
+==================================================*/
+
+
+#winter_process {
+    margin-top: 100px;
+}
+
+#winter_process h3 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 39px;
+    color: #6226A8;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#winter_process .winter_process_card {
+    width: 100%;
+    background: #2056A5;
+    height: 500px;
+    padding-top: 100px;
+    padding-left: 260px;
+    position: relative;
+}
+
+#winter_process .winter_process_card-two {
+    background: #00D5F1;
+}
+
+#winter_process .winter_process_card-three {
+    background: #6226A8;
+}
+
+#winter_process .winter_process_card h4 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 39px;
+    color: #00D5F1;
+    margin-bottom: 60px;
+}
+
+#winter_process .winter_process_card .winter_process_h4_two {
+    color: #ffffff !important;
+}
+
+#winter_process .winter_process_card .winter_process_h4_three {
+    color: #ffffff !important;
+}
+
+#winter_process .winter_process_card p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #fff;
+    width: 835px;
+}
+
+#winter_process .winter_process_card .winter_process_p_three {
+    color: #fff;
+    width: 650px;
+}
+
+#winter_process .winter_process_card .winter_process_p_two {
+    color: #2056A5;
+    width: 660px;
+}
+
+#winter_process .winter_process_card ul li {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #fff;
+}
+
+#winter_process .winter_process_card ul li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+#winter_process .winter_process_card .winter_process_number {
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+
+/*==================================================
+          winter_process css end
+==================================================*/
+/*==================================================
+          winter_season css start
+==================================================*/
+
+#winter_season_info {
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+
+#winter_season_info h4 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    line-height: 39px;
+    font-weight: 400;
+    color: #6226A8;
+    margin-bottom: 60px;
+
+}
+
+#winter_season_info ul li {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000066;
+    margin-top: 40px;
+}
+
+
+#winter_season_info .winter_season_info_li_one {
+    width: 900px;
+    margin: auto;
+}
+
+/*==================================================
+          winter_season css end
+==================================================*/
+
+
+/* ---------------------------fusion page start---------------------- */
+
+/*==================================================
+          fusion_header css start
+==================================================*/
+#fusion_header {
+    background: url(../images/fusion/fusion_header.png) no-repeat center;
+    background-size: cover;
+    height: 550px;
+    padding-top: 170px;
+}
+
+#fusion_header .fusion_header_text {
+    background: rgba(32, 86, 165, .7);
+    height: 330px;
+    padding-top: 60px;
+    padding-left: 230px;
+}
+
+#fusion_header .fusion_header_text ul {
+    margin-bottom: 60px;
+}
+
+#fusion_header .fusion_header_text ul li {
+    display: inline-block;
+}
+
+#fusion_header .fusion_header_text .fusion_header_heading1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 79px;
+    font-weight: 400;
+    line-height: 79px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#fusion_header .fusion_header_text .fusion_header_heading2 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49px;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 575px;
+    margin-left: 60px;
+}
+
+#fusion_header .fusion_header_text p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    width: 940px;
+}
+
+/*==================================================
+          fusion_header css end
+==================================================*/
+
+/*==================================================
+          fusion_signing css start
+==================================================*/
+
+
+#fusion_signing {
+    margin-top: 100px;
+}
+
+#fusion_signing .col-lg-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#fusion_signing h3 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 79px;
+    color: #000066;
+    text-align: center;
+    width: 950px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+
+#fusion_signing .fusion_signing_card {
+    width: 100%;
+    height: 300px;
+    background: #F2FEFF;
+    padding-top: 80px;
+    padding-left: 120px;
+    position: relative;
+    z-index: -1;
+} 
+
+#fusion_signing .fusion_signing_card .fusion_card_number {
+    position: absolute;
+    top: 65px;
+    left: 75px;
+    z-index: -2;
+}
+
+#fusion_signing .fusion_signing_card-blue {
+    background: #00D5F1;
+}
+
+#fusion_signing .fusion_signing_card p {
+    font-family: 'Alef', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #2056A5;
+}
+
+#fusion_signing .fusion_signing_card a {
+    display: inline-block;
+    font-family: 'Alef', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    color: #2056A5;
+}
+
+#fusion_signing .fusion_card-p_one {
+    width: 320px;
+}
+
+#fusion_signing .fusion_card-p_two {
+    width: 290px;
+}
+
+#fusion_signing .fusion_card-p_four {
+    width: 290px;
+    padding-top: 40px;
+}
+
+#fusion_signing .fusion_card-p_other {
+    padding-top: 50px;
+}
+
+/*==================================================
+          fusion_signing css end
+==================================================*/
+/*==================================================
+          fusion_invitation css start
+==================================================*/
+
+
+#fusion_invitation {
+
+    margin-top: 120px;
+}
+
+#fusion_invitation .fusion_invitation_accept {
+    background: rgba(98, 38, 168, 0.8);
+    text-align: center;
+}
+
+#fusion_invitation .fusion_invitation_accept h3 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 39px;
+    color: #ffffff;
+    padding-top: 80px;
+    margin-bottom: 50px;
+}
+
+#fusion_invitation .fusion_invitation_accept p {
+    font-family: 'Alef', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #fff;
+    width: 1045px;
+    margin: auto;
+
+}
+
+#fusion_invitation .fusion_invitation_accept a {
+    display: inline-block;
+    color: #fff;
+}
+
+#fusion_invitation .fusion_invitation_accept .fusion_p_two {
+
+    padding-bottom: 100px;
+}
+
+#fusion_invitation .fusion_invitaion_bottom {
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+#fusion_invitation .fusion_invitaion_bottom p {
+    font-family: 'Alef', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #000066;
+    margin: auto;
+}
+
+#fusion_invitation .fusion_invitaion_bottom .fusion_bottom_p_one {
+    width: 1090px;
+}
+
+#fusion_invitation .fusion_invitaion_bottom .fusion_bottom_p_two {
+    width: 1090px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+#fusion_invitation .fusion_invitaion_bottom p a {
+    display: inline-block;
+    font-weight: 700;
+    color: #000066;
+}
+
+#fusion_invitation .fusion_invitaion_bottom h5 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 79px;
+    color: #6226A8;
+
+}
+
+#fusion_invitation .fusion_invitaion_bottom .fusion_bottom_btn {
+    display: inline-block;
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #6226A8;
+    border-radius: 45px;
+    padding: 30px 50px;
+    margin-top: 80px;
+}
+
+/*==================================================
+          fusion_invitation css end
+==================================================*/
+
+/* ---------------------------united page start---------------------- */
+
+
+/*==================================================
+           united header css start
+==================================================*/
+
+
+#united_header {
+    background: url(../images/united/united_header.png) no-repeat center;
+    background-size: cover;
+    height: 550px;
+    padding-top: 170px;
+}
+
+
+
+#united_header .united_header_text {
+    background: rgba(32, 86, 165, .7);
+    height: 330px;
+    padding-top: 70px;
+    padding-left: 230px;
+}
+
+#united_header .united_header_text ul {
+    margin-bottom: 60px;
+}
+
+#united_header .united_header_text ul li {
+    display: inline-block;
+}
+
+#united_header .united_header_text .united_header_heading1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 79px;
+    font-weight: 400;
+    line-height: 79px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#united_header .united_header_text .united_header_heading2 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49px;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 575px;
+    margin-left: 60px;
+    vertical-align: top;
+}
+
+#united_header .united_header_text p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    width: 570px;
+}
+
+
+/*==================================================
+           united header css end
+==================================================*/
+/*==================================================
+           united signup css start
+==================================================*/
+
+
+#united_signup {
+    margin-top: 100px;
+    padding-bottom: 250px;
+}
+
+#united_signup .col-lg-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#united_signup .united_signup_card {
+    height: 400px;
+    background: rgba(98, 38, 168, 0.8);
+    padding-top: 90px;
+    padding-left: 75px;
+
+}
+
+#united_signup .united_signup_card-2 {
+    background: #00D5F1;
+}
+
+#united_signup .united_signup_card-3 {
+    background: #2056A5;
+}
+
+#united_signup .united_signup_card p {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 39px;
+    color: #ffffff;
+    width: 318px;
+}
+
+
+#united_signup .united_signup_card .united_signup_p_two {
+    width: 330px;
+}
+
+#united_signup .united_bottom {
+    text-align: center;
+}
+
+#united_signup .united_bottom h2 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 39px;
+    color: #6226A8;
+    text-transform: uppercase;
+    margin-top: 120px;
+}
+
+#united_signup .united_bottom a {
+    display: inline-block;
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #6226A8;
+    border-radius: 45px;
+    padding: 30px 80px;
+    margin-top: 100px;
+}
+
+/*==================================================
+           united signup css end
+==================================================*/
+
+/* -----------------------------rec program--------------------- */
+
+/*==================================================
+           rec program header css start
+==================================================*/
+
+
+#rec_program {
+    background: url(../images/rec_program/rec_program_header.png) no-repeat center;
+    background-size: cover;
+    height: 550px;
+    padding-top: 160px;
+
+}
+
+
+#rec_program .rec_program_header_text {
+    width: 100%;
+
+    background: rgba(32, 86, 165, .7);
+    padding-top: 100px;
+    padding-left: 235px;
+    padding-bottom: 110px;
+
+
+}
+
+#rec_program .rec_program_header_text h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 79px;
+    font-weight: 400;
+    line-height: 79px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+
+#rec_program .rec_program_header_text p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    width: 510px;
+}
+
+
+/*==================================================
+           rec program header css end
+==================================================*/
+/*==================================================
+           rec program accordian css start
+==================================================*/
+#rec_program_accordian {
+    margin-top: 130px;
+    padding-bottom: 100px;
+}
+
+
+#rec_program_accordian .card {
+    border: 0;
+    border-radius: 0;
+    margin-top: 20px;
+
+}
+
+#rec_program_accordian .card-header {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+
+}
+
+#rec_program_accordian .card-header .color_blue {
+    background: #2056A5;
+    color: #fff;
+}
+
+#rec_program_accordian .card-header .color_purple {
+    background: #6226A8;
+}
+
+#rec_program_accordian .card-header h5 .collapsed {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 39px;
+    text-decoration: none;
+
+    padding-left: 85px;
+    padding-right: 45px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+
+#rec_program_accordian .card-header h5 button {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 39px;
+    color: #2056A5;
+    text-decoration: none;
+    background: #00D5F1;
+    padding-left: 85px;
+    padding-right: 45px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+#rec_program_accordian .btn{
+    border-radius: 0;
+}
+#rec_program_accordian .card-header h5 button .rec_program_accordian_expand {
+    display: none;
+}
+
+#rec_program_accordian .card-header h5 button .rec_program_accordian_expand p {
+    display: none;
+}
+
+#rec_program_accordian .card-header h5 .collapsed .rec_program_accordian_expand {
+    display: inline-block;
+    background: #FFFFFF;
+    border-radius: 56.5px;
+    padding: 20px 60px;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
+#rec_program_accordian .card-header h5 .collapsed .rec_program_accordian_expand p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #6226A8;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 20px;
+
+}
+
+#rec_program_accordian .card-header h5 button .rec_program_accordian_cross {
+    display: inline-block;
+    background: #FFFFFF;
+    border-radius: 56.5px;
+    padding: 15px 60px;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
+#rec_program_accordian .card-header h5 button .rec_program_accordian_cross p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #6226A8;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 20px;
+
+}
+
+#rec_program_accordian .card-header h5 .collapsed .rec_program_accordian_cross {
+    display: none;
+}
+
+#rec_program_accordian .card-header h5 .collapsed .rec_program_accordian_cross p {
+    display: none;
+}
+
+#rec_program_accordian .card-body {
+    background: #00D5F1;
+    padding-left: 85px;
+    padding-right: 45px;
+}
+
+#rec_program_accordian .card-body_02 {
+    background: #2056A5;
+
+
+}
+
+#rec_program_accordian .card-body_03 {
+    background: #6226A8;
+
+
+}
+
+#rec_program_accordian .card-body .rec_accordian_left p {
+    font-family: 'Alef', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #2056A5;
+    width: 495px;
+    padding-bottom: 30px;
+}
+
+#rec_program_accordian .card-body_02 .rec_accordian_left p {
+    color: #fff;
+}
+
+#rec_program_accordian .card-body .rec_accordian_right {
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+#rec_program_accordian .card-body .rec_accordian_right .rec_accordian_main {
+    display: flex;
+
+}
+
+#rec_program_accordian .card-body .rec_accordian_right .rec_accordian_main .rec_accordian_text {
+    margin-left: 20px;
+
+}
+
+#rec_program_accordian .card-body .rec_accordian_right .rec_accordian_main .rec_accordian_text p {
+    font-family: 'Alef', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #2056A5;
+}
+
+#rec_program_accordian .card-body_02 .rec_accordian_right .rec_accordian_main .rec_accordian_text p {
+    color: #FFFFFF;
+}
+
+#rec_program_accordian .card-body .rec_accordian_right .rec_accordian_main .rec_accordian_text ul {
+    margin-top: 30px;
+}
+
+#rec_program_accordian .card-body .rec_accordian_right .rec_accordian_main .rec_accordian_text ul li {
+    font-family: 'Alef', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #2056A5;
+}
+
+#rec_program_accordian .card-body_02 .rec_accordian_right .rec_accordian_main .rec_accordian_text ul li {
+    color: #fff;
+}
+
+#rec_program_accordian .card-body .rec_accordian_right .rec_accordian_text_btn_main {
+    text-align: right;
+}
+
+#rec_program_accordian .card-body .rec_accordian_right .rec_accordian_text_btn_main .rec_accordian_text_btn {
+    display: inline-block;
+
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #6226A8;
+    background: #FFFFFF;
+    border-radius: 56.5px;
+    padding: 15px 30px;
+    margin-top: 30px;
+
+}
+
+/*==================================================
+           rec program accordian css end
+==================================================*/
+
+/* -----------------------about page start-------------------- */
+
+/*==================================================
+          about_header css start
+==================================================*/
+
+#about_header {
+    background: url(../images/about/about_header.png) no-repeat center;
+    background-size: cover;
+    height: 730px;
+    padding-top: 160px;
+    text-align: left;
+}
+
+
+
+#about_header .about_texts {
+    width: 100%;
+    background: rgba(32, 86, 165, .7);
+    padding: 90px 230px;
+
+}
+
+#about_header .about_texts h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 79px;
+    line-height: 79px;
+    color: #fff;
+    width: 930px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+#about_header .about_texts p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 24px;
+    width: 930px;
+    margin: auto;
+}
+
+#about_header .about_texts p span {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#about_header .about_header_btn {
+    text-align: center;
+}
+
+#about_header .about_texts a {
+    display: inline-block;
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000066;
+    line-height: 24px;
+    background: #ffffff;
+    border-radius: 45px;
+    padding: 30px 100px;
+    margin-top: 80px;
+
+}
+
+/*==================================================
+          about_header css end
+==================================================*/
+
+
+/*==================================================
+          about_philosophy css start
+==================================================*/
+
+
+#about_philosophy {
+    margin-top: 500px;
+}
+
+#about_philosophy .col-lg-4 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#about_philosophy .title {
+    text-align: center;
+}
+
+#about_philosophy .title h4 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 79px;
+    color: #000066;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#about_philosophy .title p {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #2056A5;
+    width: 600px;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+#about_philosophy .about_philosophy_card {
+    height: 415px;
+    background: #F2FEFF;
+    padding-top: 80px;
+    padding-left: 100px;
+    position: relative;
+    z-index: -2;
+
+}
+
+#about_philosophy .about_philosophy_card2 {
+    background: #00D5F1;
+}
+
+#about_philosophy .about_philosophy_card .about_card_img {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    z-index: -1;
+}
+
+#about_philosophy .about_philosophy_card h3 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 39px;
+    color: #2056A5;
+    margin-bottom: 30px;
+
+
+}
+
+#about_philosophy .about_philosophy_card p {
+    font-family: 'Alef', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #2056A5;
+    width: 300px;
+}
+
+/*==================================================
+          about_philosophy css end
+==================================================*/
+/*==================================================
+          about_volunteers css start
+==================================================*/
+
+
+#about_volunteers {
+    margin-top: 150px;
+}
+
+#about_volunteers .col-lg-5 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#about_volunteers .col-lg-7 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#about_volunteers .about_volunteers_left {
+    height: 1600px;
+
+}
+
+#about_volunteers .about_volunteers_left img {
+    width: 100%;
+    height: 100%;
+}
+
+#about_volunteers .about_volunteers_right {
+    height: 1600px;
+    background: #6226A8;
+    padding-top: 260px;
+    padding-left: 120px;
+}
+
+#about_volunteers .about_volunteers_right h3 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 79px;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 800px;
+    margin-bottom: 80px;
+}
+
+#about_volunteers .about_volunteers_right h4 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #ffffff;
+    width: 730px;
+    margin-bottom: 40px;
+}
+
+#about_volunteers .about_volunteers_right P {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    width: 730px;
+}
+
+#about_volunteers .about_volunteers_right P span {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#about_volunteers .about_volunteers_right p .about_volunteers_bold {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+#about_volunteers .about_volunteers_right a {
+    display: inline-block;
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000066;
+    text-transform: uppercase;
+    background: #fff;
+    border-radius: 45px;
+    padding: 30px 90px;
+    margin-top: 90px;
+}
+
+/*==================================================
+          about_volunteers css end
+==================================================*/
+
+/* ------------------------------volunteer page start----------------------- */
+
+/*==================================================
+          volunteer css start
+==================================================*/
+
+#volunteer_header {
+    background: url(../images/volunteer/volunteer_header.png) no-repeat center;
+    background-size: cover;
+    height: 725px;
+    padding-top: 150px;
+}
+
+
+#volunteer_header .volunteer_header_text {
+    width: 100%;
+    background: rgba(32, 86, 165, .7);
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 30px;
+
+}
+
+#volunteer_header .volunteer_header_text h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 79px;
+    font-weight: 400;
+    line-height: 79px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+
+#volunteer_header .volunteer_header_text h3 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49px;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 10px;
+
+}
+
+#volunteer_header .volunteer_header_text p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    width: 1050px;
+    margin: auto;
+}
+
+#volunteer_header .volunteer_header_text span {
+    display: block;
+    font-family: 'Alef', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+#volunteer_header .volunteer_header_text a {
+    display: inline-block;
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000066;
+    background: #fff;
+    border-radius: 45px;
+    padding: 30px 90px;
+    margin-top: 60px;
+}
+
+/*==================================================
+          volunteer css end
+==================================================*/
+
+
+/*==================================================
+          volunteer_begin css start
+==================================================*/
+
+
+#volunteer_begin .col-lg-4 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#volunteer_begin .col-lg-8 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#volunteer_begin .volunteer_begin_left {
+
+    height: 750px;
+}
+
+#volunteer_begin .volunteer_begin_left img {
+    width: 100%;
+    height: 100%;
+}
+
+#volunteer_begin .volunteer_begin_right {
+    background: #6226A8;
+    height: 750px;
+    padding-top: 140px;
+    padding-left: 100px;
+}
+
+#volunteer_begin .volunteer_begin_right h3 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 79px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+#volunteer_begin .volunteer_begin_right p {
+    font-family: 'Alef', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #fff;
+    width: 850px;
+}
+
+#volunteer_begin .volunteer_begin_right .volunteer_p_second {
+    margin-top: 10px;
+}
+
+#volunteer_begin .volunteer_begin_right ul {
+    margin-top: 60px;
+
+}
+
+#volunteer_begin .volunteer_begin_right ul li {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+#volunteer_begin .volunteer_begin_right ul .volunteer_begin_first {
+    width: 268px;
+
+}
+
+#volunteer_begin .volunteer_begin_right ul .volunteer_begin_second {
+    width: 240px;
+    margin-left: 30px;
+
+}
+
+#volunteer_begin .volunteer_begin_right ul .volunteer_begin_third {
+    width: 245px;
+    margin-left: 30px;
+
+}
+
+#volunteer_begin .volunteer_begin_right ul li a {
+    display: inline-block;
+    color: #00D5F1;
+    text-decoration: underline;
+}
+
+/*==================================================
+          volunteer_begin css end
+==================================================*/
+
+/*==================================================
+          volunteer_role css start
+==================================================*/
+#volunteer_role {
+    margin-top: 80px;
+}
+
+#volunteer_role .col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#volunteer_role .col-lg-3 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#volunteer_role .title {
+    text-align: center;
+}
+
+#volunteer_role .title h3 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 79px;
+    color: #000066;
+    margin-bottom: 50px;
+
+}
+
+#volunteer_role .volunteer_top_card {
+    background: #F2FEFF;
+    height: 300px;
+    padding-top: 90px;
+    padding-left: 45px;
+
+}
+
+#volunteer_role .volunteer_top_card p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 255px;
+    color: #2056A5;
+
+}
+
+#volunteer_role .volunteer_top_card-blue {
+    background: #00D5F1;
+}
+
+#volunteer_role .volunteer_top_card .volunteer_p_two {
+    width: 225px;
+}
+
+#volunteer_role .volunteer_top_card .volunteer_p_two a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#volunteer_role .volunteer_top_card .volunteer_p_three {
+    width: 178px;
+}
+
+#volunteer_role .volunteer_top_card .volunteer_p_three a {
+    color: #00D5F1;
+    text-decoration: underline;
+}
+
+#volunteer_role .volunteer_top_card .volunteer_p_four {
+    width: 175px;
+}
+
+#volunteer_role .volunteer_top_card .volunteer_p_five {
+    width: 198px;
+}
+
+
+#volunteer_role .volunteer_middle_p {
+    font-family: 'Alef', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    width: 918px;
+    color: #000066;
+    margin: auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+
+#volunteer_role .volunteer_bottom_card {
+    height: 300px;
+    background: #F2FEFF;
+    padding-top: 80px;
+    padding-left: 50px;
+
+}
+
+#volunteer_role .volunteer_bottom_card-blue {
+    background: #00D5F1;
+
+}
+
+#volunteer_role .volunteer_bottom_card p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #2056A5;
+}
+
+#volunteer_role .volunteer_bottom_card .volunteer_bottom_p_one {
+    width: 273px;
+}
+
+#volunteer_role .volunteer_bottom_card .volunteer_bottom_p_two {
+    width: 273px;
+}
+
+#volunteer_role .volunteer_bottom_card .volunteer_bottom_p_three {
+    width: 254px;
+}
+
+#volunteer_role .volunteer_bottom_card .volunteer_bottom_p_four {
+    width: 202px;
+}
+
+/*==================================================
+          volunteer_role css end
+==================================================*/
+
+
+/*==================================================
+          volunteer_safe css start
+==================================================*/
+
+#volunteer_safe {
+    background: #00D5F1;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    margin-top: 100px;
+}
+
+#volunteer_safe .volunteer_div_p {
+    text-align: left;
+}
+
+#volunteer_safe h3 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 79px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+#volunteer_safe p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000066;
+    width: 895px;
+    margin: auto;
+
+}
+
+#volunteer_safe .volunteer_p_two {
+    width: 710px;
+    line-height: 32px;
+
+}
+
+#volunteer_safe h4 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49px;
+    color: #fff;
+}
+
+#volunteer_safe .volunteer_h4_one {
+    width: 730px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+#volunteer_safe h4 a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: underline;
+    margin-bottom: 80px;
+
+}
+
+#volunteer_safe .volunteer_btn {
+    display: inline-block;
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000066;
+    background: #fff;
+    border-radius: 45px;
+    padding: 30px 90px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/*==================================================
+          volunteer_safe css end
+==================================================*/
+
+/*==================================================
+          volunteer_helpful css start
+==================================================*/
+
+#volunteer_helpful .col-lg-5 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#volunteer_helpful .col-lg-7 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#volunteer_helpful .volunteer_helpful_left {
+    background: #6226A8;
+    height: 700px;
+    padding-left: 100px;
+    padding-top: 120px;
+}
+
+#volunteer_helpful .volunteer_helpful_left h3 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 79px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 680px;
+    margin-bottom: 60px;
+
+}
+
+#volunteer_helpful .volunteer_helpful_left a {
+    display: inline-block;
+    font-family: 'Alef', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #00D5F1;
+
+
+}
+
+#volunteer_helpful .volunteer_helpful_left .volunteer_link_one {
+    width: 505px;
+}
+
+#volunteer_helpful .volunteer_helpful_left .volunteer_link_two {
+    width: 420px;
+    margin-top: 30px;
+}
+
+#volunteer_helpful .volunteer_helpful_right {
+
+    height: 700px;
+}
+
+#volunteer_helpful .volunteer_helpful_right img {
+    width: 100%;
+    height: 100%;
+}
+
+/*==================================================
+          volunteer_helpful css end
+==================================================*/
+
+
+
+
+/* -----------------faq page start----------------------- */
+/*==================================================
+                faq banner start
+  ==================================================*/
+
+  #faq-banner {
+    width: 100%;
+    height: 813px;
+    background: #000066;
+}
+
+#faq-banner .heading {
+    text-align: center;
+    padding-top: 253px;
+}
+
+#faq-banner .heading h1 {
+    color: #ffff;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 79px;
+    font-weight: 400;
+}
+
+/*==================================================
+                faq banner end
+  ==================================================*/
+/*==================================================
+                faq wh question start
+  ==================================================*/
+
+#faq-wh-question {
+    transform: translatey(-415px);
+    width: 100%;
+}
+
+#faq-wh-question .col-lg-4 {
+    padding: 0px !important;
+}
+
+#faq-wh-question .col-lg-8 {
+    padding: 0px !important;
+}
+
+#faq-wh-question .left-box {
+    background: #00D5F1;
+    width: 100%;
+    height: 414px;
+    justify-content: center;
+    display: flex;
+}
+
+#faq-wh-question .left-box .text {
+    padding: 0px 80px;
+    align-self: center;
+
+}
+
+#faq-wh-question .left-box .text h4 {
+    font-size: 36px;
+    color: #2056A5;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+#faq-wh-question .right-box .text {
+    align-self: center;
+    padding: 0px 80px;
+}
+
+#faq-wh-question .right-box .text p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    color: #2056A5;
+}
+
+#faq-wh-question .right-box {
+    background: #ffffff;
+    width: 100%;
+    height: 414px;
+    justify-content: center;
+    display: flex;
+}
+
+#faq-wh-question .left-box-2nd {
+    background: #ffffff;
+    width: 100%;
+    height: 414px;
+    justify-content: center;
+    display: flex;
+}
+
+#faq-wh-question .right-box-2nd {
+    background: #00D5F1;
+    width: 100%;
+    height: 414px;
+    justify-content: center;
+    display: flex;
+}
+
+#faq-wh-question .right-box-2nd .text {
+    align-self: center;
+    padding: 0px 80px;
+}
+
+#faq-wh-question .right-box-2nd .text p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    color: #2056A5;
+}
+
+#faq-wh-question .left-box-2nd .text {
+    align-self: center;
+    padding: 0px 80px;
+}
+
+#faq-wh-question .left-box-2nd .text h4 {
+
+    font-size: 36px;
+    color: #2056A5;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+/*==================================================
+                faq wh question end
+  ==================================================*/
+/*==================================================
+                faq question start
+  ==================================================*/
+
+#faq-question {
+    transform: translateY(-300px);
+}
+
+#faq-question .faq-header {
+    font-size: 42px;
+    padding: 24px;
+}
+
+#faq-question .col-lg-12 {
+    padding: 0px;
+}
+
+#faq-question .faq-content {
+    margin: 0 auto;
+}
+
+#faq-question .faq-question {
+    margin-top: 103px;
+}
+
+#faq-question .panel-title {
+    font-size: 48px;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 10px 10px 0 48px;
+    display: block;
+    cursor: pointer;
+    color: #000066;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+#faq-question .panel-content {
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: .4s ease;
+    -moz-transition: .4s ease;
+    -o-transition: .4s ease;
+    transition: .4s ease;
+}
+
+#faq-question .panel:checked~.panel-content {
+    height: auto;
+    opacity: 1;
+}
+
+#faq-question .panel:checked~.panel-title {
+
+    color: #00D5F1;
+}
+
+#faq-question .panel:checked~.plus {
+
+    color: #00D5F1;
+}
+
+#faq-question .plus {
+    position: absolute;
+    margin-right: 20px;
+    margin-top: 10px;
+    z-index: 5;
+    color: #000066;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-transition: .2s ease;
+    -moz-transition: .2s ease;
+    -o-transition: .2s ease;
+    transition: .2s ease;
+}
+
+#faq-question .panel:checked~.plus {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#faq-question .panel {
+    display: none;
+}
+
+#faq-question .panel-content .left-box {
+    background: #ffffff;
+    width: 100%;
+    height: 414px;
+    display: flex;
+    justify-content: center;
+}
+
+#faq-question .panel-content .left-box .text {
+    align-self: center;
+    padding: 0px 80px;
+}
+
+#faq-question .panel-content .left-box .text h4 {
+
+    font-size: 36px;
+    color: #2056A5;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+#faq-question .panel-content .right-box .text {
+    align-self: center;
+    padding: 0px 80px;
+}
+
+#faq-question .panel-content .right-box .text p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    color: #2056A5;
+}
+
+#faq-question .panel-content .right-box {
+    background: #00D5F1;
+    width: 100%;
+    height: 414px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#faq-question .panel-content .left-box-2nd {
+    background: #00D5F1;
+    width: 100%;
+    height: 414px;
+    display: flex;
+    justify-content: center;
+}
+
+#faq-question .panel-content .right-box-2nd {
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#faq-question .panel-content .right-box-2nd .text {
+    align-self: center;
+    padding: 0px 80px;
+}
+
+#faq-question .panel-content .right-box-2nd .text p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    color: #2056A5;
+}
+
+
+#faq-question .panel-content .left-box-2nd .text {
+    align-self: center;
+    padding: 0px 80px;
+}
+
+#faq-question .panel-content .left-box-2nd .text h4 {
+
+    font-size: 36px;
+    color: #2056A5;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+#faq-question .panel-content .col-lg-4,
+#faq-question .panel-content .col-lg-8 {
+    padding: 0px;
+}
+
+/*==================================================
+                faq question end
+  ==================================================*/
+
+  /* -----------------program fees page start----------------------- */
+/*==================================================
+                PROGRAM FEE START
+  ==================================================*/
+
+#program-fee-banner {
+    width: 100%;
+    height: 813px;
+    background: #000066;
+}
+#program-fee-banner .heading {
+    text-align: center;
+    padding-top: 253px;
+}
+#program-fee-banner .heading h1 {
+    color: #ffff;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 79px;
+    font-weight: 400;
+}
+#program-fee-banner .heading P {
+    color: #ffff;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    margin-top: 17px;
+}
+/*==================================================
+                PROGRAM FEE END
+  ==================================================*/
+/*==================================================
+                PROGRAM FEE END
+  ==================================================*/
+#program-fee-price {
+    transform: translateY(-292px);
+
+}
+#program-fee-price .box {
+    width: 100%;
+    height: 585px;
+    background: #00D5F1;
+}
+
+#program-fee-price .col-lg-4 {
+    padding: 0px;
+}
+#program-fee-price .box {
+    margin: 10px;
+    width: 96%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#program-fee-price .box .text {
+    align-self: center;
+    color: #2056A5
+}
+#program-fee-price .box .text h5 {
+    font-size: 48px;
+    font-family: 'Alfa Slab One';
+
+}
+#program-fee-price .box .text h5 span {
+    font-size: 34px;
+    font-family: 'Alfa Slab One';
+
+}
+
+#program-fee-price .box .text h2 {
+    font-size: 64px;
+    font-family: 'Alfa Slab One';
+    margin-top: 55px;
+    margin-bottom: 0px;
+
+}
+
+#program-fee-price .box .text h2 span {
+    font-size: 34px;
+    font-family: 'Alfa Slab One';
+    margin: 50px;
+
+}
+
+#program-fee-price .box .text h2 .each {
+    font-size: 64px;
+    font-family: 'Alfa Slab One';
+    margin: 0px 20px;
+
+}
+
+#program-fee-price .box .text h2 .both {
+    font-size: 64px;
+    font-family: 'Alfa Slab One';
+    margin: 0px 20px;
+
+}
+
+#program-fee-price .box .text p {
+    font-size: 30px;
+    font-family: 'Alfa Slab One';
+    margin: 0px;
+
+}
+
+/*==================================================
+                program fee player start
+  ==================================================*/
+#program-fee-player-fee {
+    margin-top: 50px;
+    width: 100%;
+    transform: translateY(-200px);
+
+}
+
+#program-fee-player-fee .box {
+    margin-top: 30px;
+    background: #6226A8;
+    width: 100%;
+    height: 695px;
+    display: flex;
+    justify-content: center;
+}
+
+#program-fee-player-fee .box .text {
+    align-self: center;
+    text-align: center;
+}
+
+#program-fee-player-fee .box .text h2 {
+    font-size: 64px;
+    font-family: 'Alfa Slab One';
+    color: #ffffff;
+}
+
+#program-fee-player-fee .box .text h5 {
+    margin-top: 15px;
+    font-size: 32px;
+    font-family: 'Alfa Slab One';
+    color: #ffffff;
+    font-weight: 400;
+}
+
+#program-fee-player-fee .box .text p {
+    margin-top: 55px;
+    font-size: 24px;
+    font-family: 'Alef';
+    color: #00D5F1;
+}
+
+#program-fee-player-fee .box .text a {
+    display: inline-block;
+    background: #ffffff;
+    padding: 30px 66px;
+    border-radius: 45px;
+    margin-top: 100px;
+    color: #000066;
+    font-family: 'Alef';
+    font-weight: 700;
+}
+
+#program-fee-player-fee .heading {
+    text-align: center;
+}
+
+#program-fee-player-fee .heading h1 {
+    font-size: 66px;
+    font-family: 'Alfa Slab One';
+    color: #000066
+}
+#program-fee-player-fee .program-fee_player_button_box{
+    text-align: center;
+}
+#program-fee-player-fee .program_fee_button{
+    display: inline-block;
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #2056A5;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 60px;
+
+}
+
+/*==================================================
+                program fee player end
+  ==================================================*/
+
+  /* ------------recources page responsive start----------------- */
+
+/*==================================================
+                RESOURCES START
+  ==================================================*/
+
+
+#resources-banner {
+    width: 100%;
+    height: 813px;
+    background: #000066;
+}
+#resources-banner .heading {
+    text-align: center;
+    padding-top: 253px;
+}
+
+#resources-banner .heading h1 {
+    color: #ffff;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 79px;
+    font-weight: 400;
+}
+#resources-banner .heading P {
+    color: #ffff;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    margin-top: 73px;
+
+}
+#resources-banner .heading P span {
+    font-size: 24px;
+}
+
+#resources-banner .heading a {
+    display: inline-block;
+    background: #ffffff;
+    padding: 19px 90px;
+    font-family: 'Alef';
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 45px;
+    color: #000066;
+    font-weight: 700;
+}
+
+/* ////////////////////////////////// */
+#resources-steps .heading {
+    text-align: center;
+    margin-top: 84px;
+}
+
+#resources-steps .heading h2 {
+
+    font-size: 36px;
+    color: #56CCF2;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+
+#resources-steps .heading h2 span {
+    color: #2056A5;
+}
+
+#resources-steps .box {
+    width: 80%;
+    height: auto;
+    padding: 50px 100px;
+    background: #00D5F1;
+    margin: 20px auto;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#resources-steps .box p {
+    color: #2056A5;
+    font-size: 24px;
+    font-family: 'Alef';
+}
+
+#resources-steps .box img {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#resources-steps .reg {
+    margin: 0 auto;
+}
+
+#resources-steps .reg a {
+    display: inline-block;
+    background: #000066;
+    padding: 31px 149px;
+    margin-top: 84px;
+    margin-bottom: 77px;
+    border-radius: 45px;
+    font-family: 'Alef';
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+
+
+}
+/*==================================================
+                RESOURCES END
+  ==================================================*/
+  /* ------------seasion page start----------------- */
+/*==================================================
+                seasion bannner start
+  ==================================================*/
+#seasion-banner {
+    width: 100%;
+    height: 813px;
+    background: #000066;
+}
+
+#seasion-banner .heading {
+    text-align: center;
+    padding-top: 253px;
+}
+
+#seasion-banner .heading h1 {
+    color: #ffff;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 79px;
+    font-weight: 400;
+}
+
+
+#seasion-banner .box {
+	width: 1455px;
+	height: auto;
+	display: flex;
+	background: #6226A8;
+	margin-top: 50px;
+}
+
+#seasion-banner .box .image {
+    width: 20%;
+}
+
+#seasion-banner .box .image img {
+    width: 100%;
+    height: 100%;
+}
+
+#seasion-banner .box .text {
+    width: 60%;
+    align-self: center;
+    padding: 0px 70px;
+}
+
+#seasion-banner .box .text h6 {
+    font-size: 36px;
+    font-family: 'Alef';
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#seasion-banner .box .text p {
+    font-size: 24px;
+    font-family: 'Alef';
+    color: #ffffff;
+}
+
+#seasion-banner .seasion_banner_button{
+    display: inline-block;
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000066;
+    background: #FFFFFF;
+    border-radius: 45px;
+    padding: 20px 130px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+#seasion-banner .seasion_banner_arrow_div{
+    
+    text-align: right;
+}
+#seasion-banner .seasion_banner_arrow_div .seasion_banner_arrow{
+   margin-top: -40px;
+   margin-right: 30px;
+}
+#seasion-banner .box .image .left {
+    width: 110%;
+    transform: translateY(-20px);
+}
+
+/*==================================================
+                seassion banner end
+  ==================================================*/
+
+  
+/*==================================================
+                seassion list start
+  ==================================================*/
+
+
+#seasion-seasion-list {
+    width: 90%;
+    height: auto;
+    margin: 60px auto;
+
+
+}
+#seasion-seasion-list .col-lg-4 {
+    padding: 0px !important;
+}
+
+#seasion-seasion-list .col-lg-8 {
+    padding: 0px !important;
+}
+
+#seasion-seasion-list .left-box {
+    background: #00D5F1;
+    width: 100%;
+    height: 550px;
+
+    justify-content: center;
+    display: flex;
+}
+
+#seasion-seasion-list .left-box .text {
+    padding: 0px 80px;
+    align-self: center;
+
+}
+
+#seasion-seasion-list .left-box .text h4 {
+    font-size: 36px;
+    color: #2056A5;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+#seasion-seasion-list .right-box .text {
+    align-self: center;
+    padding: 0px 80px;
+}
+
+#seasion-seasion-list .right-box .text p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    color: #2056A5;
+}
+
+#seasion-seasion-list .right-box {
+    background: #F2FEFF;
+    width: 100%;
+    height: 550px;
+    justify-content: center;
+    display: flex;
+}
+
+#seasion-seasion-list .left-box-2nd {
+    background: #6226A8;
+    width: 100%;
+    height: 550px;
+    justify-content: center;
+    display: flex;
+}
+
+#seasion-seasion-list .right-box-2nd {
+    background: #00D5F1;
+    width: 100%;
+    height: 550px;
+    justify-content: center;
+    display: flex;
+}
+
+#seasion-seasion-list .right-box-2nd .text {
+    align-self: center;
+    padding: 0px 80px;
+}
+
+#seasion-seasion-list .right-box-2nd .text p {
+	font-family: 'Alef', sans-serif;
+	font-size: 18px;
+	color: #2056A5;
+    width: 750px;
+}
+
+
+#seasion-seasion-list .left-box-2nd .text {
+    align-self: center;
+    padding: 0px 80px;
+}
+
+#seasion-seasion-list .left-box-2nd .text h4 {
+	font-size: 36px;
+	color: #fff;
+	font-family: 'Alfa Slab One', cursive;
+}
+
+/*==================================================
+                seassion list end
+  ==================================================*/
+  /*==================================================
+                seassion links start
+  ==================================================*/
+  #seasion_links_items{
+      padding-bottom: 60px;
+  }
+
+
+  #seasion_links_items .col-lg-3{
+      padding-left: 0;
+      padding-right: 0;
+  }
+  #seasion_links_items .seasion_links_items_title{
+      text-align: center;
+      margin-bottom: 30px;
+  }
+#seasion_links_items .seasion_links_items_title h3{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 65px;
+    color: #000066;
+    text-transform: capitalize;
+}
+#seasion_links_items .seasion_links_iteams_cards{
+     height: 310px;
+     background:  #F2FEFF;
+     text-align: center;
+     padding-top: 120px;
+
+}
+#seasion_links_items .seasion_links_iteams_cards-blue{
+    background: #00D5F1;
+}
+#seasion_links_items .seasion_links_iteams_cards p{
+    font-family: 'Alef', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #2056A5;
+
+    
+}
+
+
+  /*==================================================
+                seassion links end
+  ==================================================*/
+
+ /* ------------seasion page end----------------- */
+

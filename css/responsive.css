@@ -1,0 +1,7604 @@
+/* --------------------------------mobile screen-------------------------- */
+
+@media (min-width: 320px) and (max-width: 576px) {
+    .container {
+        max-width: 100% !important;
+    }
+
+    /*==========================================
+                register modal responsive start
+      ==========================================*/
+    #exampleModal .modal-dialog .modal-header {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #exampleModal .title__heading {
+        font-size: 35px;
+        line-height: 49px;
+    }
+
+    #exampleModal .modal-dialog .modal-body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #exampleModal .modal-input-fields input {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    #exampleModal .modal_btn_bottom {
+        padding: 20px 65px;
+    }
+
+    #exampleModal .title__heading {
+        margin-top: 20px;
+    }
+
+    #exampleModal .modal_p {
+        width: auto;
+    }
+
+
+    /*==========================================
+                register modal responsive end
+      ==========================================*/
+    /*==========================================
+                navbar responsive start
+      ==========================================*/
+    .navbar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+
+    }
+
+    .navbar_bar {
+        outline: 0 !important;
+        font-size: 24px;
+    }
+
+    .navbar .logo img {
+        top: -10px;
+        width: 100px;
+    }
+
+    .navbar ul {
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    .ayso_dropdown_color {
+        margin-left: 0;
+        padding-top: 15px;
+    }
+
+    .ayso_dropdown_menu-last {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .dropdown-toggle::after {
+        display: inline-block;
+    }
+
+    .dropdown-menu {
+        text-align: center;
+    }
+
+    .ayso_dropdown_menu {
+        margin-left: 0;
+    }
+
+    .ayso_dropdown_menu .dropdown-item {
+
+        padding: 10px 20px;
+    }
+
+    nav .Nav_btn-right {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    .sticky .ayso_dropdown_menu-last {
+        margin-right: 0;
+    }
+
+    .sticky .logo img {
+        width: 90px !important;
+        top: -15px;
+    }
+
+    /*==========================================
+                navbar responsive end
+      ==========================================*/
+
+    /*==========================================
+                footer responsive start
+      ==========================================*/
+    #footer .footer_brand .photo {
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    #footer .footer_brand .photo-first {
+        text-align: center;
+        padding-top: 10px;
+        width: 300px;
+        margin: auto;
+    }
+
+    #footer .footer_brand .photo-second {
+        padding-top: 50px;
+        width: 245px;
+        margin: auto;
+    }
+
+    #footer .footer_brand .photo-third {
+        padding-top: 40px;
+    }
+
+    #footer .footer_brand .photo-fourth {
+        margin: auto;
+    }
+
+    #footer .footer_bottom {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    #footer .footer_copyright {
+        line-height: 35px;
+    }
+
+    #footer .footer_terms {
+        padding-top: 0;
+    }
+
+    #footer .footer_bottom_right {
+        text-align: center;
+    }
+
+    #footer .footer_socialicons ul li {
+        margin-left: 30px;
+    }
+
+    #footer .footer_follow {
+        padding-top: 0;
+    }
+
+    /*==========================================
+                footer responsive end
+      ==========================================*/
+
+
+    /* --------------------home page responsive start ---------------------- */
+
+    /*==========================================
+                  home header responsive start
+      ==========================================*/
+
+    #home_header {
+
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    #home_header .home_header_ragion {
+        width: auto;
+        height: auto;
+
+
+
+        margin-top: 60px;
+    }
+
+    #home_header .home_header_heading {
+        padding-left: 0;
+        padding-top: 90px;
+        font-size: 36px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    #home_header .home_header_ragion_center p {
+        font-family: 'Alef', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #ffffff;
+        width: auto;
+        padding-top: 25px;
+        padding-left: 5px;
+        text-align: center;
+        padding-right: 5px;
+    }
+
+    #home_header .home_header_ragion_center_link {
+        text-align: center;
+
+    }
+
+    #home_header .home_header_ragion_center a {
+        display: inline-block;
+        text-align: center;
+        padding-top: 25px;
+        padding-right: 0;
+    }
+
+    #home_header .home_header_bottom {
+        margin-top: 30px;
+    }
+
+    #home_header .home_header_bottom_left p {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 24px;
+        line-height: 39px;
+        font-weight: 400;
+        color: #ffffff;
+        width: auto;
+        text-align: center;
+    }
+
+    #home_header .home_header_bottom_right {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #home_header .home_header_bottom_right a {
+
+        padding: 25px 77px;
+
+    }
+
+    /*==========================================
+                  home header responsive end
+      ==========================================*/
+    /*==========================================
+         home_community_care responsive start
+      ==========================================*/
+    #home_community_care .col-lg-7 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #home_community_care .col-lg-5 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #home_community_care .home_community_care_left {
+        padding-left: 0;
+        text-align: center;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    #home_community_care .home_community_care_left h2 {
+
+        font-size: 36px;
+        line-height: 50px;
+        width: auto;
+        margin-bottom: 40px;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    #home_community_care .home_community_care_left p {
+        font-size: 18px;
+        line-height: 24px;
+        width: auto;
+        text-align: center;
+    }
+
+
+    /*==========================================
+         home_community_care responsive end
+      ==========================================*/
+
+    /*==========================================
+         home_social responsive start
+      ==========================================*/
+    #home_social {
+        margin-top: 60px;
+    }
+
+    #home_social .title h3 {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 36px;
+        font-weight: 65px;
+        font-weight: 400;
+        color: #000066;
+        margin-bottom: 60px;
+        line-height: 49px;
+    }
+
+    /*==========================================
+         home_social responsive end
+      ==========================================*/
+
+
+
+    /* ------------------------------porgrams core page responsive start----------------------- */
+
+
+    /*==========================================
+             programs_header responsive start
+      ==========================================*/
+    #programs_header {
+        padding-top: 100px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    #programs_header .programs_header_texts {
+        padding-left: 0;
+    }
+
+    #programs_header .programs_header_texts {
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #programs_header .programs_header_texts h1 {
+        font-size: 36px;
+        line-height: 55px;
+        font-weight: 400;
+        width: auto;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+
+    #programs_header .programs_header_texts p {
+        font-size: 18px;
+        line-height: 24px;
+        width: auto;
+        text-align: center;
+    }
+
+
+
+    /*==========================================
+             programs_header responsive end
+      ==========================================*/
+
+    /*==========================================
+         programs_ayso_programs responsive start
+      ==========================================*/
+    #programs_ayso_programs .col-lg-4 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #programs_ayso_programs {
+        margin-top: 60px;
+    }
+
+    #programs_ayso_programs .title h3 {
+        font-size: 36px;
+        line-height: 55px;
+        font-weight: 400;
+        color: #6226A8;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    #programs_ayso_programs .programs_ayso_programs_card .overlay_2 {
+        padding: 15px;
+        text-align: center;
+    }
+
+    #programs_ayso_programs .programs_ayso_programs_card .overlay_2 h4 {
+
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        margin-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    #programs_ayso_programs .programs_ayso_programs_card .overlay_2 p {
+        width: auto;
+    }
+
+    #programs_ayso_programs .programs_ayso_programs_card .overlay h4 {
+        padding-top: 100px;
+    }
+
+
+    /*==========================================
+         programs_ayso_programs responsive end
+      ==========================================*/
+    /*==================================================
+           programs_summer_camp responsive css start
+      ==================================================*/
+
+
+    #programs_summer_camp .col-lg-7 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #programs_summer_camp .col-lg-5 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #programs_summer_camp {
+        margin-top: 80px;
+    }
+
+    #programs_summer_camp .programs_summer_camp_left {
+        padding-left: 0;
+        text-align: center;
+        height: auto;
+        padding-bottom: 60px;
+    }
+
+    #programs_summer_camp .programs_summer_camp_left h2 {
+
+        font-size: 36px;
+        line-height: 58px;
+        width: auto;
+        margin-bottom: 50px;
+        padding-top: 60px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    #programs_summer_camp .programs_summer_camp_left p {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        width: auto;
+        text-align: center;
+    }
+
+
+    /*==================================================
+           programs_summer_camp responsive css end
+      ==================================================*/
+
+
+    /* -----------------summer camp page  start--------------------- */
+
+
+    /*==================================================
+          summer_camp_header responsive css start
+    ==================================================*/
+    #summer_camp_header {
+        height: auto;
+        padding-top: 40px;
+    }
+
+    #summer_camp_header .summer_camp_header_text {
+        height: auto;
+        padding-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 50px;
+    }
+
+    #summer_camp_header .summer_camp_header_text h1 {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 50px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #summer_camp_header .summer_camp_header_text h2 {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 35px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    #summer_camp_header .summer_camp_header_text p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        width: auto;
+        text-align: center;
+    }
+
+    /*==================================================
+          summer_camp_header responsive css end
+    ==================================================*/
+    /*==================================================
+          summer_camp_looking responsive css start
+    ==================================================*/
+    #summer_camp_looking {
+        padding: 60px 0;
+    }
+
+    #summer_camp_looking h3 {
+        font-size: 32px;
+        line-height: 45px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 42px;
+    }
+
+    #summer_camp_looking ul .summer_camp_li_one {
+        width: auto;
+        margin: auto;
+    }
+
+    #summer_camp_looking h4 {
+
+        font-size: 32px;
+        line-height: 39px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-top: 70px;
+    }
+
+    #summer_camp_looking a {
+
+        padding: 30px 29px;
+
+    }
+
+    /*==================================================
+          summer_camp_looking responsive css end
+    ==================================================*/
+
+    /* --------------------------winter page responsive start-------------------- */
+
+    /*==================================================
+               winter_header responsive css start
+   ==================================================*/
+    #winter_header {
+        height: auto;
+        padding-top: 40px;
+    }
+
+    #winter_header .winter_header_text {
+        height: auto;
+        padding-top: 50px;
+        padding-left: 0;
+        padding-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #winter_header .winter_header_text h1 {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 50px;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    #winter_header .winter_header_text p {
+        font-family: 'Alef', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #fff;
+        width: auto;
+        text-align: center;
+    }
+
+    /*==================================================
+               winter_header responsive css end
+   ==================================================*/
+    /*==================================================
+               winter_facility responsive css start
+   ==================================================*/
+    #winter_facility .col-lg-6 {
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+    #winter_facility .winter_facility_left {
+        padding: 30px 10px;
+    }
+
+    #winter_facility .winter_facility_right {
+        padding: 30px 10px;
+    }
+
+    #winter_facility ul li {
+
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 26px;
+        width: auto;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    /*==================================================
+               winter_facility responsive css end
+   ==================================================*/
+
+    /*==================================================
+               winter_process responsive css start
+   ==================================================*/
+    #winter_process {
+        margin-top: 60px;
+    }
+
+    #winter_process h3 {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 50px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #winter_process .winter_process_card {
+        height: auto;
+        padding-top: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    #winter_process .winter_process_card p {
+        font-size: 18px;
+        line-height: 33px;
+        font-weight: 400;
+        width: auto;
+        padding-bottom: 20px;
+    }
+
+    #winter_process .winter_process_card .winter_process_p_two {
+        width: auto;
+    }
+
+    #winter_process .winter_process_card .winter_process_p_three {
+        width: auto;
+    }
+
+    #winter_process .winter_process_card .winter_process_number {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /*==================================================
+               winter_process responsive css end
+   ==================================================*/
+
+    /*==================================================
+               winter_season responsive css start
+   ==================================================*/
+
+
+
+    #winter_season_info .winter_season_info_li_one {
+        width: auto;
+        margin: auto;
+    }
+
+
+    #winter_season_info {
+
+        margin-top: 60px;
+        padding-bottom: 30px;
+    }
+
+
+    /*==================================================
+               winter_season responsive css end
+   ==================================================*/
+
+    /* ---------------------------fusion page start---------------------- */
+
+    /*==================================================
+          fusion_header responsive css start
+   ==================================================*/
+    #fusion_header {
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #fusion_header .fusion_header_text {
+        height: auto;
+        padding-top: 40px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    #fusion_header .fusion_header_text .fusion_header_heading1 {
+
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 60px;
+        text-transform: uppercase;
+    }
+
+    #fusion_header .fusion_header_text .fusion_header_heading2 {
+
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 39px;
+        text-transform: uppercase;
+        width: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+
+    #fusion_header .fusion_header_text p {
+        font-family: 'Alef', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        width: auto;
+    }
+
+    #fusion_header .fusion_header_text ul {
+        margin-bottom: 40px;
+    }
+
+    /*==================================================
+          fusion_header responsive css end
+==================================================*/
+    /*==================================================
+          fusion_singnup responsive css start
+==================================================*/
+    #fusion_signing {
+        margin-top: 60px;
+    }
+
+    #fusion_signing .col-lg-4 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #fusion_signing h3 {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 60px;
+        color: #000066;
+        text-align: center;
+        width: auto;
+        margin: auto;
+        padding-bottom: 60px;
+    }
+
+    #fusion_signing .fusion_signing_card {
+        width: 100%;
+        height: auto;
+        padding-top: 80px;
+        padding-left: 15px;
+        padding-bottom: 80px;
+        position: relative;
+        z-index: -1;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    #fusion_signing .fusion_signing_card p {
+        margin: auto;
+    }
+
+    #fusion_signing .fusion_card-p_one {
+        width: auto;
+    }
+
+    #fusion_signing .fusion_card-p_two {
+        width: auto;
+    }
+
+    #fusion_signing .fusion_signing_card .fusion_card_number {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: -2;
+        transform: translate(-50%, -50%);
+    }
+
+    #fusion_signing .fusion_card-p_other {
+        padding-top: 0;
+    }
+
+    #fusion_signing .fusion_card-p_four {
+        width: auto;
+        padding-top: 0;
+    }
+
+    /*==================================================
+          fusion_singnup responsive css end
+   ==================================================*/
+    /*==================================================
+          fusion_invitation responsive css start
+    ==================================================*/
+
+
+    #fusion_invitation {
+        margin-top: 60px;
+    }
+
+    #fusion_invitation .fusion_invitation_accept {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #fusion_invitation .fusion_invitation_accept p {
+        width: auto;
+        margin: auto;
+    }
+
+    #fusion_invitation .fusion_invitation_accept .fusion_p_two {
+        padding-bottom: 80px;
+    }
+
+    #fusion_invitation .fusion_invitaion_bottom {
+        text-align: center;
+        margin-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    #fusion_invitation .fusion_invitaion_bottom .fusion_bottom_p_one {
+        width: auto;
+    }
+
+    #fusion_invitation .fusion_invitaion_bottom .fusion_bottom_p_two {
+        width: auto;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    #fusion_invitation .fusion_invitaion_bottom h5 {
+        line-height: 60px;
+    }
+
+    #fusion_invitation .fusion_invitaion_bottom .fusion_bottom_btn {
+
+        padding: 30px 29px;
+    }
+
+    /*==================================================
+          fusion_invitation responsive css end
+     ==================================================*/
+
+    /* ---------------------------united page start---------------------- */
+
+
+    /*==================================================
+           united header responsive css start
+     ==================================================*/
+    #united_header {
+
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #united_header .united_header_text {
+        height: auto;
+        padding-top: 60px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
+    #united_header .united_header_text .united_header_heading1 {
+
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 59px;
+        display: block;
+    }
+
+    #united_header .united_header_text .united_header_heading2 {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 39px;
+        text-transform: uppercase;
+        width: auto;
+        margin-left: 0;
+        vertical-align: top;
+        margin-top: 20px;
+    }
+
+    #united_header .united_header_text p {
+        width: auto;
+    }
+
+    #united_header .united_header_text ul {
+        margin-bottom: 40px;
+    }
+
+
+
+    /*==================================================
+           united header responsive css end
+     ==================================================*/
+    /*==================================================
+           united signup responsive css start
+     ==================================================*/
+    #united_signup {
+        margin-top: 80px;
+        padding-bottom: 100px;
+    }
+
+    #united_signup .col-lg-4 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #united_signup .united_signup_card p {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 39px;
+        color: #ffffff;
+        width: auto;
+
+    }
+
+    #united_signup .united_signup_card {
+        height: auto;
+        padding-top: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+
+    #united_signup .united_signup_card p {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 39px;
+        width: auto;
+    }
+
+    #united_signup .united_signup_card .united_signup_p_two {
+        width: auto;
+    }
+
+    #united_signup .united_bottom h2 {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 46px;
+        margin-top: 90px;
+    }
+
+    #united_signup .united_bottom a {
+
+        padding: 30px 29px;
+    }
+
+    /*==================================================
+           united signup responsive css end
+     ==================================================*/
+    /* -----------------------------rec program responsive start --------------------- */
+
+    /*==================================================
+           rec program header css start
+    ==================================================*/
+
+    #rec_program {
+
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #rec_program .rec_program_header_text {
+        width: 100%;
+        padding-top: 80px;
+        padding-left: 15px;
+        padding-bottom: 80px;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    #rec_program .rec_program_header_text h1 {
+
+        font-size: 38px;
+        font-weight: 400;
+        line-height: 54px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+
+    #rec_program .rec_program_header_text p {
+        width: auto;
+    }
+
+
+
+
+
+    /*==================================================
+           rec program header css end
+    ==================================================*/
+    /*==================================================
+           rec program accordian css start
+    ==================================================*/
+
+    #rec_program_accordian {
+        margin-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    #rec_program_accordian .card-header h5 button .rec_program_accordian_cross {
+        display: none;
+        background: #FFFFFF;
+        border-radius: 56.5px;
+        padding: 15px 60px;
+        position: relative;
+        top: 15px;
+        right: 30px;
+
+    }
+
+    #rec_program_accordian .card-header h5 .collapsed .rec_program_accordian_expand {
+        display: none;
+        background: #FFFFFF;
+        border-radius: 56.5px;
+        padding: 20px 60px;
+        position: relative;
+        top: 15px;
+        right: 30px;
+    }
+
+    #rec_program_accordian .card-header h5 button {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 39px;
+        color: #2056A5;
+        text-decoration: none;
+        background: #00D5F1;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 100%;
+        text-align: left;
+        position: relative;
+    }
+
+
+
+
+
+    #rec_program_accordian .card-body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #rec_program_accordian .card-body .rec_accordian_left p {
+
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        width: auto;
+        padding-bottom: 30px;
+    }
+
+    #rec_program_accordian .card-header h5 .collapsed {
+        font-size: 18px;
+        line-height: 39px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: left;
+
+    }
+
+    #rec_program_accordian .card-body .rec_accordian_right {
+        padding: 20px;
+    }
+
+    #rec_program_accordian .card-body .rec_accordian_right .rec_accordian_text_btn_main {
+        text-align: center;
+    }
+
+    /*==================================================
+           rec program accordian css end
+    ==================================================*/
+
+
+    /* -----------------------about page start-------------------- */
+
+    /*==================================================
+           about_header responsive css start
+  ==================================================*/
+    #about_header {
+
+
+        height: 1100px;
+        padding-top: 40px;
+        text-align: center;
+    }
+
+
+    #about_header .about_texts {
+
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #about_header .about_texts h1 {
+        font-size: 32px;
+        line-height: 42px;
+        width: auto;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    #about_header .about_texts p {
+
+        font-size: 18px;
+        line-height: 24px;
+        width: auto;
+        margin: auto;
+    }
+
+    #about_header .about_texts a {
+
+
+
+        padding: 30px 38px;
+        margin-top: 80px;
+    }
+
+    /*==================================================
+            about_header responsive css end
+   ==================================================*/
+
+    /*==================================================
+            about_philosophy responsive css start
+   ==================================================*/
+
+    #about_philosophy {
+        margin-top: 850px;
+    }
+
+
+    #about_philosophy .title h4 {
+
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+
+    #about_philosophy .title p {
+
+        font-size: 28px;
+        line-height: 36px;
+        width: auto;
+        margin: auto;
+        padding-bottom: 80px;
+    }
+
+    #about_philosophy .about_philosophy_card {
+        height: 415px;
+        padding-top: 80px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+
+
+
+
+    #about_philosophy .about_philosophy_card p {
+
+        font-size: 24px;
+        line-height: 33px;
+        width: auto;
+    }
+
+
+    #about_philosophy .about_philosophy_card .about_card_img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+
+
+    /*==================================================
+            about_philosophy responsive css end
+   ==================================================*/
+    /*==================================================
+            about_volunteer responsive css start
+   ==================================================*/
+
+    #about_volunteers .col-lg-5 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #about_volunteers .col-lg-7 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #about_volunteers {
+        margin-top: 100px;
+    }
+
+    #about_volunteers .about_volunteers_left {
+        height: auto;
+    }
+
+    #about_volunteers .about_volunteers_right {
+        height: auto;
+        padding-top: 100px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 100px;
+        text-align: center;
+    }
+
+    #about_volunteers .about_volunteers_right h3 {
+        font-size: 32px;
+        width: auto;
+        margin-bottom: 80px;
+        line-height: 39px;
+    }
+
+    #about_volunteers .about_volunteers_right h4 {
+        font-size: 26px;
+        line-height: 39px;
+        width: auto;
+        margin-bottom: 40px;
+    }
+
+    #about_volunteers .about_volunteers_right P {
+
+        font-size: 18px;
+        line-height: 24px;
+        width: auto;
+    }
+
+    #about_volunteers .about_volunteers_right a {
+
+        padding: 30px 52px;
+
+    }
+
+    /*==================================================
+            about_volunteer responsive css end
+   ==================================================*/
+
+    /* ------------------------------volunteer page start----------------------- */
+
+    /*==================================================
+          volunteer header responsive css start
+    ==================================================*/
+    #volunteer_header {
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #volunteer_header .volunteer_header_text {
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #volunteer_header .volunteer_header_text h1 {
+        font-size: 36px;
+        line-height: 49px;
+    }
+
+    #volunteer_header .volunteer_header_text h3 {
+
+        font-size: 28px;
+        line-height: 35px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    #volunteer_header .volunteer_header_text p {
+
+        width: auto;
+        margin: auto;
+    }
+
+    #volunteer_header .volunteer_header_text a {
+
+        font-size: 16px;
+        line-height: 24px;
+        padding: 30px 21px;
+        margin-top: 60px;
+    }
+
+    /*==================================================
+          volunteer header responsive css end
+    ==================================================*/
+    /*==================================================
+          volunteer begin responsive css start
+    ==================================================*/
+
+
+    #volunteer_begin .col-lg-4 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    #volunteer_begin .col-lg-8 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+
+    #volunteer_begin .volunteer_begin_left {
+        height: auto;
+    }
+
+    #volunteer_begin .volunteer_begin_right {
+
+        height: auto;
+        padding-top: 60px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
+
+    #volunteer_begin .volunteer_begin_right h3 {
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 40px;
+    }
+
+    #volunteer_begin .volunteer_begin_right p {
+
+        width: auto;
+    }
+
+    #volunteer_begin .volunteer_begin_right ul .volunteer_begin_first {
+        width: auto;
+    }
+
+    #volunteer_begin .volunteer_begin_right ul .volunteer_begin_second {
+        width: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+
+
+    #volunteer_begin .volunteer_begin_right ul .volunteer_begin_third {
+        width: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    /*==================================================
+          volunteer begin responsive css end
+    ==================================================*/
+    /*==================================================
+          volunteer role responsive css start
+    ==================================================*/
+    #volunteer_role .col-lg {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    #volunteer_role .col-lg-3 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    #volunteer_role {
+        margin-top: 80px;
+        text-align: center;
+    }
+    #volunteer_role .title h3 {
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 50px;
+    }
+
+    #volunteer_role .volunteer_top_card {
+       
+        padding-top: 100px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 300px;
+        margin: auto;
+    }
+    #volunteer_role .volunteer_top_card p {
+
+       
+        width: auto;
+
+    }
+
+    #volunteer_role .volunteer_top_card .volunteer_p_two {
+        width: auto;
+    }
+
+    #volunteer_role .volunteer_top_card .volunteer_p_three {
+        width: auto;
+    }
+
+    #volunteer_role .volunteer_top_card .volunteer_p_four {
+        width: auto;
+    }
+
+    #volunteer_role .volunteer_top_card .volunteer_p_five {
+        width: auto;
+    }
+
+
+    #volunteer_role .volunteer_middle_p {
+       
+        width: auto;
+        margin: auto;
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    #volunteer_role .volunteer_bottom_card {
+
+        padding-top: 80px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #volunteer_role .volunteer_bottom_card .volunteer_bottom_p_one {
+        width: auto;
+    }
+
+    #volunteer_role .volunteer_bottom_card .volunteer_bottom_p_two {
+        width: auto;
+    }
+
+    #volunteer_role .volunteer_bottom_card .volunteer_bottom_p_three {
+        width: auto;
+    }
+
+    #volunteer_role .volunteer_bottom_card .volunteer_bottom_p_four {
+        width: auto;
+    }
+
+
+    /*==================================================
+          volunteer role responsive css end
+    ==================================================*/
+  /*==================================================
+             volunteer safe responsive css start
+    ==================================================*/
+   
+
+
+
+
+    #volunteer_safe h3 {
+       
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 50px;
+    }
+    #volunteer_safe p {
+        width: auto;
+        margin: auto;
+        text-align: center;
+    }
+    #volunteer_safe h4 {
+        font-size: 28px;
+        line-height: 39px;
+    }
+    #volunteer_safe .volunteer_h4_one {
+        width: auto;
+        margin: auto;
+        padding-top: 40px;
+    }
+
+    #volunteer_safe .volunteer_btn {
+      
+        padding: 30px 62px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+
+    #volunteer_safe .volunteer_p_two {
+        width: auto;
+    }
+  /*==================================================
+             volunteer safe responsive css end
+    ==================================================*/
+     
+      /*==================================================
+             volunteer helpful responsive css start
+    ==================================================*/
+
+
+    #volunteer_helpful .col-lg-5 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+    #volunteer_helpful .col-lg-7 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    #volunteer_helpful .volunteer_helpful_left {
+        height: auto;
+        padding-left: 15px;
+        padding-top: 80px;
+        padding-right: 15px;
+        padding-bottom: 80px;
+        text-align: center;
+    }
+    #volunteer_helpful .volunteer_helpful_left h3 {
+        font-size: 36px;
+        line-height: 50px;
+        width: auto;
+        margin-bottom: 60px;
+    }
+
+    #volunteer_helpful .volunteer_helpful_left .volunteer_link_one {
+        width: auto;
+    }
+
+
+    #volunteer_helpful .volunteer_helpful_left .volunteer_link_two {
+        width: auto;
+        margin-top: 30px;
+    }
+
+    #volunteer_helpful .volunteer_helpful_right {
+        height: auto;
+    }
+
+      /*==================================================
+             volunteer helpful responsive css end
+    ==================================================*/
+
+
+    /*--------------------- faq page responsive start-------------------- */
+
+    /*==========================================
+                faq banner responsive start
+      ==========================================*/
+      #faq-banner {
+        height: 380px;
+    }
+
+    #faq-banner .heading {
+
+        padding-top: 60px;
+    }
+
+    #faq-banner .heading h1 {
+
+        font-size: 49px;
+        letter-spacing: 1px;
+
+    }
+
+    /*==========================================
+                faq banner responsive end
+      ==========================================*/
+
+
+    /*==========================================
+                faq wh question responsive start
+      ==========================================*/
+
+    #faq-wh-question {
+        transform: translatey(-215px);
+        width: 100%;
+        height: 100%;
+    }
+
+    #faq-wh-question .left-box {
+        width: 92%;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    #faq-wh-question .right-box {
+        width: 100%;
+        height: auto;
+    }
+
+    #faq-wh-question .left-box-2nd {
+        width: 92%;
+        height: 200px;
+        margin: 0 auto;
+        background: #00D5F1 !important;
+    }
+
+    #faq-wh-question .right-box-2nd {
+        width: 100%;
+        height: auto;
+        background: #ffffff !important;
+    }
+
+    #faq-wh-question .right-box .text {
+        padding: 0px 15px !important;
+        align-self: center;
+
+    }
+
+    #faq-wh-question .right-box .text p {
+        font-family: 'Alef', sans-serif;
+        font-size: 18px;
+        color: #2056A5;
+        text-align: center;
+        padding: 20px 15px;
+    }
+
+    #faq-wh-question .left-box .text h4 {
+        font-size: 26px;
+
+    }
+
+
+    #faq-wh-question .right-box-2nd .text {
+        padding: 0px 0px !important;
+        align-self: center;
+
+    }
+
+    #faq-wh-question .right-box-2nd .text p {
+        font-family: 'Alef', sans-serif;
+        font-size: 18px;
+        color: #2056A5;
+        text-align: center;
+        padding: 20px 15px;
+
+    }
+
+    #faq-wh-question .left-box-2nd .text h4 {
+        font-size: 26px;
+
+
+    }
+
+    #faq-wh-question .left-box-2nd .text {
+        padding: 0px;
+    }
+
+    #faq-wh-question .right-box-2nd {
+        width: 94%;
+        margin: 0px 10px;
+    }
+
+    #faq-wh-question .left-box .text {
+        padding: 0px;
+    }
+
+    /*==========================================
+                faq wh question responsive end
+      ==========================================*/
+
+    /*==========================================
+           faq  question responsive start
+      ==========================================*/
+    #faq-question {
+        transform: translateY(-170px);
+        height: 100%;
+    }
+
+    #faq-question .plus {
+        font-size: 42px;
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+
+    #faq-question .faq-content {
+        width: 100%;
+        padding: 0px 5px;
+    }
+
+    #faq-question .panel-title {
+        font-size: 24px;
+    }
+
+    #faq-question .faq-question {
+        margin-top: 20px;
+    }
+
+    #faq-question .panel-title {
+        padding: 10px 10px 0 40px;
+    }
+
+    #faq-question .panel-content .left-box {
+        background: #00D5F1;
+        width: 94%;
+        height: 200px !important;
+        margin: 0 auto;
+    }
+
+    #faq-question .panel-content .right-box {
+        background: #ffffff;
+        width: 100%;
+        height: auto;
+    }
+
+
+
+
+    #faq-question .panel-content .left-box .text {
+        padding: 0px 10px !important;
+
+    }
+
+    #faq-question .panel-content .left-box .text h4 {
+
+        font-size: 26px !important;
+
+    }
+
+    #faq-question .panel-content .right-box .text {
+        padding: 0px 10px !important;
+
+    }
+
+    #faq-question .panel-content .left-box .text h4 {
+
+        font-size: 26px !important;
+
+    }
+
+
+    #faq-question .panel-content .right-box .text p {
+        padding: 20px 15px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #faq-question .panel-content {
+        margin: 0px 10px;
+    }
+
+
+    #faq-question .panel-content .left-box-2nd {
+        margin: 0 auto;
+        width: 94%;
+        height: 200px !important;
+
+    }
+
+    #faq-question .panel-content .right-box-2nd {
+
+        width: 100%;
+        height: auto;
+
+    }
+
+    #faq-question .panel-content .right-box-2nd .text {
+
+        padding: 0px 10px !important;
+    }
+
+    #faq-question .panel-content .right-box-2nd .text p {
+        padding: 20px 15px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #faq-question .panel-content .left-box-2nd .text {
+
+        padding: 0px 10px !important;
+    }
+
+    #faq-question .panel-content .left-box-2nd .text h4 {
+
+        font-size: 26px;
+
+    }
+
+    /*==========================================
+           faq  question responsive start
+      ==========================================*/
+
+    /* -----------------program fee page  responsive start----------------------- */
+    #program-fee-banner {
+        width: 100%;
+        height: 450px;
+
+    }
+
+    #program-fee-banner .heading {
+
+        padding-top: 60px;
+    }
+
+    #program-fee-banner .heading h1 {
+        font-size: 45px;
+    }
+
+    #program-fee-banner .heading P {
+        font-size: 22px;
+    }
+
+    #program-fee-price {
+        transform: translateY(-130px);
+    }
+
+
+    #program-fee-price .box {
+        width: 94%;
+        height: 320px;
+
+
+
+    }
+
+    #program-fee-price .box .text h5 {
+        font-size: 32px;
+    }
+
+
+    #program-fee-price .box .text h5 span {
+        font-size: 24px;
+
+
+    }
+
+    #program-fee-price .box .text h2 {
+        font-size: 48px;
+        margin-top: 30px;
+
+
+    }
+
+    #program-fee-price .box .text h2 .each {
+        font-size: 44px;
+        margin: 0px 0px;
+
+    }
+
+    #program-fee-price .box .text h2 .both {
+        font-size: 44px;
+        margin: 0px 10px;
+
+    }
+
+    #program-fee-price .box .text h2 span {
+        font-size: 28px;
+        margin: 0px 20px;
+    }
+
+    #program-fee-price .box .text p {
+        font-size: 22px;
+        font-family: 'Alfa Slab One';
+        margin-top: 10px;
+
+    }
+
+    /* //////////////////////////////////////////////////// */
+
+    #program-fee-player-fee {
+
+        width: 100%;
+        transform: translateY(-100px);
+
+    }
+
+    #program-fee-player-fee .heading h1 {
+        font-size: 44px;
+        padding: 0px 20px;
+    }
+
+    #program-fee-player-fee .box .text h2 {
+        font-size: 34px;
+        font-family: 'Alfa Slab One';
+        color: #ffffff;
+    }
+
+    #program-fee-player-fee .box {
+        background: #6226A8;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 30px 10px;
+    }
+
+
+    #program-fee-player-fee .box .text h5 {
+        margin-top: 15px;
+        font-size: 24px;
+
+    }
+
+    #program-fee-player-fee .box .text p {
+        margin-top: 55px;
+        font-size: 18px;
+        text-align: center;
+        padding: 0px 5px;
+    }
+
+    #program-fee-player-fee .box .text a {
+        padding: 30px 50px;
+        border-radius: 45px;
+        margin-top: 50px;
+        font-weight: 700;
+        box-sizing: border-box;
+    }
+
+    /* //////////////////////////////////////////////////// */
+
+
+    #resources-banner {
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    #resources-banner .heading {
+        padding-top: 60px;
+    }
+
+    #resources-banner .heading h1 {
+        font-size: 38px;
+    }
+
+    #resources-banner .heading P {
+        font-size: 30px;
+        margin-top: 50px;
+
+    }
+
+    #resources-banner .heading P span {
+        font-size: 18px;
+    }
+
+
+    #resources-banner .heading a {
+        padding: 10px 30px;
+    }
+
+    /* ///////////////////////////////////////// */
+    #resources-steps .heading {
+
+        margin-top: 40px;
+    }
+
+
+    #resources-steps .heading h2 {
+
+        font-size: 24px;
+
+    }
+
+
+    #resources-steps .box {
+        width: 100%;
+        padding: 50px 0px;
+
+    }
+
+    #resources-steps .box p {
+        font-size: 18px;
+        padding: 0px 10px;
+
+    }
+
+    #resources-steps .reg a {
+
+        padding: 10px 30px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    /* ////////////////////////////////////////////////////////// */
+
+
+    #seasion-banner {
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    #seasion-banner .heading {
+        padding-top: 60px;
+    }
+
+    #seasion-banner .heading h1 {
+        font-size: 44px;
+    }
+
+    #seasion-banner .box {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        width: auto;
+    }
+
+    #seasion-banner .box .image {
+        width: 100%;
+    }
+
+    #seasion-banner .box .text {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #seasion-banner .box .image .left {
+        width: 100%;
+    }
+
+    #seasion-banner .box .text {
+        padding: 0px 15px;
+    }
+
+    #seasion-banner .box .text h6 {
+        font-size: 28px;
+    }
+
+    #seasion-banner .box .text p {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    #seasion-banner .seasion_banner_button {
+        padding: 15px 72px;
+        margin-top: 30px;
+    }
+
+    #seasion-banner .seasion_banner_arrow_div {
+        text-align: center;
+    }
+
+    #seasion-banner .seasion_banner_arrow_div .seasion_banner_arrow {
+        margin-top: 30px;
+    }
+
+    /* //////////////////////////////////////////////////// */
+
+
+    #seasion-seasion-list {
+        margin-top: 30px;
+
+    }
+
+    #seasion-seasion-list .left-box {
+        width: 92%;
+        height: 200px;
+        margin: 15px;
+    }
+
+    #seasion-seasion-list .right-box {
+        width: 94%;
+        height: auto;
+        margin: 0px 10px;
+     
+
+    }
+
+    #seasion-seasion-list .left-box-2nd {
+        width: 92%;
+        height: 200px;
+        margin: 15px;
+        background: #6226A8;
+    }
+
+
+
+
+    #seasion-seasion-list .right-box-2nd {
+        width: 94%;
+        margin: 0px 10px;
+        height: auto !important;
+        background: #F2FEFF !important;
+    }
+
+    #seasion-seasion-list .right-box .text {
+        padding: 0px 10px !important;
+        align-self: center;
+
+    }
+
+    #seasion-seasion-list .right-box .text p {
+        font-family: 'Alef', sans-serif;
+        font-size: 18px;
+        color: #2056A5;
+        text-align: center;
+        padding: 20px 5px;
+    }
+
+    #seasion-seasion-list .left-box .text h4 {
+        font-size: 26px;
+
+    }
+
+
+    #seasion-seasion-list .right-box-2nd .text {
+        padding: 0px 0px !important;
+        align-self: center;
+
+    }
+
+    #seasion-seasion-list .right-box-2nd .text p {
+        font-family: 'Alef', sans-serif;
+        font-size: 18px;
+        color: #2056A5;
+        text-align: center;
+        padding: 20px 5px;
+        width: auto;
+    }
+
+    #seasion-seasion-list .left-box-2nd .text h4 {
+        font-size: 26px;
+        color: #ffffff;
+
+    }
+
+    #seasion-seasion-list .left-box-2nd .text {
+        padding: 0px;
+    }
+
+
+
+    #seasion-seasion-list .left-box .text {
+        padding: 0px;
+    }
+      /*==========================================
+                seassion links responsive start
+      ==========================================*/
+      #seasion_links_items .col-lg-3{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+      #seasion_links_items .seasion_links_items_title h3 {
+       
+        font-size: 32px;
+        line-height: 50px;
+
+    }
+    #seasion_links_items .seasion_links_iteams_cards p {
+        
+        font-size: 28px;
+        line-height: 40px;
+
+    }
+
+    #seasion_links_items .seasion_links_iteams_cards {
+    
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+
+   
+   /*==========================================
+                seassion links responsive end
+      ==========================================*/
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------medium mobile screen-------------------------- */
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .container {
+        max-width: 100% !important;
+    }
+
+    /*==========================================
+                register modal responsive start
+      ==========================================*/
+    #exampleModal .modal-dialog {
+        max-width: 98% !important;
+    }
+
+    #exampleModal .modal-dialog .modal-header {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #exampleModal .title__heading {
+        font-size: 48px;
+        line-height: 79px;
+    }
+
+    #exampleModal .modal-dialog .modal-body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #exampleModal .modal-input-fields input {
+        width: 100%;
+
+    }
+
+    #exampleModal .modal_btn_bottom {
+        padding: 20px 99px;
+    }
+
+    #exampleModal .title__heading {
+        margin-top: 20px;
+    }
+
+    #exampleModal .modal_p {
+        width: auto;
+    }
+
+
+    /*==========================================
+              register modal responsive end
+    ==========================================*/
+
+
+
+    /*==========================================
+                navbar responsive start
+      ==========================================*/
+    .navbar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+
+    }
+
+    .navbar_bar {
+        outline: 0 !important;
+        font-size: 24px;
+    }
+
+    .navbar .logo img {
+        top: -10px;
+        width: 100px;
+    }
+
+    .navbar ul {
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    .ayso_dropdown_color {
+        margin-left: 0;
+        padding-top: 15px;
+    }
+
+    .ayso_dropdown_menu-last {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .dropdown-toggle::after {
+        display: inline-block;
+    }
+
+    .dropdown-menu {
+        text-align: center;
+    }
+
+    .ayso_dropdown_menu {
+        margin-left: 0;
+    }
+
+    .ayso_dropdown_menu .dropdown-item {
+
+        padding: 10px 20px;
+    }
+
+    nav .Nav_btn-right {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    .sticky .ayso_dropdown_menu-last {
+        margin-right: 0;
+    }
+
+    .sticky .logo img {
+        width: 90px !important;
+        top: -15px;
+    }
+
+    /*==========================================
+                navbar responsive end
+      ==========================================*/
+
+    /*==========================================
+                footer responsive start
+      ==========================================*/
+    #footer .footer_brand .photo {
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    #footer .footer_brand .photo-first {
+        text-align: center;
+        padding-top: 10px;
+        width: 300px;
+        margin: auto;
+    }
+
+    #footer .footer_brand .photo-second {
+        padding-top: 30px;
+        width: 245px;
+        margin: auto;
+    }
+
+    #footer .footer_brand .photo-third {
+        padding-top: 40px;
+    }
+
+    #footer .footer_brand .photo-fourth {
+        margin: auto;
+    }
+
+    #footer .footer_bottom {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    #footer .footer_copyright {
+        line-height: 35px;
+    }
+
+    #footer .footer_terms {
+        padding-top: 0;
+    }
+
+    #footer .footer_bottom_right {
+        text-align: center;
+    }
+
+    #footer .footer_socialicons ul li {
+        margin-left: 30px;
+    }
+
+    #footer .footer_follow {
+        padding-top: 0;
+    }
+
+    /*==========================================
+                footer responsive end
+      ==========================================*/
+
+
+    /* --------------------home page responsive start ---------------------- */
+
+    /*==========================================
+                  home header responsive start
+      ==========================================*/
+
+    #home_header {
+
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    #home_header .home_header_ragion {
+        width: auto;
+        height: auto;
+
+
+
+        margin-top: 60px;
+    }
+
+    #home_header .home_header_heading {
+        padding-left: 0;
+        padding-top: 90px;
+        font-size: 36px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    #home_header .home_header_ragion_center p {
+        font-family: 'Alef', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #ffffff;
+        width: auto;
+        padding-top: 40px;
+        padding-left: 20px;
+        text-align: left;
+        padding-right: 20px;
+    }
+
+    #home_header .home_header_ragion_center_link {
+        text-align: right;
+    }
+
+    #home_header .home_header_ragion_center a {
+        display: inline-block;
+        text-align: right;
+        padding-top: 40px;
+        padding-right: 50px;
+    }
+
+    #home_header .home_header_bottom {
+        margin-top: 50px;
+    }
+
+    #home_header .home_header_bottom_left p {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 24px;
+        line-height: 39px;
+        font-weight: 400;
+        color: #ffffff;
+        width: auto;
+        text-align: center;
+    }
+
+    #home_header .home_header_bottom_right {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    #home_header .home_header_bottom_right a {
+
+        padding: 25px 77px;
+
+    }
+
+    /*==========================================
+                  home header responsive end
+      ==========================================*/
+    /*==========================================
+         home_community_care responsive start
+      ==========================================*/
+    #home_community_care .col-lg-7 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #home_community_care .col-lg-5 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #home_community_care .home_community_care_left {
+        padding-left: 30px;
+        text-align: left;
+        height: auto;
+        padding-bottom: 40px;
+        padding-right: 30px;
+    }
+
+    #home_community_care .home_community_care_left h2 {
+
+        font-size: 36px;
+        line-height: 50px;
+        width: auto;
+        margin-bottom: 40px;
+        padding-top: 30px;
+        text-align: left;
+    }
+
+    #home_community_care .home_community_care_left p {
+        font-size: 18px;
+        line-height: 24px;
+        width: auto;
+        text-align: left;
+    }
+
+    /*==========================================
+         home_community_care responsive end
+      ==========================================*/
+
+    /*==========================================
+         home_social responsive start
+      ==========================================*/
+    #home_social {
+        margin-top: 60px;
+    }
+
+    #home_social .title h3 {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 36px;
+        font-weight: 65px;
+        font-weight: 400;
+        color: #000066;
+        margin-bottom: 60px;
+        line-height: 49px;
+    }
+
+    /*==========================================
+         home_social responsive end
+      ==========================================*/
+
+
+    /* ------------------------------porgrams core page responsive start----------------------- */
+
+
+    /*==========================================
+             programs_header responsive start
+      ==========================================*/
+    #programs_header {
+        padding-top: 40px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    #programs_header .programs_header_texts {
+        padding-left: 0;
+    }
+
+    #programs_header .programs_header_texts {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #programs_header .programs_header_texts h1 {
+        font-size: 36px;
+        line-height: 55px;
+        font-weight: 400;
+        width: auto;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        text-align: left;
+    }
+
+
+    #programs_header .programs_header_texts p {
+        font-size: 18px;
+        line-height: 24px;
+        width: auto;
+        text-align: left;
+    }
+
+
+
+    /*==========================================
+             programs_header responsive end
+      ==========================================*/
+
+    /*==========================================
+         programs_ayso_programs responsive start
+      ==========================================*/
+    #programs_ayso_programs .col-lg-4 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #programs_ayso_programs {
+        margin-top: 60px;
+    }
+
+    #programs_ayso_programs .title h3 {
+        font-size: 36px;
+        line-height: 55px;
+        font-weight: 400;
+        color: #6226A8;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    #programs_ayso_programs .programs_ayso_programs_card .overlay_2 {
+        padding: 40px 30px 30px 60px;
+        text-align: left;
+    }
+
+    #programs_ayso_programs .programs_ayso_programs_card .overlay_2 h4 {
+
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        margin-bottom: 25px;
+        padding-top: 10px;
+    }
+
+    #programs_ayso_programs .programs_ayso_programs_card .overlay_2 p {
+        width: auto;
+        line-height: 35px;
+       
+    }
+
+    #programs_ayso_programs .programs_ayso_programs_card .overlay h4 {
+        padding-top: 100px;
+    }
+    #programs_ayso_programs .programs_ayso_programs_card .overlay_2 a {
+      
+        margin-left: 0;
+        
+    }
+
+    /*==========================================
+         programs_ayso_programs responsive end
+      ==========================================*/
+    /*==================================================
+           programs_summer_camp responsive css start
+      ==================================================*/
+
+
+    #programs_summer_camp .col-lg-7 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #programs_summer_camp .col-lg-5 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #programs_summer_camp {
+        margin-top: 80px;
+    }
+
+    #programs_summer_camp .programs_summer_camp_left {
+        padding-left: 30px;
+        text-align: left;
+        height: auto;
+        padding-bottom: 60px;
+    }
+
+    #programs_summer_camp .programs_summer_camp_left h2 {
+
+        font-size: 36px;
+        line-height: 58px;
+        width: auto;
+        margin-bottom: 50px;
+        padding-top: 60px;
+        text-transform: uppercase;
+        text-align: left;
+    }
+
+    #programs_summer_camp .programs_summer_camp_left p {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        width: auto;
+        text-align: left;
+    }
+
+
+    /*==================================================
+           programs_summer_camp responsive css end
+      ==================================================*/
+
+
+    /* -----------------summer camp page  start--------------------- */
+
+
+    /*==================================================
+          summer_camp_header responsive css start
+    ==================================================*/
+    #summer_camp_header {
+        height: auto;
+        padding-top: 40px;
+    }
+
+    #summer_camp_header .summer_camp_header_text {
+        height: auto;
+        padding-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 50px;
+    }
+
+    #summer_camp_header .summer_camp_header_text h1 {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 50px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    #summer_camp_header .summer_camp_header_text h2 {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 35px;
+        margin-bottom: 40px;
+        text-align: left;
+        width: 460px;
+    }
+
+    #summer_camp_header .summer_camp_header_text p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        width: auto;
+        text-align: left;
+    }
+
+    /*==================================================
+          summer_camp_header responsive css end
+    ==================================================*/
+    /*==================================================
+          summer_camp_looking responsive css start
+    ==================================================*/
+    #summer_camp_looking {
+        padding: 60px 0;
+    }
+
+    #summer_camp_looking h3 {
+        font-size: 32px;
+        line-height: 45px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 42px;
+    }
+
+    #summer_camp_looking ul .summer_camp_li_one {
+        width: auto;
+        margin: auto;
+    }
+
+    #summer_camp_looking h4 {
+
+        font-size: 32px;
+        line-height: 39px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-top: 70px;
+    }
+
+    #summer_camp_looking a {
+
+        padding: 30px 29px;
+
+    }
+
+    /*==================================================
+          summer_camp_looking responsive css end
+    ==================================================*/
+    /* --------------------------winter page responsive start-------------------- */
+
+    /*==================================================
+               winter_header responsive css start
+   ==================================================*/
+    #winter_header {
+        height: auto;
+        padding-top: 40px;
+    }
+
+    #winter_header .winter_header_text {
+        height: auto;
+        padding-top: 50px;
+        padding-left: 0;
+        padding-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #winter_header .winter_header_text h1 {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 50px;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
+    #winter_header .winter_header_text p {
+        font-family: 'Alef', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #fff;
+        width: auto;
+        text-align: left;
+    }
+
+    /*==================================================
+           winter_header responsive css end
+==================================================*/
+    /*==================================================
+           winter_facility responsive css start
+==================================================*/
+    #winter_facility .col-lg-6 {
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+    #winter_facility .winter_facility_left {
+        padding: 30px 10px 30px 60px;
+    }
+
+    #winter_facility .winter_facility_right {
+        padding: 30px 10px 30px 60px;
+    }
+
+    #winter_facility ul li {
+
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 26px;
+        width: auto;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+
+    /*==================================================
+           winter_facility responsive css end
+==================================================*/
+
+    /*==================================================
+           winter_process responsive css start
+==================================================*/
+    #winter_process {
+        margin-top: 60px;
+    }
+
+    #winter_process h3 {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 50px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #winter_process .winter_process_card {
+        height: auto;
+        padding-top: 80px;
+        padding-left: 140px;
+        padding-right: 15px;
+        text-align: left;
+        padding-bottom: 30px;
+    }
+    #winter_process .winter_process_card p {
+        font-size: 18px;
+        line-height: 33px;
+        font-weight: 400;
+        width: auto;
+        padding-bottom: 20px;
+    }
+
+    #winter_process .winter_process_card .winter_process_p_two {
+        width: auto;
+    }
+
+    #winter_process .winter_process_card .winter_process_p_three {
+        width: auto;
+    }
+
+    #winter_process .winter_process_card .winter_process_number {
+        position: absolute;
+        top: 25%;
+        left: 14%;
+    }
+
+    /*==================================================
+           winter_process responsive css end
+==================================================*/
+
+    /*==================================================
+           winter_season responsive css start
+==================================================*/
+
+
+
+    #winter_season_info .winter_season_info_li_one {
+        width: auto;
+        margin: auto;
+    }
+
+
+    #winter_season_info {
+
+        margin-top: 60px;
+        padding-bottom: 30px;
+    }
+
+
+    /*==================================================
+           winter_season responsive css end
+==================================================*/
+
+
+
+    /* ---------------------------fusion page start---------------------- */
+
+    /*==================================================
+          fusion_header responsive css start
+   ==================================================*/
+    #fusion_header {
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #fusion_header .fusion_header_text {
+        height: auto;
+        padding-top: 40px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 40px;
+        text-align: left;
+    }
+
+    #fusion_header .fusion_header_text .fusion_header_heading1 {
+
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 60px;
+        text-transform: uppercase;
+    }
+
+    #fusion_header .fusion_header_text .fusion_header_heading2 {
+
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 39px;
+        text-transform: uppercase;
+        width: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+
+    #fusion_header .fusion_header_text p {
+        font-family: 'Alef', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        width: auto;
+    }
+
+    #fusion_header .fusion_header_text ul {
+        margin-bottom: 40px;
+    }
+
+    /*==================================================
+      fusion_header responsive css end
+==================================================*/
+    /*==================================================
+      fusion_singnup responsive css start
+==================================================*/
+    #fusion_signing {
+        margin-top: 60px;
+    }
+
+    #fusion_signing .col-lg-4 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #fusion_signing h3 {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 60px;
+        color: #000066;
+        text-align: center;
+        width: auto;
+        margin: auto;
+        padding-bottom: 60px;
+    }
+
+    #fusion_signing .fusion_signing_card {
+        width: 100%;
+        height: auto;
+        padding-top: 80px;
+        padding-left: 15px;
+        padding-bottom: 80px;
+        position: relative;
+        z-index: -1;
+        padding-right: 15px;
+        text-align: left;
+    }
+
+    #fusion_signing .fusion_signing_card p {
+        margin: auto;
+    }
+
+    #fusion_signing .fusion_card-p_one {
+        width: 320px;
+    }
+
+    #fusion_signing .fusion_card-p_two {
+        width: 290px;
+    }
+
+    #fusion_signing .fusion_signing_card .fusion_card_number {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: -2;
+        transform: translate(-50%, -50%);
+    }
+
+    #fusion_signing .fusion_card-p_other {
+        padding-top: 0;
+        width: 280px;
+    }
+
+    #fusion_signing .fusion_card-p_four {
+        width: 290px;
+        padding-top: 0;
+    }
+
+    /*==================================================
+      fusion_singnup responsive css end
+==================================================*/
+    /*==================================================
+      fusion_invitation responsive css start
+==================================================*/
+
+
+    #fusion_invitation {
+        margin-top: 60px;
+    }
+
+    #fusion_invitation .fusion_invitation_accept {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #fusion_invitation .fusion_invitation_accept p {
+        width: auto;
+        margin: auto;
+    }
+
+    #fusion_invitation .fusion_invitation_accept .fusion_p_two {
+        padding-bottom: 80px;
+    }
+
+    #fusion_invitation .fusion_invitaion_bottom {
+        text-align: center;
+        margin-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    #fusion_invitation .fusion_invitaion_bottom .fusion_bottom_p_one {
+        width: auto;
+    }
+
+    #fusion_invitation .fusion_invitaion_bottom .fusion_bottom_p_two {
+        width: auto;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    #fusion_invitation .fusion_invitaion_bottom h5 {
+        line-height: 60px;
+    }
+
+    #fusion_invitation .fusion_invitaion_bottom .fusion_bottom_btn {
+        padding: 30px 50px;
+    }
+
+    /*==================================================
+      fusion_invitation responsive css end
+ ==================================================*/
+
+    /* ---------------------------united page start---------------------- */
+
+
+    /*==================================================
+           united header responsive css start
+     ==================================================*/
+    #united_header {
+
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #united_header .united_header_text {
+        height: auto;
+        padding-top: 60px;
+        padding-left: 60px;
+        padding-right: 15px;
+        text-align: left;
+        padding-bottom: 60px;
+    }
+    #united_header .united_header_text .united_header_heading1 {
+
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 59px;
+        display: block;
+    }
+
+    #united_header .united_header_text .united_header_heading2 {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 39px;
+        text-transform: uppercase;
+        width: auto;
+        margin-left: 0;
+        vertical-align: top;
+        margin-top: 20px;
+    }
+
+    #united_header .united_header_text p {
+        width: 460px;
+    }
+
+    #united_header .united_header_text ul {
+        margin-bottom: 40px;
+    }
+
+
+
+    /*==================================================
+           united header responsive css end
+     ==================================================*/
+    /*==================================================
+           united signup responsive css start
+     ==================================================*/
+    #united_signup {
+        margin-top: 80px;
+        padding-bottom: 100px;
+    }
+
+    #united_signup .col-lg-4 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #united_signup .united_signup_card p {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 39px;
+        color: #ffffff;
+        width: auto;
+
+    }
+
+    #united_signup .united_signup_card {
+        height: auto;
+        padding-top: 50px;
+        padding-left: 70px;
+        padding-right: 40px;
+        padding-bottom: 50px;
+        text-align: left;
+    }
+
+
+    #united_signup .united_signup_card p {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 39px;
+        width: auto;
+    }
+
+    #united_signup .united_signup_card .united_signup_p_two {
+        width: auto;
+    }
+
+    #united_signup .united_bottom h2 {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 46px;
+        margin-top: 90px;
+    }
+
+    #united_signup .united_bottom a {
+
+        padding: 30px 29px;
+    }
+
+    /*==================================================
+           united signup responsive css end
+     ==================================================*/
+
+
+    /* -----------------------------rec program responsive start --------------------- */
+
+    /*==================================================
+           rec program header css start
+    ==================================================*/
+
+    #rec_program {
+
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #rec_program .rec_program_header_text {
+        width: 100%;
+        padding-top: 80px;
+        padding-left: 15px;
+        padding-bottom: 80px;
+        padding-right: 15px;
+        text-align: left;
+    }
+
+    #rec_program .rec_program_header_text h1 {
+
+        font-size: 38px;
+        font-weight: 400;
+        line-height: 54px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+
+    #rec_program .rec_program_header_text p {
+        width: auto;
+    }
+
+
+
+
+
+    /*==================================================
+           rec program header css end
+    ==================================================*/
+    /*==================================================
+           rec program accordian css start
+    ==================================================*/
+
+    #rec_program_accordian {
+        margin-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    #rec_program_accordian .card-header h5 button .rec_program_accordian_cross {
+        display: none;
+        background: #FFFFFF;
+        border-radius: 56.5px;
+        padding: 15px 60px;
+        position: relative;
+        top: 15px;
+        right: 30px;
+
+    }
+
+    #rec_program_accordian .card-header h5 .collapsed .rec_program_accordian_expand {
+        display: none;
+        background: #FFFFFF;
+        border-radius: 56.5px;
+        padding: 20px 60px;
+        position: relative;
+        top: 15px;
+        right: 30px;
+    }
+
+    #rec_program_accordian .card-header h5 button {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 39px;
+        color: #2056A5;
+        text-decoration: none;
+        background: #00D5F1;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 100%;
+        text-align: left;
+        position: relative;
+    }
+
+
+
+
+
+    #rec_program_accordian .card-body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #rec_program_accordian .card-body .rec_accordian_left p {
+
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        width: auto;
+        padding-bottom: 30px;
+    }
+
+    #rec_program_accordian .card-header h5 .collapsed {
+        font-size: 18px;
+        line-height: 39px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: left;
+
+    }
+
+    #rec_program_accordian .card-body .rec_accordian_right {
+        padding: 20px;
+    }
+
+    #rec_program_accordian .card-body .rec_accordian_right .rec_accordian_text_btn_main {
+        text-align: right;
+    }
+
+    /*==================================================
+           rec program accordian css end
+    ==================================================*/
+
+    /* -----------------------about page start-------------------- */
+
+    /*==================================================
+           about_header responsive css start
+  ==================================================*/
+    #about_header {
+        height: 690px;
+        padding-top: 40px;
+        text-align: left;
+    }
+
+    #about_header .about_texts {
+        padding-left: 80px;
+        padding-right: 30px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #about_header .about_texts h1 {
+        font-size: 32px;
+        line-height: 42px;
+        width: auto;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    #about_header .about_texts p {
+
+        font-size: 18px;
+        line-height: 24px;
+        width: auto;
+        margin: auto;
+    }
+
+    #about_header .about_texts a {
+        padding: 30px 80px;
+        margin-top: 80px;
+    }
+
+    /*==================================================
+        about_header responsive css end
+==================================================*/
+
+    /*==================================================
+        about_philosophy responsive css start
+==================================================*/
+
+    #about_philosophy .col-lg-4 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    #about_philosophy {
+        margin-top: 500px;
+    }
+
+
+    #about_philosophy .title h4 {
+
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+
+    #about_philosophy .title p {
+
+        font-size: 28px;
+        line-height: 36px;
+        width: auto;
+        margin: auto;
+        padding-bottom: 80px;
+    }
+
+    #about_philosophy .about_philosophy_card {
+        height: 415px;
+        padding-top: 100px;
+        padding-left: 160px;
+        padding-right: 15px;
+        text-align: left;
+    }
+
+
+
+
+
+    #about_philosophy .about_philosophy_card p {
+        font-size: 24px;
+        line-height: 33px;
+        width: 300px;
+    }
+
+
+    #about_philosophy .about_philosophy_card .about_card_img {
+        position: absolute;
+        top: 36%;
+        left: 30%;
+    }
+
+
+    /*==================================================
+        about_philosophy responsive css end
+==================================================*/
+    /*==================================================
+        about_volunteer responsive css start
+==================================================*/
+
+    #about_volunteers .col-lg-5 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #about_volunteers .col-lg-7 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #about_volunteers {
+        margin-top: 100px;
+    }
+
+    #about_volunteers .about_volunteers_left {
+        height: auto;
+    }
+
+    #about_volunteers .about_volunteers_right {
+        height: auto;
+        padding-top: 100px;
+        padding-left: 30px;
+        padding-right: 15px;
+        padding-bottom: 100px;
+        text-align: left;
+    }
+
+    #about_volunteers .about_volunteers_right h3 {
+        font-size: 36px;
+        width: 393px;
+        margin-bottom: 80px;
+        line-height: 45px;
+    }
+
+    #about_volunteers .about_volunteers_right h4 {
+        font-size: 26px;
+        line-height: 39px;
+        width: auto;
+        margin-bottom: 40px;
+    }
+
+    #about_volunteers .about_volunteers_right P {
+
+        font-size: 18px;
+        line-height: 24px;
+        width: auto;
+    }
+
+    #about_volunteers .about_volunteers_right a {
+
+        padding: 30px 52px;
+
+    }
+
+    /*==================================================
+        about_volunteer responsive css end
+==================================================*/
+  /* ------------------------------volunteer page start----------------------- */
+
+    /*==================================================
+          volunteer header responsive css start
+    ==================================================*/
+    #volunteer_header {
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #volunteer_header .volunteer_header_text {
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #volunteer_header .volunteer_header_text h1 {
+        font-size: 36px;
+        line-height: 49px;
+    }
+
+    #volunteer_header .volunteer_header_text h3 {
+
+        font-size: 28px;
+        line-height: 35px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    #volunteer_header .volunteer_header_text p {
+
+        width: auto;
+        margin: auto;
+    }
+
+    #volunteer_header .volunteer_header_text a {
+
+        font-size: 16px;
+        line-height: 24px;
+        padding: 30px 60px;
+        margin-top: 60px;
+    }
+
+    /*==================================================
+          volunteer header responsive css end
+    ==================================================*/
+    /*==================================================
+          volunteer begin responsive css start
+    ==================================================*/
+
+
+    #volunteer_begin .col-lg-4 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    #volunteer_begin .col-lg-8 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+
+    #volunteer_begin .volunteer_begin_left {
+        height: auto;
+    }
+
+    #volunteer_begin .volunteer_begin_right {
+        height: auto;
+        padding-top: 60px;
+        padding-left: 60px;
+        padding-right: 15px;
+        text-align: left;
+        padding-bottom: 60px;
+    }
+
+    #volunteer_begin .volunteer_begin_right h3 {
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 40px;
+    }
+
+    #volunteer_begin .volunteer_begin_right p {
+
+        width: auto;
+    }
+
+    #volunteer_begin .volunteer_begin_right ul .volunteer_begin_first {
+        width: auto;
+    }
+
+    #volunteer_begin .volunteer_begin_right ul .volunteer_begin_second {
+        width: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+
+
+    #volunteer_begin .volunteer_begin_right ul .volunteer_begin_third {
+        width: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    /*==================================================
+          volunteer begin responsive css end
+    ==================================================*/
+    /*==================================================
+          volunteer role responsive css start
+    ==================================================*/
+    #volunteer_role .col-lg {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    #volunteer_role .col-lg-3 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    #volunteer_role {
+        margin-top: 80px;
+        text-align: center;
+    }
+    #volunteer_role .title h3 {
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 50px;
+    }
+
+    #volunteer_role .volunteer_top_card {
+        padding-top: 100px;
+        padding-left: 130px;
+        padding-right: 15px;
+        text-align: left;
+    }
+    #volunteer_role .volunteer_top_card p {
+
+       
+        width: auto;
+        width: 255px;
+
+    }
+
+    #volunteer_role .volunteer_top_card .volunteer_p_two {
+        width: 225px;
+    }
+
+    #volunteer_role .volunteer_top_card .volunteer_p_three {
+        width: 178px;
+    }
+
+    #volunteer_role .volunteer_top_card .volunteer_p_four {
+        width: 175px;
+    }
+
+    #volunteer_role .volunteer_top_card .volunteer_p_five {
+        width: 198px;
+    }
+
+    #volunteer_role .volunteer_middle_p {
+       
+        width: auto;
+        margin: auto;
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    #volunteer_role .volunteer_bottom_card {
+        padding-top: 80px;
+        padding-left: 130px;
+        padding-right: 15px;
+        text-align: left;
+    }
+    #volunteer_role .volunteer_bottom_card .volunteer_bottom_p_one {
+        width: 273px;
+    }
+
+    #volunteer_role .volunteer_bottom_card .volunteer_bottom_p_two {
+        width: 273px;
+    }
+    #volunteer_role .volunteer_bottom_card .volunteer_bottom_p_three {
+        width: 254px;
+    }
+
+    #volunteer_role .volunteer_bottom_card .volunteer_bottom_p_four {
+        width: 202px;
+    }
+
+
+    /*==================================================
+          volunteer role responsive css end
+    ==================================================*/
+  /*==================================================
+             volunteer safe responsive css start
+    ==================================================*/
+   
+
+
+
+
+    #volunteer_safe h3 {
+       
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 50px;
+    }
+    #volunteer_safe p {
+        width: auto;
+        margin: auto;
+        text-align: center;
+    }
+    #volunteer_safe h4 {
+        font-size: 28px;
+        line-height: 39px;
+    }
+    #volunteer_safe .volunteer_h4_one {
+        width: auto;
+        margin: auto;
+        padding-top: 40px;
+    }
+
+    #volunteer_safe .volunteer_btn {
+      
+        padding: 30px 62px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+
+    #volunteer_safe .volunteer_p_two {
+        width: auto;
+    }
+  /*==================================================
+             volunteer safe responsive css end
+    ==================================================*/
+     
+      /*==================================================
+             volunteer helpful responsive css start
+    ==================================================*/
+
+
+    #volunteer_helpful .col-lg-5 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+    #volunteer_helpful .col-lg-7 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    #volunteer_helpful .volunteer_helpful_left {
+        height: auto;
+        padding-left: 40px;
+        padding-top: 80px;
+        padding-right: 15px;
+        padding-bottom: 80px;
+        text-align: left;
+    }
+    #volunteer_helpful .volunteer_helpful_left h3 {
+        font-size: 36px;
+        line-height: 50px;
+        width: 380px;
+        margin-bottom: 60px;
+    }
+
+    #volunteer_helpful .volunteer_helpful_left .volunteer_link_one {
+        width: auto;
+    }
+
+
+    #volunteer_helpful .volunteer_helpful_left .volunteer_link_two {
+        width: auto;
+        margin-top: 30px;
+    }
+
+    #volunteer_helpful .volunteer_helpful_right {
+        height: auto;
+    }
+
+      /*==================================================
+             volunteer helpful responsive css end
+    ==================================================*/
+
+      /*--------------------------faq page responsive start------------------------ */
+    /* faq banner start */
+
+    #faq-banner .heading h1 {
+        font-size: 60px;
+    }
+
+    #faq-wh-question .left-box .text h4 {
+        font-size: 36px;
+    }
+
+    #faq-wh-question .right-box .text p {
+        font-size: 18px;
+        padding: 20px !important;
+    }
+
+    #faq-wh-question .left-box-2nd .text h4 {
+        font-size: 36px;
+    }
+
+    #faq-wh-question .right-box-2nd .text p {
+        font-size: 18px;
+    }
+
+    #faq-wh-question .right-box-2nd .text p {
+        padding: 20px;
+    }
+
+    #faq-wh-question .left-box {
+        width: 94%;
+        height: 300px;
+    }
+
+    #faq-question .panel-content .left-box {
+        width: 96%;
+        height: 300px !important;
+    }
+
+    #faq-question .panel-content .left-box .text h4 {
+        font-size: 36px !important;
+    }
+
+    #faq-question .panel-content .right-box .text p {
+        padding: 20px;
+        font-size: 18px;
+
+    }
+
+    #faq-question .panel-content .left-box-2nd {
+        width: 96%;
+        height: 300px !important;
+    }
+
+    #faq-question .panel-content .left-box-2nd .text h4 {
+        font-size: 36px;
+    }
+
+    #faq-question .panel-content .right-box-2nd .text p {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    #faq-wh-question .left-box-2nd {
+        width: 94%;
+        height: 300px;
+
+    }
+
+    /* ///////////////////// */
+
+    #program-fee-banner .heading {
+        padding-top: 120px;
+    }
+
+    #program-fee-banner .heading h1 {
+        font-size: 49px;
+    }
+
+    #program-fee-banner .heading P {
+        padding: 0px 7px;
+    }
+
+
+    /* /////////////////////////////////////////// */
+
+
+
+    #resources-banner {
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    #resources-banner .heading {
+        padding-top: 120px;
+    }
+
+    #resources-banner .heading h1 {
+        font-size: 38px;
+    }
+
+    #resources-banner .heading P {
+        font-size: 30px;
+        margin-top: 50px;
+
+    }
+
+    #resources-banner .heading P span {
+        font-size: 18px;
+    }
+
+
+    #resources-banner .heading a {
+        padding: 10px 30px;
+    }
+
+    /* ///////////////////////////////////////// */
+
+
+    #resources-steps .heading h2 {
+
+        font-size: 24px;
+
+    }
+
+
+    #resources-steps .box {
+        width: 100%;
+        padding: 50px 0px;
+
+    }
+
+    #resources-steps .box p {
+        font-size: 18px;
+        padding: 0px 10px;
+
+    }
+
+    #resources-steps .reg a {
+
+        padding: 10px 30px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+
+
+ /* ////////////////////////////////////////////////////////// */
+
+
+ #seasion-banner {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+#seasion-banner .heading {
+	padding-top: 150px;
+}
+
+#seasion-banner .heading h1 {
+    font-size: 44px;
+}
+
+#seasion-banner .box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: auto;
+}
+
+#seasion-banner .box .image {
+    width: 100%;
+    text-align: center;
+}
+
+#seasion-banner .box .text {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#seasion-banner .box .image .left {
+	width: 70%;
+}
+#seasion-banner .box .text {
+    padding: 0px 15px;
+}
+
+#seasion-banner .box .text h6 {
+    font-size: 28px;
+}
+
+#seasion-banner .box .text p {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+#seasion-banner .seasion_banner_button {
+    padding: 15px 72px;
+    margin-top: 30px;
+}
+
+#seasion-banner .seasion_banner_arrow_div {
+    text-align: center;
+}
+
+#seasion-banner .seasion_banner_arrow_div .seasion_banner_arrow {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+/* //////////////////////////////////////////////////// */
+
+
+#seasion-seasion-list {
+    margin-top: 30px;
+
+}
+
+#seasion-seasion-list .left-box {
+    width: 92%;
+    height: 200px;
+    margin: 15px;
+}
+
+#seasion-seasion-list .right-box {
+    width: 94%;
+    height: auto;
+    margin: 0px 10px;
+ 
+
+}
+
+#seasion-seasion-list .left-box-2nd {
+    width: 92%;
+    height: 200px;
+    margin: 15px;
+    background: #6226A8;
+}
+
+
+
+
+#seasion-seasion-list .right-box-2nd {
+    width: 94%;
+    margin: 0px 10px;
+    height: auto !important;
+    background: #F2FEFF !important;
+}
+
+#seasion-seasion-list .right-box .text {
+    padding: 0px 15px !important;
+    align-self: center;
+
+}
+
+#seasion-seasion-list .right-box .text p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    color: #2056A5;
+    text-align: left;
+    padding: 20px 5px;
+}
+
+#seasion-seasion-list .left-box .text h4 {
+    font-size: 26px;
+
+}
+
+
+#seasion-seasion-list .right-box-2nd .text {
+	padding: 0px 15px !important;
+	align-self: center;
+}
+
+#seasion-seasion-list .right-box-2nd .text p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    color: #2056A5;
+    text-align: left;
+    padding: 20px 5px;
+    width: auto;
+}
+
+#seasion-seasion-list .left-box-2nd .text h4 {
+    font-size: 26px;
+    color: #ffffff;
+
+}
+
+#seasion-seasion-list .left-box-2nd .text {
+    padding: 0px;
+}
+
+
+
+#seasion-seasion-list .left-box .text {
+    padding: 0px;
+}
+  /*==========================================
+            seassion links responsive start
+  ==========================================*/
+  #seasion_links_items .col-lg-3{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+  #seasion_links_items .seasion_links_items_title h3 {
+   
+    font-size: 32px;
+    line-height: 50px;
+
+}
+#seasion_links_items .seasion_links_iteams_cards p {
+    
+    font-size: 28px;
+    line-height: 40px;
+
+}
+
+#seasion_links_items .seasion_links_iteams_cards {
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+
+/*==========================================
+            seassion links responsive end
+  ==========================================*/
+
+
+/* -----------------------------seassion page responsive end------------------- */
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------tablet screen-------------------------- */
+
+
+
+@media (min-width: 767px) and (max-width: 991px) {
+
+    .container {
+        max-width: 100% !important;
+    }
+
+
+    /*==========================================
+                register modal responsive start
+      ==========================================*/
+    #exampleModal .modal-dialog {
+        max-width: 98% !important;
+    }
+
+    #exampleModal .modal-dialog .modal-header {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #exampleModal .title__heading {
+        font-size: 48px;
+        line-height: 79px;
+    }
+
+    #exampleModal .modal-dialog .modal-body {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #exampleModal .modal-input-fields input {
+        width: 100%;
+
+    }
+
+    #exampleModal .modal_btn_bottom {
+        padding: 20px 99px;
+    }
+
+    #exampleModal .title__heading {
+        margin-top: 20px;
+    }
+
+    #exampleModal .modal_p {
+        width: auto;
+    }
+
+
+    /*==========================================
+              register modal responsive end
+    ==========================================*/
+
+    /*==========================================
+                navbar responsive start
+      ==========================================*/
+    .navbar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+
+    }
+
+    .navbar_bar {
+        outline: 0 !important;
+        font-size: 24px;
+    }
+
+    .navbar .logo img {
+        top: -10px;
+        width: 100px;
+    }
+
+    .navbar ul {
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    .ayso_dropdown_color {
+        margin-left: 0;
+        padding-top: 15px;
+    }
+
+    .ayso_dropdown_menu-last {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .dropdown-toggle::after {
+        display: inline-block;
+    }
+
+    .dropdown-menu {
+        text-align: center;
+    }
+
+    .ayso_dropdown_menu {
+        margin-left: 0;
+    }
+
+    .ayso_dropdown_menu .dropdown-item {
+
+        padding: 10px 20px;
+    }
+
+    nav .Nav_btn-right {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    .sticky .ayso_dropdown_menu-last {
+        margin-right: 0;
+    }
+
+    .sticky .logo img {
+        width: 90px !important;
+        top: -15px;
+    }
+
+    /*==========================================
+                navbar responsive end
+      ==========================================*/
+
+    /*==========================================
+                footer responsive start
+      ==========================================*/
+    #footer .footer_brand .photo {
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    #footer .footer_brand .photo-first {
+
+        padding-top: 10px;
+        width: 300px;
+        margin: auto;
+
+    }
+
+    #footer .footer_brand .photo-second {
+        padding-top: 15px;
+        width: 245px;
+
+    }
+
+    #footer .footer_brand .photo-third {
+        padding-top: 40px;
+    }
+
+    #footer .footer_brand .photo-fourth {
+        margin: auto;
+        padding-top: 40px;
+    }
+
+    #footer .footer_bottom {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    #footer .footer_copyright {
+        line-height: 35px;
+    }
+
+    #footer .footer_terms {
+        padding-top: 0;
+    }
+
+    #footer .footer_bottom_right {
+        text-align: center;
+    }
+
+    #footer .footer_socialicons ul li {
+        margin-left: 30px;
+    }
+
+    #footer .footer_follow {
+        padding-top: 0;
+    }
+
+    /*==========================================
+                footer responsive end
+      ==========================================*/
+
+
+    /* --------------------home page responsive start ---------------------- */
+
+    /*==========================================
+                  home header responsive start
+      ==========================================*/
+
+    #home_header {
+
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    #home_header .home_header_ragion {
+        width: auto;
+        height: auto;
+
+
+
+        margin-top: 60px;
+    }
+
+    #home_header .home_header_heading {
+        padding-left: 0;
+        padding-top: 90px;
+        font-size: 48px;
+        line-height: 60px;
+        text-align: center;
+    }
+
+    #home_header .home_header_ragion_center p {
+        font-family: 'Alef', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #ffffff;
+        width: auto;
+        padding-top: 40px;
+        padding-left: 40px;
+        text-align: left;
+        padding-right: 40px;
+    }
+
+    #home_header .home_header_ragion_center_link {
+        text-align: right;
+
+    }
+
+    #home_header .home_header_ragion_center a {
+        display: inline-block;
+        text-align: center;
+        padding-top: 60px;
+        padding-right: 50px;
+    }
+
+    #home_header .home_header_bottom {
+        margin-top: 50px;
+    }
+
+    #home_header .home_header_bottom_left {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #home_header .home_header_bottom_left p {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 36px;
+        line-height: 39px;
+        font-weight: 400;
+        color: #ffffff;
+        width: auto;
+        text-align: center;
+    }
+
+    #home_header .home_header_bottom_right {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    #home_header .home_header_bottom_right a {
+        padding: 30px 100px;
+    }
+
+    /*==========================================
+                  home header responsive end
+      ==========================================*/
+    /*==========================================
+         home_community_care responsive start
+      ==========================================*/
+
+    #home_community_care .col-lg-7 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #home_community_care .col-lg-5 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #home_community_care .home_community_care_left {
+        padding-left: 60px;
+        text-align: left;
+        height: auto;
+        padding-bottom: 40px;
+        padding-right: 60px;
+    }
+
+    #home_community_care .home_community_care_left h2 {
+
+        font-size: 36px;
+        line-height: 50px;
+        width: 390px;
+        margin-bottom: 40px;
+        padding-top: 30px;
+        text-align: left;
+    }
+
+    #home_community_care .home_community_care_left p {
+        font-size: 18px;
+        line-height: 24px;
+        width: auto;
+        text-align: left;
+    }
+
+    /*==========================================
+         home_community_care responsive end
+      ==========================================*/
+
+    /*==========================================
+         home_social responsive start
+      ==========================================*/
+    #home_social {
+        margin-top: 60px;
+    }
+
+    #home_social .title h3 {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 36px;
+        font-weight: 65px;
+        font-weight: 400;
+        color: #000066;
+        margin-bottom: 60px;
+        line-height: 49px;
+    }
+
+    /*==========================================
+         home_social responsive end
+      ==========================================*/
+
+
+    /* ------------------------------porgrams core page responsive start----------------------- */
+
+
+    /*==========================================
+             programs_header responsive start
+      ==========================================*/
+    #programs_header {
+        padding-top: 100px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    #programs_header .programs_header_texts {
+        padding-left: 0;
+    }
+
+    #programs_header .programs_header_texts {
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+
+    #programs_header .programs_header_texts h1 {
+        font-size: 36px;
+        line-height: 55px;
+        font-weight: 400;
+        width: auto;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        text-align: left;
+    }
+
+
+    #programs_header .programs_header_texts p {
+        font-size: 18px;
+        line-height: 24px;
+        width: auto;
+        text-align: left;
+    }
+
+
+
+    /*==========================================
+             programs_header responsive end
+      ==========================================*/
+
+    /*==========================================
+         programs_ayso_programs responsive start
+      ==========================================*/
+    #programs_ayso_programs .col-lg-4 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #programs_ayso_programs {
+        margin-top: 60px;
+    }
+
+    #programs_ayso_programs .title h3 {
+        font-size: 36px;
+        line-height: 55px;
+        font-weight: 400;
+        color: #6226A8;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    #programs_ayso_programs .programs_ayso_programs_card .overlay_2 {
+        padding: 40px 30px 30px 60px;
+        text-align: left;
+    }
+
+    #programs_ayso_programs .programs_ayso_programs_card .overlay_2 h4 {
+
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        margin-bottom: 25px;
+        padding-top: 50px;
+    }
+
+    #programs_ayso_programs .programs_ayso_programs_card .overlay_2 p {
+        width: auto;
+        line-height: 35px;
+        text-align: left;
+    }
+
+    #programs_ayso_programs .programs_ayso_programs_card .overlay h4 {
+        padding-top: 100px;
+    }
+
+    #programs_ayso_programs .programs_ayso_programs_card .overlay_2 a {
+        text-align: left;
+        margin-left: 0;
+    }
+    /*==========================================
+         programs_ayso_programs responsive end
+      ==========================================*/
+    /*==================================================
+           programs_summer_camp responsive css start
+      ==================================================*/
+
+
+    #programs_summer_camp .col-lg-7 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #programs_summer_camp .col-lg-5 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #programs_summer_camp {
+        margin-top: 80px;
+    }
+
+    #programs_summer_camp .programs_summer_camp_left {
+        padding-left: 60px;
+        text-align: left;
+        height: auto;
+        padding-bottom: 60px;
+    }
+
+    #programs_summer_camp .programs_summer_camp_left h2 {
+
+        font-size: 36px;
+        line-height: 58px;
+        width: auto;
+        margin-bottom: 50px;
+        padding-top: 60px;
+        text-transform: uppercase;
+        text-align: left;
+    }
+
+    #programs_summer_camp .programs_summer_camp_left p {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        width: 670px;
+        text-align: left;
+    }
+
+
+    /*==================================================
+           programs_summer_camp responsive css end
+      ==================================================*/
+
+    /* -----------------summer camp page  start--------------------- */
+
+
+    /*==================================================
+          summer_camp_header responsive css start
+    ==================================================*/
+    #summer_camp_header {
+        height: auto;
+        padding-top: 40px;
+    }
+
+    #summer_camp_header .summer_camp_header_text {
+        height: auto;
+        padding-top: 50px;
+        padding-left: 60px;
+        padding-right: 10px;
+        padding-bottom: 50px;
+    }
+
+    #summer_camp_header .summer_camp_header_text h1 {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 50px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    #summer_camp_header .summer_camp_header_text h2 {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 35px;
+        margin-bottom: 40px;
+        text-align: left;
+        width: 460px;
+    }
+
+    #summer_camp_header .summer_camp_header_text p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        width: auto;
+        text-align: left;
+    }
+
+    /*==================================================
+          summer_camp_header responsive css end
+    ==================================================*/
+    /*==================================================
+          summer_camp_looking responsive css start
+    ==================================================*/
+    #summer_camp_looking {
+        padding: 60px 0;
+    }
+
+    #summer_camp_looking h3 {
+        font-size: 32px;
+        line-height: 45px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 42px;
+    }
+
+    #summer_camp_looking ul .summer_camp_li_one {
+        width: auto;
+        margin: auto;
+    }
+
+    #summer_camp_looking h4 {
+
+        font-size: 32px;
+        line-height: 39px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-top: 70px;
+    }
+
+    #summer_camp_looking a {
+
+        padding: 30px 29px;
+
+    }
+
+    /*==================================================
+          summer_camp_looking responsive css end
+    ==================================================*/
+
+
+    /* --------------------------winter page responsive start-------------------- */
+
+    /*==================================================
+               winter_header responsive css start
+   ==================================================*/
+    #winter_header {
+        height: auto;
+        padding-top: 40px;
+    }
+
+    #winter_header .winter_header_text {
+        height: auto;
+        padding-top: 50px;
+        padding-left: 0;
+        padding-bottom: 30px;
+        padding-left: 60px;
+        padding-right: 15px;
+    }
+
+    #winter_header .winter_header_text h1 {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 50px;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
+    #winter_header .winter_header_text p {
+        font-family: 'Alef', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #fff;
+        width: auto;
+        text-align: left;
+    }
+
+    /*==================================================
+           winter_header responsive css end
+==================================================*/
+    /*==================================================
+           winter_facility responsive css start
+==================================================*/
+    #winter_facility .col-lg-6 {
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+    #winter_facility .winter_facility_left {
+        padding: 30px 10px 30px 60px;
+    }
+
+    #winter_facility .winter_facility_right {
+        padding: 30px 10px 30px 60px;
+    }
+
+    #winter_facility ul li {
+
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 26px;
+        width: auto;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+
+    /*==================================================
+           winter_facility responsive css end
+==================================================*/
+
+    /*==================================================
+           winter_process responsive css start
+==================================================*/
+    #winter_process {
+        margin-top: 60px;
+    }
+
+    #winter_process h3 {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 50px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #winter_process .winter_process_card {
+        height: auto;
+        padding-top: 80px;
+        padding-left: 190px;
+        padding-right: 15px;
+        text-align: left;
+        padding-bottom: 30px;
+    }
+
+    #winter_process .winter_process_card p {
+        font-size: 18px;
+        line-height: 33px;
+        font-weight: 400;
+        width: auto;
+        padding-bottom: 20px;
+    }
+
+    #winter_process .winter_process_card .winter_process_p_two {
+        width: auto;
+    }
+
+    #winter_process .winter_process_card .winter_process_p_three {
+        width: auto;
+    }
+
+    #winter_process .winter_process_card .winter_process_number {
+        position: absolute;
+        top: 10%;
+        left: 5%;
+     
+    }
+
+    /*==================================================
+           winter_process responsive css end
+==================================================*/
+
+    /*==================================================
+           winter_season responsive css start
+==================================================*/
+
+
+
+    #winter_season_info .winter_season_info_li_one {
+        width: auto;
+        margin: auto;
+    }
+
+
+    #winter_season_info {
+
+        margin-top: 60px;
+        padding-bottom: 30px;
+    }
+
+
+    /*==================================================
+           winter_season responsive css end
+==================================================*/
+    /* ---------------------------fusion page start---------------------- */
+
+    /*==================================================
+          fusion_header responsive css start
+   ==================================================*/
+    #fusion_header {
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #fusion_header .fusion_header_text {
+        height: auto;
+        padding-top: 40px;
+        padding-left: 50px;
+        padding-right: 15px;
+        padding-bottom: 40px;
+        text-align: left;
+    }
+
+    #fusion_header .fusion_header_text .fusion_header_heading1 {
+
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 60px;
+        text-transform: uppercase;
+    }
+
+    #fusion_header .fusion_header_text .fusion_header_heading2 {
+
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 39px;
+        text-transform: uppercase;
+        width: 490px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+
+    #fusion_header .fusion_header_text p {
+        font-family: 'Alef', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        width: auto;
+    }
+
+    #fusion_header .fusion_header_text ul {
+        margin-bottom: 40px;
+    }
+
+    /*==================================================
+      fusion_header responsive css end
+==================================================*/
+    /*==================================================
+      fusion_singnup responsive css start
+==================================================*/
+    #fusion_signing {
+        margin-top: 60px;
+    }
+
+    #fusion_signing .col-lg-4 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #fusion_signing h3 {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 60px;
+        color: #000066;
+        text-align: center;
+        width: auto;
+        margin: auto;
+        padding-bottom: 60px;
+    }
+
+    #fusion_signing .fusion_signing_card {
+        width: 100%;
+        height: auto;
+        padding-top: 80px;
+        padding-left: 230px;
+        padding-bottom: 80px;
+        position: relative;
+        z-index: -1;
+        padding-right: 15px;
+        text-align: left;
+    }
+
+ 
+    #fusion_signing .fusion_signing_card .fusion_card_number {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: -2;
+        transform: translate(-50%, -50%);
+    }
+
+    #fusion_signing .fusion_card-p_other {
+        padding-top: 0;
+    }
+
+    #fusion_signing .fusion_card-p_four {
+
+        padding-top: 0;
+    }
+
+    /*==================================================
+      fusion_singnup responsive css end
+==================================================*/
+    /*==================================================
+      fusion_invitation responsive css start
+==================================================*/
+
+
+    #fusion_invitation {
+        margin-top: 60px;
+    }
+
+    #fusion_invitation .fusion_invitation_accept {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #fusion_invitation .fusion_invitation_accept p {
+        width: auto;
+        margin: auto;
+    }
+
+    #fusion_invitation .fusion_invitation_accept .fusion_p_two {
+        padding-bottom: 80px;
+    }
+
+    #fusion_invitation .fusion_invitaion_bottom {
+        text-align: center;
+        margin-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    #fusion_invitation .fusion_invitaion_bottom .fusion_bottom_p_one {
+        width: auto;
+    }
+
+    #fusion_invitation .fusion_invitaion_bottom .fusion_bottom_p_two {
+        width: auto;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    #fusion_invitation .fusion_invitaion_bottom h5 {
+        line-height: 60px;
+    }
+
+    #fusion_invitation .fusion_invitaion_bottom .fusion_bottom_btn {
+        padding: 30px 50px;
+    }
+
+    /*==================================================
+      fusion_invitation responsive css end
+ ==================================================*/
+
+    /* ---------------------------united page start---------------------- */
+
+
+    /*==================================================
+           united header responsive css start
+     ==================================================*/
+    #united_header {
+
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #united_header .united_header_text {
+        height: auto;
+        padding-top: 60px;
+        padding-left: 60px;
+        padding-right: 15px;
+        text-align: left;
+        padding-bottom: 60px;
+    }
+
+    #united_header .united_header_text .united_header_heading1 {
+
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 59px;
+        display: block;
+
+
+    }
+
+    #united_header .united_header_text .united_header_heading2 {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 39px;
+        text-transform: uppercase;
+        width: auto;
+        margin-left: 0;
+        vertical-align: top;
+        margin-top: 20px;
+    }
+
+    #united_header .united_header_text p {
+       width: 570px;
+    }
+
+    #united_header .united_header_text ul {
+        margin-bottom: 40px;
+    }
+
+
+
+    /*==================================================
+           united header responsive css end
+     ==================================================*/
+    /*==================================================
+           united signup responsive css start
+     ==================================================*/
+    #united_signup {
+        margin-top: 80px;
+        padding-bottom: 100px;
+    }
+
+    #united_signup .col-lg-4 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #united_signup .united_signup_card p {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 39px;
+        color: #ffffff;
+        width: auto;
+
+    }
+
+    #united_signup .united_signup_card {
+        height: auto;
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 50px;
+        text-align: left;
+    }
+
+
+    #united_signup .united_signup_card p {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 39px;
+        width: auto;
+    }
+
+    #united_signup .united_signup_card .united_signup_p_two {
+        width: auto;
+    }
+
+    #united_signup .united_bottom h2 {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 46px;
+        margin-top: 90px;
+    }
+
+    #united_signup .united_bottom a {
+
+        padding: 30px 29px;
+    }
+
+    /*==================================================
+           united signup responsive css end
+     ==================================================*/
+
+    /* -----------------------------rec program responsive start --------------------- */
+
+    /*==================================================
+           rec program header css start
+    ==================================================*/
+
+    #rec_program {
+
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #rec_program .rec_program_header_text {
+        width: 100%;
+        padding-top: 80px;
+        padding-left: 50px;
+        padding-bottom: 80px;
+        padding-right: 15px;
+        text-align: left;
+    }
+
+    #rec_program .rec_program_header_text h1 {
+
+        font-size: 38px;
+        font-weight: 400;
+        line-height: 54px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+
+    #rec_program .rec_program_header_text p {
+        width: 510px;
+    }
+
+
+
+
+
+    /*==================================================
+           rec program header css end
+    ==================================================*/
+    /*==================================================
+           rec program accordian css start
+    ==================================================*/
+
+    #rec_program_accordian {
+        margin-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    #rec_program_accordian .card-header h5 button .rec_program_accordian_cross {
+        display: inline-block;
+        background: #FFFFFF;
+        border-radius: 56.5px;
+        padding: 10px 30px;
+        position: absolute;
+        top: 15px;
+        right: 30px;
+    }
+
+    #rec_program_accordian .card-header h5 .collapsed .rec_program_accordian_expand {
+        display: inline-block;
+        background: #FFFFFF;
+        border-radius: 56.5px;
+        padding: 10px 30px;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+
+    #rec_program_accordian .card-header h5 button {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 39px;
+        color: #2056A5;
+        text-decoration: none;
+        background: #00D5F1;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        width: 100%;
+        text-align: left;
+        position: relative;
+    }
+
+
+
+
+
+    #rec_program_accordian .card-body {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #rec_program_accordian .card-body .rec_accordian_left p {
+
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        width: auto;
+        padding-bottom: 30px;
+    }
+
+    #rec_program_accordian .card-header h5 .collapsed {
+        font-size: 24px;
+        line-height: 39px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: left;
+    }
+
+    #rec_program_accordian .card-body .rec_accordian_right {
+        padding: 20px;
+    }
+
+    #rec_program_accordian .card-body .rec_accordian_right .rec_accordian_text_btn_main {
+        text-align: right;
+    }
+
+    /*==================================================
+           rec program accordian css end
+    ==================================================*/
+
+
+    /* -----------------------about page start-------------------- */
+
+    /*==================================================
+           about_header responsive css start
+  ==================================================*/
+    #about_header {
+        height: 690px;
+        padding-top: 40px;
+        text-align: left;
+    }
+
+    #about_header .about_texts {
+        padding-left: 80px;
+        padding-right: 30px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #about_header .about_texts h1 {
+        font-size: 32px;
+        line-height: 42px;
+        width: 432px;
+        margin-bottom: 40px;
+        margin-right: auto;
+        text-align: left;
+        margin: 0;
+        padding-bottom: 40px;
+    }
+
+    #about_header .about_texts p {
+
+        font-size: 18px;
+        line-height: 24px;
+        width: auto;
+        margin: auto;
+    }
+
+    #about_header .about_texts a {
+        padding: 30px 80px;
+        margin-top: 80px;
+    }
+
+    /*==================================================
+        about_header responsive css end
+==================================================*/
+
+    /*==================================================
+        about_philosophy responsive css start
+==================================================*/
+
+    #about_philosophy .col-lg-4 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    #about_philosophy {
+        margin-top: 500px;
+    }
+
+
+    #about_philosophy .title h4 {
+
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+
+    #about_philosophy .title p {
+
+        font-size: 28px;
+        line-height: 36px;
+        width: auto;
+        margin: auto;
+        padding-bottom: 80px;
+    }
+
+    #about_philosophy .about_philosophy_card {
+        height: 415px;
+        padding-top: 100px;
+        padding-left: 260px;
+        padding-right: 15px;
+        text-align: left;
+    }
+
+
+
+    #about_philosophy .about_philosophy_card p {
+        font-size: 24px;
+        line-height: 33px;
+        width: 300px;
+    }
+
+
+    #about_philosophy .about_philosophy_card .about_card_img {
+        position: absolute;
+        top: 20%;
+        left: 25%;
+    }
+
+
+    /*==================================================
+        about_philosophy responsive css end
+==================================================*/
+    /*==================================================
+        about_volunteer responsive css start
+==================================================*/
+
+    #about_volunteers .col-lg-5 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #about_volunteers .col-lg-7 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #about_volunteers {
+        margin-top: 100px;
+    }
+
+    #about_volunteers .about_volunteers_left {
+        height: auto;
+    }
+
+    #about_volunteers .about_volunteers_right {
+        height: auto;
+        padding-top: 100px;
+        padding-left: 80px;
+        padding-right: 15px;
+        padding-bottom: 100px;
+        text-align: left;
+    }
+
+    #about_volunteers .about_volunteers_right h3 {
+        font-size: 36px;
+        width: 393px;
+        margin-bottom: 80px;
+        line-height: 45px;
+    }
+
+    #about_volunteers .about_volunteers_right h4 {
+        font-size: 26px;
+        line-height: 39px;
+        width: auto;
+        margin-bottom: 40px;
+    }
+
+    #about_volunteers .about_volunteers_right P {
+
+        font-size: 18px;
+        line-height: 24px;
+        width: auto;
+    }
+
+    #about_volunteers .about_volunteers_right a {
+
+        padding: 30px 52px;
+
+    }
+
+    /*==================================================
+        about_volunteer responsive css end
+==================================================*/
+
+ /* ------------------------------volunteer page start----------------------- */
+
+    /*==================================================
+          volunteer header responsive css start
+    ==================================================*/
+    #volunteer_header {
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #volunteer_header .volunteer_header_text {
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #volunteer_header .volunteer_header_text h1 {
+        font-size: 36px;
+        line-height: 49px;
+    }
+
+    #volunteer_header .volunteer_header_text h3 {
+        font-size: 28px;
+        line-height: 35px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    #volunteer_header .volunteer_header_text p {
+
+        width: auto;
+        margin: auto;
+    }
+
+    #volunteer_header .volunteer_header_text a {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 30px 90px;
+        margin-top: 60px;
+    }
+
+    /*==================================================
+          volunteer header responsive css end
+    ==================================================*/
+    /*==================================================
+          volunteer begin responsive css start
+    ==================================================*/
+
+
+    #volunteer_begin .col-lg-4 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    #volunteer_begin .col-lg-8 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+
+    #volunteer_begin .volunteer_begin_left {
+        height: auto;
+    }
+
+    #volunteer_begin .volunteer_begin_right {
+        height: auto;
+        padding-top: 60px;
+        padding-left: 60px;
+        padding-right: 15px;
+        text-align: left;
+        padding-bottom: 60px;
+    }
+
+    #volunteer_begin .volunteer_begin_right h3 {
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 40px;
+    }
+
+    #volunteer_begin .volunteer_begin_right p {
+
+        width: auto;
+    }
+
+    #volunteer_begin .volunteer_begin_right ul .volunteer_begin_first {
+        width: auto;
+    }
+
+    #volunteer_begin .volunteer_begin_right ul .volunteer_begin_second {
+        width: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+
+
+    #volunteer_begin .volunteer_begin_right ul .volunteer_begin_third {
+        width: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    /*==================================================
+          volunteer begin responsive css end
+    ==================================================*/
+    /*==================================================
+          volunteer role responsive css start
+    ==================================================*/
+    #volunteer_role .col-lg {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    #volunteer_role .col-lg-3 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    #volunteer_role {
+        margin-top: 80px;
+        text-align: center;
+    }
+    #volunteer_role .title h3 {
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 50px;
+    }
+
+    #volunteer_role .volunteer_top_card {
+        padding-top: 100px;
+        padding-left: 230px;
+        padding-right: 15px;
+        text-align: left;
+    }
+    #volunteer_role .volunteer_top_card p {
+
+       
+        width: auto;
+        width: 255px;
+
+    }
+
+    #volunteer_role .volunteer_top_card .volunteer_p_two {
+        width: 225px;
+    }
+
+    #volunteer_role .volunteer_top_card .volunteer_p_three {
+        width: 178px;
+    }
+
+    #volunteer_role .volunteer_top_card .volunteer_p_four {
+        width: 175px;
+    }
+
+    #volunteer_role .volunteer_top_card .volunteer_p_five {
+        width: 198px;
+    }
+
+    #volunteer_role .volunteer_middle_p {
+       
+        width: auto;
+        margin: auto;
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    #volunteer_role .volunteer_bottom_card {
+        padding-top: 80px;
+        padding-left: 200px;
+        padding-right: 15px;
+        text-align: left;
+    }
+    #volunteer_role .volunteer_bottom_card .volunteer_bottom_p_one {
+        width: 273px;
+    }
+
+    #volunteer_role .volunteer_bottom_card .volunteer_bottom_p_two {
+        width: 273px;
+    }
+    #volunteer_role .volunteer_bottom_card .volunteer_bottom_p_three {
+        width: 254px;
+    }
+
+    #volunteer_role .volunteer_bottom_card .volunteer_bottom_p_four {
+        width: 202px;
+    }
+
+
+    /*==================================================
+          volunteer role responsive css end
+    ==================================================*/
+  /*==================================================
+             volunteer safe responsive css start
+    ==================================================*/
+   
+
+
+
+
+    #volunteer_safe h3 {
+       
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 50px;
+    }
+    #volunteer_safe p {
+        width: auto;
+        margin: auto;
+        text-align: center;
+    }
+    #volunteer_safe h4 {
+        font-size: 28px;
+        line-height: 39px;
+    }
+    #volunteer_safe .volunteer_h4_one {
+        width: auto;
+        margin: auto;
+        padding-top: 40px;
+    }
+
+    #volunteer_safe .volunteer_btn {
+      
+        padding: 30px 62px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+
+    #volunteer_safe .volunteer_p_two {
+        width: auto;
+    }
+  /*==================================================
+             volunteer safe responsive css end
+    ==================================================*/
+     
+      /*==================================================
+             volunteer helpful responsive css start
+    ==================================================*/
+
+
+    #volunteer_helpful .col-lg-5 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+    #volunteer_helpful .col-lg-7 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    #volunteer_helpful .volunteer_helpful_left {
+        height: auto;
+        padding-left: 40px;
+        padding-top: 80px;
+        padding-right: 15px;
+        padding-bottom: 80px;
+        text-align: left;
+    }
+    #volunteer_helpful .volunteer_helpful_left h3 {
+        font-size: 36px;
+        line-height: 50px;
+        width: 380px;
+        margin-bottom: 60px;
+    }
+
+    #volunteer_helpful .volunteer_helpful_left .volunteer_link_one {
+        width: auto;
+    }
+
+
+    #volunteer_helpful .volunteer_helpful_left .volunteer_link_two {
+        width: auto;
+        margin-top: 30px;
+    }
+
+    #volunteer_helpful .volunteer_helpful_right {
+        height: auto;
+    }
+
+      /*==================================================
+             volunteer helpful responsive css end
+    ==================================================*/
+
+
+
+    /*--------------------------------- faq page responsive start---------------------------- */
+
+
+    #faq-wh-question .left-box {
+        background: #00D5F1;
+        width: 95%;
+        margin: 0 auto;
+
+    }
+
+    #faq-wh-question .right-box .text {
+        text-align: left;
+        padding: 0px 40px;
+    }
+
+    #faq-wh-question .left-box-2nd {
+        background: #00D5F1;
+        margin: 0 auto;
+    }
+
+    #faq-wh-question .right-box-2nd {
+        background: #ffffff;
+        width: 100%;
+
+
+    }
+
+    #faq-wh-question .right-box-2nd .text {
+        text-align: left;
+        padding: 0px 40px;
+    }
+
+    /* ///////////////////////////// */
+
+    #faq-question {
+
+        transform: translateY(-400px);
+
+
+    }
+
+    #faq-question .faq-question {
+        margin-top: 30px;
+    }
+
+    #faq-question .panel-content .left-box {
+        background: #00D5F1;
+        width: 92%;
+        margin: 0 auto;
+
+    }
+
+    #faq-question .panel-content .right-box {
+        background: #ffffff;
+        width: 100%;
+    }
+
+    #faq-question .panel-content .right-box .text {
+        text-align: left;
+        padding: 0px 40px;
+    }
+
+    #faq-question .panel-content .right-box-2nd {
+        background: #ffffff;
+        width: 100%;
+        height: 414px;
+
+    }
+
+    #faq-question .panel-content .right-box-2nd .text {
+        text-align: left;
+        padding: 0px 40px;
+    }
+
+    /* ///////////////////////////////////// */
+
+    #program-fee-banner .heading {
+        padding-top: 160px;
+    }
+
+    #program-fee-banner .heading h1 {
+        font-size: 59px;
+    }
+
+
+    #program-fee-banner .heading P {
+
+        font-size: 24px;
+
+    }
+
+    #program-fee-price .box {
+        margin: 10px auto;
+    }
+
+    #program-fee-player-fee .box .text p {
+
+        padding: 0px 20px;
+    }
+
+    /* //////////////////////////////////// */
+
+
+
+    #resources-banner .heading {
+        padding-top: 160px;
+    }
+
+
+    #resources-banner .heading h1 {
+
+        font-size: 59px;
+
+    }
+
+    #resources-steps .box {
+        width: 95%;
+    }
+
+ /* ////////////////////////////////////////////////////////// */
+
+
+ #seasion-banner {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+#seasion-banner .heading {
+	padding-top: 190px;
+}
+
+#seasion-banner .heading h1 {
+    font-size: 44px;
+}
+
+#seasion-banner .box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: auto;
+}
+
+#seasion-banner .box .image {
+    width: 100%;
+    text-align: center;
+}
+#seasion-banner .box .image img {
+	width: 60%;
+	height: 80%;
+}
+#seasion-banner .box .text {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#seasion-banner .box .image .left {
+	width: 70%;
+}
+#seasion-banner .box .text {
+    padding: 0px 15px;
+}
+
+#seasion-banner .box .text h6 {
+    font-size: 28px;
+}
+
+#seasion-banner .box .text p {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+#seasion-banner .seasion_banner_button {
+    padding: 15px 72px;
+    margin-top: 30px;
+}
+
+#seasion-banner .seasion_banner_arrow_div {
+    text-align: center;
+}
+
+#seasion-banner .seasion_banner_arrow_div .seasion_banner_arrow {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+/* //////////////////////////////////////////////////// */
+
+
+#seasion-seasion-list {
+    margin-top: 30px;
+
+}
+
+#seasion-seasion-list .left-box {
+    width: 92%;
+    height: 200px;
+    margin: 15px;
+}
+
+#seasion-seasion-list .right-box {
+    width: 94%;
+    height: auto;
+    margin: 0px 10px;
+ 
+
+}
+
+#seasion-seasion-list .left-box-2nd {
+    width: 92%;
+    height: 200px;
+    margin: 15px;
+    background: #6226A8;
+}
+
+
+
+
+#seasion-seasion-list .right-box-2nd {
+    width: 94%;
+    margin: 0px 10px;
+    height: auto !important;
+    background: #F2FEFF !important;
+}
+
+#seasion-seasion-list .right-box .text {
+    padding: 0px 15px !important;
+    align-self: center;
+
+}
+
+#seasion-seasion-list .right-box .text p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    color: #2056A5;
+    text-align: left;
+    padding: 20px 5px;
+}
+
+#seasion-seasion-list .left-box .text h4 {
+    font-size: 26px;
+
+}
+
+
+#seasion-seasion-list .right-box-2nd .text {
+	padding: 0px 15px !important;
+	align-self: center;
+}
+
+#seasion-seasion-list .right-box-2nd .text p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    color: #2056A5;
+    text-align: left;
+    padding: 20px 5px;
+    width: auto;
+}
+
+#seasion-seasion-list .left-box-2nd .text h4 {
+    font-size: 26px;
+    color: #ffffff;
+
+}
+
+#seasion-seasion-list .left-box-2nd .text {
+    padding: 0px;
+}
+
+
+
+#seasion-seasion-list .left-box .text {
+    padding: 0px;
+}
+  /*==========================================
+            seassion links responsive start
+  ==========================================*/
+  #seasion_links_items .col-lg-3{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+  #seasion_links_items .seasion_links_items_title h3 {
+   
+    font-size: 32px;
+    line-height: 50px;
+
+}
+#seasion_links_items .seasion_links_iteams_cards p {
+    
+    font-size: 28px;
+    line-height: 40px;
+
+}
+
+#seasion_links_items .seasion_links_iteams_cards {
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+
+/*==========================================
+            seassion links responsive end
+  ==========================================*/
+
+
+/*--------------------------------- seassion page responsive end---------------------------- */
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------extra large tablet screen-------------------------- */
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+
+
+
+
+    .container {
+        max-width: 100% !important;
+    }
+
+
+    /*==========================================
+                register modal responsive start
+      ==========================================*/
+    #exampleModal .modal-dialog {
+        max-width: 98% !important;
+    }
+
+    #exampleModal .modal-dialog .modal-header {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #exampleModal .title__heading {
+        font-size: 48px;
+        line-height: 79px;
+    }
+
+    #exampleModal .modal-dialog .modal-body {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #exampleModal .modal-input-fields input {
+        width: 100%;
+
+    }
+
+    #exampleModal .modal_btn_bottom {
+        padding: 20px 99px;
+    }
+
+    #exampleModal .title__heading {
+        margin-top: 20px;
+    }
+
+    #exampleModal .modal_p {
+        width: auto;
+    }
+
+
+    /*==========================================
+              register modal responsive end
+    ==========================================*/
+
+    /*==========================================
+                navbar responsive start
+      ==========================================*/
+    .navbar .logo img {
+        top: -20px;
+        width: 130px;
+    }
+
+    nav .Nav_btn {
+
+        padding: 10px 30px;
+    }
+
+    .ayso_dropdown_menu-last {
+        margin-right: 50px;
+    }
+
+    .ayso_dropdown_color {
+        margin-left: 0;
+        font-size: 16px;
+    }
+
+    nav .Nav_btn-right {
+        margin-right: -30px;
+    }
+
+    .ayso_dropdown_menu {
+        margin-left: 10px;
+    }
+    .sticky .ayso_dropdown_menu-last {
+        margin-right: 50px;
+    }
+    /*==========================================
+                navbar responsive end
+      ==========================================*/
+
+    /*==========================================
+                footer responsive start
+      ==========================================*/
+    #footer .footer_brand .photo {
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    #footer .footer_brand .photo-first {
+
+        padding-top: 25px;
+        width: 300px;
+
+    }
+
+    #footer .footer_brand .photo-second {
+        padding-top: 30px;
+        width: 245px;
+
+    }
+
+    #footer .footer_brand .photo-third {
+        padding-top: 0;
+    }
+
+    #footer .footer_brand .photo-fourth {
+        margin: auto;
+        padding-top: 10px;
+    }
+
+    #footer .footer_bottom {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    #footer .footer_copyright {
+        line-height: 35px;
+    }
+
+    #footer .footer_terms {
+        padding-top: 0;
+    }
+
+    #footer .footer_bottom_right {
+        text-align: center;
+    }
+
+    #footer .footer_socialicons ul li {
+        margin-left: 7px;
+    }
+
+    #footer .follw_us_text {
+        text-align: right;
+    }
+
+    #footer .footer_follow {
+        padding-top: 10px;
+    }
+
+    /*==========================================
+                footer responsive end
+      ==========================================*/
+
+    /* --------------------home page responsive start ---------------------- */
+
+    /*==========================================
+                  home header responsive start
+      ==========================================*/
+
+    #home_header {
+
+        height: auto;
+        padding-bottom: 60px;
+    }
+
+    #home_header .home_header_ragion {
+        width: auto;
+        height: auto;
+
+
+
+        margin-top: 60px;
+    }
+
+    #home_header .home_header_heading {
+        font-family: 'Alfa Slab One', cursive;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 60px;
+        color: #ffffff;
+        padding-left: 150px;
+        text-transform: lowercase;
+        padding-top: 80px;
+    }
+
+    #home_header .home_header_ragion_center p {
+        font-family: 'Alef', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #ffffff;
+        width: auto;
+        padding-top: 40px;
+        padding-left: 40px;
+        text-align: left;
+        padding-right: 40px;
+    }
+
+    #home_header .home_header_ragion_center_link {
+        text-align: right;
+
+    }
+
+    #home_header .home_header_ragion_center a {
+        display: inline-block;
+        text-align: center;
+        padding-top: 60px;
+        padding-right: 30px;
+    }
+
+    #home_header .home_header_bottom {
+        margin-top: 50px;
+    }
+
+    #home_header .home_header_bottom_left {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #home_header .home_header_bottom_left p {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 36px;
+        line-height: 49px;
+        font-weight: 400;
+        color: #ffffff;
+        width: auto;
+        text-align: left;
+    }
+
+    #home_header .home_header_bottom_right {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    #home_header .home_header_bottom_right a {
+        padding: 30px 80px;
+    }
+
+    /*==========================================
+                  home header responsive end
+      ==========================================*/
+    /*==========================================
+         home_community_care responsive start
+      ==========================================*/
+
+    #home_community_care .home_community_care_left {
+        padding-left: 60px;
+        padding-bottom: 40px;
+        padding-right: 60px;
+    }
+
+    #home_community_care .home_community_care_left h2 {
+        font-size: 38px;
+        line-height: 50px;
+        width: auto;
+        margin-bottom: 40px;
+        padding-top: 60px;
+        text-align: left;
+    }
+
+    #home_community_care .home_community_care_left p {
+        font-size: 18px;
+        line-height: 24px;
+        width: 500px;
+        text-align: center;
+        text-align: left;
+    }
+
+    /*==========================================
+         home_community_care responsive end
+      ==========================================*/
+
+    /*==========================================
+         home_social responsive start
+      ==========================================*/
+    #home_social {
+        margin-top: 60px;
+    }
+
+    #home_social .title h3 {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 36px;
+        font-weight: 65px;
+        font-weight: 400;
+        color: #000066;
+        margin-bottom: 60px;
+        line-height: 49px;
+    }
+
+
+
+
+
+    /*==========================================
+         home_social responsive end
+      ==========================================*/
+
+    /* ------------------------------porgrams core page responsive start----------------------- */
+
+
+    /*==========================================
+             programs_header responsive start
+      ==========================================*/
+    #programs_header {
+        padding-top: 100px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    #programs_header .programs_header_texts {
+        padding-left: 0;
+    }
+
+    #programs_header .programs_header_texts {
+        width: 100%;
+        padding-top: 60px;
+        padding-bottom: 70px;
+        padding-left: 130px;
+        padding-right: 100px;
+    }
+
+    #programs_header .programs_header_texts h1 {
+        font-size: 36px;
+        line-height: 55px;
+        font-weight: 400;
+        width: auto;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        text-align: left;
+    }
+
+
+    #programs_header .programs_header_texts p {
+        font-size: 18px;
+        line-height: 24px;
+        width: auto;
+        text-align: left;
+    }
+
+
+
+    /*==========================================
+             programs_header responsive end
+      ==========================================*/
+
+    /*==========================================
+         programs_ayso_programs responsive start
+      ==========================================*/
+
+
+    #programs_ayso_programs {
+        margin-top: 60px;
+    }
+
+    #programs_ayso_programs .title h3 {
+        font-size: 36px;
+        line-height: 55px;
+        font-weight: 400;
+        color: #6226A8;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    #programs_ayso_programs .programs_ayso_programs_card {
+        height: 480px;
+    }
+
+    #programs_ayso_programs .programs_ayso_programs_card .overlay_2 {
+        padding: 15px;
+        text-align: center;
+    }
+
+    #programs_ayso_programs .programs_ayso_programs_card .overlay_2 h4 {
+
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        margin-bottom: 25px;
+        padding-top: 20px;
+    }
+
+    #programs_ayso_programs .programs_ayso_programs_card .overlay_2 p {
+        width: auto;
+        line-height: 35px;
+    }
+
+    #programs_ayso_programs .programs_ayso_programs_card .overlay h4 {
+        padding-top: 170px;
+    }
+
+
+    /*==========================================
+         programs_ayso_programs responsive end
+      ==========================================*/
+    /*==================================================
+           programs_summer_camp responsive css start
+      ==================================================*/
+
+
+
+
+    #programs_summer_camp {
+        margin-top: 80px;
+    }
+
+    #programs_summer_camp .programs_summer_camp_left {
+
+        text-align: left;
+        height: 550px;
+        padding-bottom: 60px;
+    }
+
+    #programs_summer_camp .programs_summer_camp_left h2 {
+        font-size: 36px;
+        line-height: 35px;
+        width: auto;
+        margin-bottom: 50px;
+        padding-top: 60px;
+        text-transform: uppercase;
+        text-align: left;
+    }
+
+    #programs_summer_camp .programs_summer_camp_left p {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        width: 400px;
+        text-align: left;
+    }
+
+
+    /*==================================================
+           programs_summer_camp responsive css end
+      ==================================================*/
+
+
+
+    /* -----------------summer camp page  start--------------------- */
+
+
+    /*==================================================
+          summer_camp_header responsive css start
+    ==================================================*/
+    #summer_camp_header .summer_camp_header_text {
+        padding-left: 140px;
+        padding-right: 100px;
+    }
+
+    #summer_camp_header .summer_camp_header_text h1 {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 39px;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    #summer_camp_header .summer_camp_header_text h2 {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 49px;
+        color: #ffffff;
+        margin-bottom: 40px;
+    }
+
+    #summer_camp_header .summer_camp_header_text p {
+        font-family: 'Alef', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #fff;
+        width: auto;
+    }
+
+    /*==================================================
+          summer_camp_header responsive css end
+    ==================================================*/
+
+    /* --------------------------winter page responsive start-------------------- */
+
+    /*==================================================
+               winter_header responsive css start
+   ==================================================*/
+    #winter_header {
+
+        height: auto;
+        padding-top: 180px;
+    }
+
+    #winter_header .winter_header_text {
+        height: auto;
+        padding-top: 60px;
+        padding-left: 140px;
+        padding-right: 100px;
+        padding-bottom: 60px;
+    }
+
+    #winter_header .winter_header_text p {
+        width: auto;
+    }
+
+    /*==================================================
+               winter_header responsive css end
+   ==================================================*/
+    /*==================================================
+               winter_facility responsive css start
+   ==================================================*/
+
+    #winter_facility .winter_facility_left {
+        padding: 70px 60px;
+    }
+
+    #winter_facility .winter_facility_right {
+        padding: 70px 80px;
+    }
+
+    /*==================================================
+               winter_facility responsive css end
+   ==================================================*/
+    /*==================================================
+               winter_process responsive css end
+   ==================================================*/
+
+    #winter_process .winter_process_card {
+        height: auto;
+        padding-bottom: 80px;
+        padding-top: 80px;
+        padding-left: 150px;
+        position: relative;
+    }
+
+    /*==================================================
+               winter_process responsive css end
+   ==================================================*/
+
+    /* ---------------------------fusion page start---------------------- */
+
+    /*==================================================
+          fusion_header responsive css start
+   ==================================================*/
+    #fusion_header {
+        background: url(../images/fusion/fusion_header.png) no-repeat center;
+        background-size: cover;
+        height: auto;
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    #fusion_header .fusion_header_text {
+        height: auto;
+        padding-top: 60px;
+        padding-left: 130px;
+        padding-right: 100px;
+        padding-bottom: 60px;
+    }
+
+    #fusion_header .fusion_header_text .fusion_header_heading2 {
+
+        width: 575px;
+        margin-left: 0;
+    }
+
+    #fusion_header .fusion_header_text ul {
+        margin-bottom: 40px;
+    }
+
+    #fusion_header .fusion_header_text p {
+
+        width: auto;
+    }
+
+    /*==================================================
+          fusion_header responsive css end
+   ==================================================*/
+
+
+    /*==================================================
+          fusion_signup responsive css start
+   ==================================================*/
+
+    #fusion_signing h3 {
+        font-size: 58px;
+        font-weight: 400;
+        line-height: 79px;
+        text-align: center;
+        width: 950px;
+        margin: auto;
+        padding-bottom: 100px;
+    }
+
+    #fusion_signing .fusion_signing_card {
+
+        padding-left: 20px;
+
+    }
+
+
+    #fusion_signing .fusion_signing_card .fusion_card_number {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+
+    /*==================================================
+          fusion_signup responsive css end
+   ==================================================*/
+
+
+    /*==================================================
+          fusion_invitation responsive css start
+   ==================================================*/
+
+    #fusion_invitation .fusion_invitation_accept p {
+
+        width: auto;
+        margin: auto;
+    }
+
+    #fusion_invitation .fusion_invitation_accept {
+
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+
+
+    #fusion_invitation .fusion_invitaion_bottom .fusion_bottom_p_one {
+        width: auto;
+    }
+
+    #fusion_invitation .fusion_invitaion_bottom .fusion_bottom_p_two {
+        width: auto;
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    /*==================================================
+          fusion_invitation responsive css end
+   ==================================================*/
+
+
+    /* ---------------------------united page start---------------------- */
+
+
+    /*==================================================
+           united header responsive css start
+     ==================================================*/
+
+    #united_header {
+
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    #united_header .united_header_text {
+
+        padding-top: 70px;
+        padding-left: 130px;
+        padding-bottom: 70px;
+        height: auto;
+    }
+
+
+    #united_header .united_header_text .united_header_heading2 {
+
+        margin-left: 0;
+        display: block;
+    }
+
+
+
+    /*==================================================
+           united header responsive css start
+     ==================================================*/
+
+    /*==================================================
+               united signup responsive css start
+     ==================================================*/
+    #united_signup .united_signup_card {
+
+        padding-top: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    #united_signup .united_signup_card p {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 39px;
+        color: #ffffff;
+        width: auto;
+    }
+
+    #united_signup .united_signup_card .united_signup_p_two {
+        width: auto;
+    }
+
+
+    /*==================================================
+               united signup responsive css start
+     ==================================================*/
+
+    /* -----------------------------rec program responsive start --------------------- */
+
+    /*==================================================
+           rec program header css start
+    ==================================================*/
+
+    #rec_program {
+
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #rec_program .rec_program_header_text {
+        width: 100%;
+        padding-top: 80px;
+        padding-left: 131px;
+        padding-bottom: 80px;
+        padding-right: 100px;
+        text-align: left;
+    }
+
+    #rec_program .rec_program_header_text h1 {
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 54px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+
+
+
+    /*==================================================
+           rec program header css end
+    ==================================================*/
+    /*==================================================
+           rec program accordian css start
+    ==================================================*/
+
+    #rec_program_accordian {
+        margin-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    #rec_program_accordian .card-header h5 button .rec_program_accordian_cross {
+        display: inline-block;
+        background: #FFFFFF;
+        border-radius: 56.5px;
+        padding: 10px 30px;
+        position: absolute;
+        top: 15px;
+        right: 30px;
+    }
+
+    #rec_program_accordian .card-header h5 .collapsed .rec_program_accordian_expand {
+        display: inline-block;
+        background: #FFFFFF;
+        border-radius: 56.5px;
+        padding: 10px 30px;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+
+    #rec_program_accordian .card-header h5 button {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 39px;
+        color: #2056A5;
+        text-decoration: none;
+        background: #00D5F1;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        width: 100%;
+        text-align: left;
+        position: relative;
+    }
+
+
+
+
+
+    #rec_program_accordian .card-body {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 40px;
+    }
+
+    #rec_program_accordian .card-body .rec_accordian_left p {
+
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        width: auto;
+        padding-bottom: 30px;
+    }
+
+    #rec_program_accordian .card-header h5 .collapsed {
+        font-size: 24px;
+        line-height: 39px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: left;
+    }
+
+    #rec_program_accordian .card-body .rec_accordian_right {
+        padding: 30px;
+    }
+
+    #rec_program_accordian .card-body .rec_accordian_right .rec_accordian_text_btn_main {
+        text-align: right;
+    }
+
+
+    /*==================================================
+           rec program accordian css end
+    ==================================================*/
+
+    /* -----------------------about page start-------------------- */
+
+    /*==================================================
+           about_header responsive css start
+  ==================================================*/
+    #about_header {
+        height: 650px;
+        padding-top: 40px;
+        text-align: left;
+    }
+
+    #about_header .about_texts {
+        padding-left: 80px;
+        padding-right: 30px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #about_header .about_texts h1 {
+        font-size: 32px;
+        line-height: 42px;
+        width: 432px;
+        margin-bottom: 40px;
+        margin-right: auto;
+        text-align: left;
+        margin: 0;
+        padding-bottom: 40px;
+    }
+
+    #about_header .about_texts p {
+
+        font-size: 18px;
+        line-height: 24px;
+        width: auto;
+        margin: auto;
+    }
+
+    #about_header .about_texts a {
+        padding: 30px 80px;
+        margin-top: 80px;
+    }
+
+    /*==================================================
+        about_header responsive css end
+==================================================*/
+
+    /*==================================================
+        about_philosophy responsive css start
+==================================================*/
+
+
+
+    #about_philosophy {
+        margin-top: 500px;
+    }
+
+
+    #about_philosophy .title h4 {
+
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+
+    #about_philosophy .title p {
+
+        font-size: 28px;
+        line-height: 36px;
+        width: auto;
+        margin: auto;
+        padding-bottom: 80px;
+    }
+
+    #about_philosophy .about_philosophy_card {
+        height: 415px;
+        padding-top: 90px;
+        padding-left: 25px;
+        padding-right: 15px;
+        text-align: left;
+    }
+
+
+
+
+    #about_philosophy .about_philosophy_card p {
+        font-size: 24px;
+        line-height: 33px;
+        width: 300px;
+    }
+
+
+    #about_philosophy .about_philosophy_card .about_card_img {
+        position: absolute;
+        top: 20%;
+        left: 15%;
+    }
+
+
+    /*==================================================
+        about_philosophy responsive css end
+==================================================*/
+    /*==================================================
+        about_volunteer responsive css start
+==================================================*/
+
+
+
+    #about_volunteers {
+        margin-top: 100px;
+    }
+
+    #about_volunteers .about_volunteers_left {
+        height: 1600px;
+    }
+
+    #about_volunteers .about_volunteers_right {
+        height: 1600px;
+        padding-top: 250px;
+        padding-left: 40px;
+        padding-right: 30px;
+        padding-bottom: 100px;
+        text-align: left;
+    }
+
+    #about_volunteers .about_volunteers_right h3 {
+        font-size: 36px;
+        width: 393px;
+        margin-bottom: 80px;
+        line-height: 45px;
+    }
+
+    #about_volunteers .about_volunteers_right h4 {
+        font-size: 26px;
+        line-height: 39px;
+        width: auto;
+        margin-bottom: 40px;
+    }
+
+    #about_volunteers .about_volunteers_right P {
+
+        font-size: 18px;
+        line-height: 24px;
+        width: auto;
+    }
+
+    #about_volunteers .about_volunteers_right a {
+
+        padding: 30px 52px;
+
+    }
+
+    /*==================================================
+        about_volunteer responsive css end
+==================================================*/
+
+ /* ------------------------------volunteer page start----------------------- */
+
+    /*==================================================
+          volunteer header responsive css start
+    ==================================================*/
+    #volunteer_header {
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #volunteer_header .volunteer_header_text {
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 60px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #volunteer_header .volunteer_header_text h1 {
+        font-size: 36px;
+        line-height: 49px;
+    }
+
+    #volunteer_header .volunteer_header_text h3 {
+        font-size: 28px;
+        line-height: 35px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    #volunteer_header .volunteer_header_text p {
+
+        width: auto;
+        margin: auto;
+    }
+
+    #volunteer_header .volunteer_header_text a {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 30px 90px;
+        margin-top: 60px;
+    }
+
+    /*==================================================
+          volunteer header responsive css end
+    ==================================================*/
+    /*==================================================
+          volunteer begin responsive css start
+    ==================================================*/
+
+
+   
+
+
+    #volunteer_begin .volunteer_begin_left {
+        height: 750px;
+    }
+
+    #volunteer_begin .volunteer_begin_right {
+        height: 750px;
+        padding-top: 60px;
+        padding-left: 40px;
+        padding-right: 15px;
+        text-align: left;
+        padding-bottom: 60px;
+    }
+    #volunteer_begin .volunteer_begin_right h3 {
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 40px;
+    }
+
+    #volunteer_begin .volunteer_begin_right p {
+
+        width: auto;
+    }
+
+    #volunteer_begin .volunteer_begin_right ul .volunteer_begin_first {
+        width: auto;
+    }
+
+    #volunteer_begin .volunteer_begin_right ul .volunteer_begin_second {
+        width: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+
+
+    #volunteer_begin .volunteer_begin_right ul .volunteer_begin_third {
+        width: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    /*==================================================
+          volunteer begin responsive css end
+    ==================================================*/
+    /*==================================================
+          volunteer role responsive css start
+    ==================================================*/
+   
+    
+    #volunteer_role {
+        margin-top: 80px;
+        text-align: center;
+    }
+    #volunteer_role .title h3 {
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 50px;
+    }
+
+    #volunteer_role .volunteer_top_card {
+        padding-top: 100px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: left;
+    }
+    #volunteer_role .volunteer_top_card p {
+
+       
+        width: auto;
+        width: auto;
+
+    }
+
+    #volunteer_role .volunteer_top_card .volunteer_p_two {
+        width: auto;
+    }
+
+    #volunteer_role .volunteer_top_card .volunteer_p_three {
+        width: auto;
+    }
+
+    #volunteer_role .volunteer_top_card .volunteer_p_four {
+        width: auto;
+    }
+
+    #volunteer_role .volunteer_top_card .volunteer_p_five {
+        width: auto;
+    }
+
+    #volunteer_role .volunteer_middle_p {
+       
+        width: auto;
+        margin: auto;
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    #volunteer_role .volunteer_bottom_card {
+        padding-top: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: left;
+    }
+    #volunteer_role .volunteer_bottom_card .volunteer_bottom_p_one {
+        width: auto;
+    }
+
+    #volunteer_role .volunteer_bottom_card .volunteer_bottom_p_two {
+        width: auto;
+    }
+    #volunteer_role .volunteer_bottom_card .volunteer_bottom_p_three {
+        width: auto;
+    }
+
+    #volunteer_role .volunteer_bottom_card .volunteer_bottom_p_four {
+        width: auto;
+    }
+
+
+    /*==================================================
+          volunteer role responsive css end
+    ==================================================*/
+  /*==================================================
+             volunteer safe responsive css start
+    ==================================================*/
+   
+
+
+
+
+    #volunteer_safe h3 {
+       
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 50px;
+    }
+    #volunteer_safe p {
+        width: auto;
+        margin: auto;
+        text-align: center;
+    }
+    #volunteer_safe h4 {
+        font-size: 28px;
+        line-height: 39px;
+    }
+    #volunteer_safe .volunteer_h4_one {
+        width: auto;
+        margin: auto;
+        padding-top: 40px;
+    }
+
+    #volunteer_safe .volunteer_btn {
+      
+        padding: 30px 62px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+
+    #volunteer_safe .volunteer_p_two {
+        width: auto;
+    }
+  /*==================================================
+             volunteer safe responsive css end
+    ==================================================*/
+     
+      /*==================================================
+             volunteer helpful responsive css start
+    ==================================================*/
+
+
+    
+    #volunteer_helpful .volunteer_helpful_left {
+        height: 700px;
+        padding-left: 40px;
+        padding-top: 150px;
+        padding-right: 15px;
+        padding-bottom: 80px;
+        text-align: left;
+    }
+    #volunteer_helpful .volunteer_helpful_left h3 {
+        font-size: 36px;
+        line-height: 50px;
+        width: 380px;
+        margin-bottom: 60px;
+    }
+
+    #volunteer_helpful .volunteer_helpful_left .volunteer_link_one {
+        width: auto;
+    }
+
+
+    #volunteer_helpful .volunteer_helpful_left .volunteer_link_two {
+        width: auto;
+        margin-top: 30px;
+    }
+
+    #volunteer_helpful .volunteer_helpful_right {
+        height: 700px;
+    }
+
+      /*==================================================
+             volunteer helpful responsive css end
+    ==================================================*/
+
+
+
+
+
+     /*------------------------------faq page responsive start----------------------------- */
+
+     #faq-banner .heading {
+
+        padding-top: 150px;
+    }
+
+    #faq-wh-question .left-box .text h4 {
+        font-size: 32px;
+    }
+
+    #faq-wh-question .right-box .text {
+        text-align: left;
+        padding: 0px 30px;
+    }
+
+    #faq-wh-question .left-box-2nd .text h4 {
+        font-size: 32px;
+
+    }
+
+
+    #faq-wh-question .left-box-2nd .text {
+
+        padding: 0px 0px;
+    }
+
+    #faq-wh-question .right-box-2nd .text {
+        text-align: left;
+        padding: 0px 30px;
+    }
+
+    /* ///////////////////////////// */
+    #faq-question {
+        transform: translateY(-300px);
+    }
+
+    #faq-question .faq-question {
+        margin-top: 60px;
+    }
+
+    #faq-question .panel-content .left-box .text {
+        align-self: center;
+        padding: 0px 0px;
+    }
+
+    #faq-question .panel-content .right-box .text {
+        text-align: left;
+        padding: 0px 30px;
+    }
+
+    #faq-question .panel-content .left-box-2nd .text {
+
+        padding: 0px 0px;
+    }
+
+    #faq-question .panel-content .right-box-2nd .text {
+        text-align: left;
+        padding: 0px 30px;
+    }
+
+
+    /* //////////////////////////// */
+
+
+    #program-fee-banner .heading {
+
+        padding-top: 160px;
+    }
+
+    #program-fee-price .box {
+
+        width: 94%;
+        margin: 10px auto;
+    }
+
+    #program-fee-price .box .text h5 {
+        font-size: 40px;
+    }
+
+    #program-fee-price .box .text h2 {
+        font-size: 54px;
+
+        margin-top: 40px;
+    }
+
+    #program-fee-price .box .text p {
+        margin-top: 20px;
+        font-size: 26px;
+    }
+
+    #program-fee-price .box .text h2 .each {
+        font-size: 44px;
+        margin: 0px;
+    }
+
+    #program-fee-price .box .text h2 .both {
+        font-size: 44px;
+        margin: 0px;
+    }
+
+    #program-fee-price .box .text h2 span {
+        margin: 10px;
+        font-size: 30px;
+    }
+
+
+    #program-fee-player-fee .box .text p {
+
+        padding: 20px;
+
+    }
+
+    /* ///////////////////////////////////////// */
+
+    #resources-banner .heading {
+
+        padding-top: 160px;
+    }
+
+    #resources-banner .heading P {
+
+        margin-top: 53px;
+    }
+
+    #resources-steps .box {
+        width: 96%;
+    }
+
+
+ /*==========================================
+         seasion benner responsive start
+      ==========================================*/
+
+    #seasion-banner {
+
+        height: 650px;
+
+    }
+    #seasion-banner .box {
+        width: 985px;
+       
+    }
+    #seasion-banner .heading {
+        
+        padding-top: 170px;
+    }
+    #seasion-banner .heading h1 {
+  
+        font-size: 60px;
+ 
+    }
+    #seasion-banner .box .text h6 {
+      
+        padding-top: 30px;
+    }
+
+    #seasion-banner .seasion_banner_button {
+       
+        padding: 20px 65px;
+      
+    }
+    #seasion-banner .seasion_banner_arrow_div .seasion_banner_arrow {
+        margin-top: -70px;
+        margin-right: 0px;
+    }
+
+
+
+ /*==========================================
+         seasion benner responsive end
+      ==========================================*/
+
+
+ /*==========================================
+                seasion list responsive start
+      ==========================================*/
+
+    #seasion-seasion-list {
+        width: 96%;
+    }
+
+    #seasion-seasion-list .right-box .text {
+        padding: 0px 30px;
+        text-align: left;
+    }
+
+    #seasion-seasion-list .right-box-2nd .text {
+        text-align: left;
+        padding: 0px 30px;
+    }
+
+    #seasion-seasion-list .right-box-2nd .text p {
+   
+        width: auto;
+    }
+ /*==========================================
+                seasion list responsive end
+      ==========================================*/
+
+
+
+      #seasion_links_items .seasion_links_items_title h3 {
+
+        font-size: 45px;
+
+    }
+    #seasion_links_items .seasion_links_iteams_cards p {
+        
+        font-size: 28px;
+        line-height: 39px;
+    
+    }
+
+
+     /*------------------------------seassion page responsive start----------------------------- */
+
+
+
+
+
+
+
+}

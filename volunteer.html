@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayso Irbine 213</title>
+
+
+
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+
+
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+
+</head>
+
+<body>
+
+  <!--=============================================================
+                            Register modal start
+         ============================================================-->
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2.57861" width="23.3387" height="3.64667" rx="1.82334" transform="rotate(45 2.57861 0)"
+              fill="#6226A8" />
+            <rect y="16.5032" width="23.3387" height="3.64667" rx="1.82334" transform="rotate(-45 0 16.5032)"
+              fill="#6226A8" />
+          </svg>
+        </button>
+        <div class="modal-header">
+          <div class="container">
+            <div class="title">
+              <h2 class="title__heading">create New Account</h2>
+            </div>
+          </div>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <form action="#">
+              <div class="modal-input-fields">
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Create Username">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="Password">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="Confirm Password">
+                </div>
+
+              </div>
+              <p class="modal_p">By Clicking Create Account you agree to the DICK’S TSHQ <br>
+                <a href="#">Term of Service</a>, <a href="#">Privacy Policy</a> and <a href="#">License Agreement</a>
+              </p>
+              <button type="button" class="modal_btn_bottom" data-toggle="" data-target="">
+                Create Account
+              </button>
+              <ul>
+                <li class="modal_bottom_li_one">
+                  Already have an Account? <a href="#">Sign in here</a>
+                </li>
+                <li class="modal_bottom_li_two">
+                  <a href="#">Forgot your Username or Password?</a>
+                </li>
+              </ul>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--=============================================================
+                            Register modal end
+         ============================================================-->
+
+  <!--=============================================================
+                            navbar start
+         ============================================================-->
+
+
+  <nav class="navbar navbar-expand-lg  menu">
+    <div class="container">
+
+
+      <a class="navbar-brand logo" href="index.html"><img src="images/navbar/logo.svg" alt=""></a>
+      <button class="navbar-toggler navbar_bar" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+
+
+          <li class="nav-item dropdown ayso_dropdown_menu ">
+            <a class="nav-link dropdown-toggle ayso_dropdown_color ayso_dropdown_menu-first" href="#"
+              id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Programs
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="programs.html">Core</a>
+              <a class="dropdown-item" href="rec_program.html">Rec</a>
+              <a class="dropdown-item" href="fusion.html">Fusion</a>
+              <a class="dropdown-item" href="summmercamp.html">Summer Camp</a>
+              <a class="dropdown-item" href="winter.html">Winter ALL STARS</a>
+              <a class="dropdown-item" href="united.html">UNITED</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown ayso_dropdown_menu">
+            <a class="nav-link dropdown-toggle ayso_dropdown_color" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Why AYSO
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="about.html">About</a>
+              <a class="dropdown-item" href="#">Philosophy</a>
+
+            </div>
+          </li>
+          <li class="nav-item dropdown ayso_dropdown_menu">
+            <a class="nav-link dropdown-toggle ayso_dropdown_color active_color" href="#" id="navbarDropdown"
+              role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Get Involved
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item active_color" href="volunteer.html">Volunteer</a>
+              <a class="dropdown-item" href="#">Donate</a>
+              <a class="dropdown-item" href="#">Helpful Links</a>
+
+            </div>
+          </li>
+          <li class="nav-item dropdown ayso_dropdown_menu">
+            <a class="nav-link dropdown-toggle ayso_dropdown_color" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Resources
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="faq.html">FAQ</a>
+              <a class="dropdown-item" href="program_fees.html">Fees</a>
+
+
+            </div>
+          </li>
+          <li class="nav-item dropdown ayso_dropdown_menu ayso_dropdown_menu-last ">
+            <a class="nav-link dropdown-toggle ayso_dropdown_color" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Calendar
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="seassion_clander.html">MATCHTRAK
+              </a>
+
+
+
+            </div>
+          </li>
+          <a class="Nav_btn" data-toggle="modal" data-target="#exampleModal" href="#">Register</a>
+          <a class="Nav_btn Nav_btn-right" href="#">Donate</a>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <!--=============================================================
+                            navbar end
+         ============================================================-->
+  <!---------------------------------vlunteer page start ------------------------->
+
+  <!--=============================================================
+                            volunteer start
+         ============================================================-->
+
+  <section id="volunteer_header">
+    <div class="container">
+      <div class="volunteer_header_text">
+        <h1>Get Active, Give Back</h1>
+        <h3> Volunteer with AYSO.</h3>
+        <p>
+          Want to make a difference in local kids’ lives? Want to get involved in community improvement? AYSO is your
+          chance to have a little fun while getting active and giving back! We would love your help in making a
+          difference.
+
+        </p>
+        <span> Lend a hand in creating your community.</span>
+        <a href="#">REGISTER TO GET STARTED</a>
+
+      </div>
+    </div>
+  </section>
+
+  <!--=============================================================
+                            volunteer end
+         ============================================================-->
+  <!--=============================================================
+                            volunteer_begin start
+         ============================================================-->
+
+
+  <section id="volunteer_begin">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="volunteer_begin_left">
+          <img src="images/volunteer/volunteer_begin.png" alt="volunteer_begin">
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="volunteer_begin_right">
+          <h3>Where to Begin</h3>
+          <p>Because we’re a volunteer-run organization, there are many different levels of volunteering to suit your
+            schedule.
+
+          </p>
+          <p class="volunteer_p_second">
+            We need many coaches and referees to run our region. As a volunteer, you’ll help our teams and games
+            throughout the season.
+          </p>
+
+          <ul>
+            <li class="volunteer_begin_first">
+              All coaches, assistant coaches, referees, and team parents need to register as volunteers each year. <a
+                href="#">Login</a> to register. It should take five to ten minutes.
+            </li>
+            <li class="volunteer_begin_second">
+              Volunteers need to be properly trained and certified. DON’T WORRY! We’ll help you. If you have gone
+              through our training programs in previous seasons, you won’t need to be re-trained.
+            </li>
+            <li class="volunteer_begin_third">
+              Volunteers should request VPS credit to get their one point for their team on our <a href="#">Points
+                Status page</a> . This should take under a minute.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--=============================================================
+                            volunteer_begin end
+         ============================================================-->
+
+  <!--=============================================================
+                            volunteer_role start
+         ============================================================-->
+
+  <section id="volunteer_role">
+    <div class="container">
+      <div class="title">
+        <h3>FIND YOUR ROLE</h3>
+      </div>
+      <div class="row">
+        <div class="col ">
+          <div class="volunteer_top_card">
+            <p>
+              From administrative positions,to social media writers, we have volunteer opportunities for everyone!
+            </p>
+          </div>
+        </div>
+        <div class="col ">
+          <div class="volunteer_top_card volunteer_top_card-blue  ">
+            <p class="volunteer_p_two">
+              Visit our <a href="#">Volunteers Needed page</a> for a more complete list, along with the predicted time
+              commitments.
+            </p>
+          </div>
+        </div>
+        <div class="col ">
+          <div class="volunteer_top_card">
+            <p class="volunteer_p_three">
+              All board and staff volunteers need to register as volunteers each year.
+              <br>
+              <a href="#">Login to re-register </a>
+            </p>
+          </div>
+        </div>
+        <div class="col ">
+          <div class="volunteer_top_card volunteer_top_card-blue">
+            <p class="volunteer_p_four">
+              We help volunteers with all training and certification necessary.
+            </p>
+          </div>
+        </div>
+        <div class="col ">
+          <div class="volunteer_top_card">
+            <p class="volunteer_p_five">
+              Board and staff volunteers should also request their VPS credit to get their 1 point for the teams.
+            </p>
+          </div>
+        </div>
+      </div>
+      <p class="volunteer_middle_p">We also have volunteers who contribute just once or twice at various events. We call
+        these helpful people ‘Bit of One Time Help’ (Booth) and Event staff.</p>
+
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="volunteer_bottom_card">
+            <p class="volunteer_bottom_p_one">Booth / Event staff help with activities and events such as registration,
+              photo day, trophy sorting or distribution, school jog-a-thons, Irvine Junior Games, etc.</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="volunteer_bottom_card volunteer_bottom_card-blue">
+            <p class="volunteer_bottom_p_two">Signing up for Booth / Events is usually done on our Signup Genius link,
+              available on the same Points Status page.</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="volunteer_bottom_card ">
+            <p class="volunteer_bottom_p_three">A single shift is usually around two hours, and worth a half of a
+              Volunteer Point. Don't forget to fill out the 30 second VPS Credit request.</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="volunteer_bottom_card volunteer_bottom_card-blue">
+            <p class="volunteer_bottom_p_four">Most Booth / Event staff need to be registered and have a Safe Haven.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--=============================================================
+                            volunteer_role end
+         ============================================================-->
+  <!--=============================================================
+                            volunteer_safe start
+         ============================================================-->
+
+  <section id="volunteer_safe">
+    <div class="container">
+      <h3>Safe Haven Training</h3>
+      <div class="volunteer_div_p">
+        <p class="volunteer_p_one">Our volunteers are asked to complete Safe Haven courses in order to get credit for
+          their volunteering. AYSO's Safe Haven program has been in place for years, and serves to protect AYSO players
+          and the volunteers. AYSO's Safe Haven program was the first of its kind in youth sports, and we are proud to
+          strive to create a safe environment for our players and volunteers to enjoy a happy and healthy soccer
+          experience.</p>
+      </div>
+      <h4 class="volunteer_h4_one">Step one is to register as a Volunteer! READY?</h4>
+      <a class="volunteer_btn" href="#">Volunteer with Us</a>
+      <h4>Have more questions about being a volunteer? <a href="#">Go to our Training Website, AYSOU</a></h4>
+      <p class="volunteer_p_two">Once Registered, The Region Helper will reach out to you with the next steps.
+        You will receive your assigned team or a task via email by the regional program manager.
+        We appreciate all the help you can give!</p>
+    </div>
+  </section>
+  <!--=============================================================
+                            volunteer_safe end
+         ============================================================-->
+  <!--=============================================================
+                            volunteer_helpful start
+         ============================================================-->
+
+  <section id="volunteer_helpful">
+    <div class="row">
+      <div class="col-lg-7">
+        <div class="volunteer_helpful_left">
+          <h3>Helpful Links to Get Started</h3>
+          <a class="volunteer_link_one" href="#">
+            Create an account and register as a volunteer
+            Parent - Add Volunteer Role
+            Re-register as a returning volunteer
+          </a>
+          <a class="volunteer_link_two" href="#">
+            Volunteer verification instructions
+            Booth / Event registration
+            VPS Credit request
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="volunteer_helpful_right">
+          <img src="images/volunteer/volunteer_helpful.png" alt="volunteer_helpful">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--=============================================================
+                            volunteer_helpful end
+         ============================================================-->
+
+  <!--=============================================================
+                            footer start
+         ============================================================-->
+
+  <section id="footer">
+    <div class="container">
+      <div class="footer_brand">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="photo photo-first">
+              <img src="images/footer/image01.png" alt="image">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="photo photo-second">
+              <img class="img_second" src="images/footer/image02.png" alt="image">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="photo photo-third">
+              <img src="images/footer/image03.png" alt="image">
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="photo photo-fourth">
+              <img class="img_fourt" src="images/footer/image04.png" alt="image">
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="footer_bottom">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="footer_bottom_left">
+              <div class="row">
+                <div class="col-lg-2">
+                  <img src="images/footer/footer_logo.png" alt="footer_logo">
+                </div>
+                <div class="col-lg-6">
+                  <span class="footer_copyright">Copyright © 2019, AYSO Irvine 213. All rights reserved.</span>
+                </div>
+                <div class="col-lg-4">
+                  <span class="footer_terms">Privacy Policy Terms & Conditions</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="footer_bottom_right">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="follw_us_text">
+                    <span class="footer_follow">Follow Us:</span>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="footer_socialicons">
+                    <ul>
+                      <li class="no_margin"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--=============================================================
+                            footer end
+         ============================================================-->
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
